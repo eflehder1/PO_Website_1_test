@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: white;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.swiperSlider {
+  @apply relative;
+}
+.swiperSlider .swiper {
+  position: initial !important;
+}
+.swiperSlider .swiper-wrapper {
+  position: initial !important;
+}
+.swiperSlider .swiper-button-prev,
+.swiperSlider .swiper-button-next {
+  bottom: -50px;
+  top: unset;
+}
+.swiperSlider .swiper-button-prev {
+  left: 0;
+}
+.swiperSlider .swiper-button-next {
+  left: 30px;
+}
+.swiperSlider .swiper-button-prev::after,
+.swiperSlider .swiper-button-next::after {
+  content: '';
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+}
+.swiperSlider .swiper-button-prev::after {
+  background-image: url(/images/arrowLeft.svg);
+}
+.swiperSlider .swiper-button-next::after {
+  background-image: url(/images/arrowRight.svg);
+}
