@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import classNames from 'classnames';
 
 import { CrossIcon } from '../icons';
 
@@ -25,8 +26,14 @@ const NAV_LINKS = [
   },
 ];
 
-export const Sidebar = ({ onClose, ...rest }) => (
-  <div className='fixed h-full w-full bg-white z-50' {...rest}>
+export const Sidebar = ({ onClose, className, ...rest }) => (
+  <div
+    className={classNames(
+      'fixed h-full w-full transition-all delay-[0.2s] duration-500 ease-in-out -translate-y-full bg-white z-50',
+      className,
+    )}
+    {...rest}
+  >
     <div className='pt-5 pr-5'>
       <CrossIcon onClick={onClose} className='cursor-pointer ml-auto' />
       <div className='links pt-16 pl-10'>

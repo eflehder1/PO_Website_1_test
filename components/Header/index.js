@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useState } from 'react';
+import classNames from 'classnames';
 
 import { HamburgerIcon, LogoIcon } from '../icons';
 import { Button } from '../Button';
@@ -59,7 +60,10 @@ export const Header = () => {
           />
         </div>
       </header>
-      {showSidebar && <Sidebar onClose={handleShowSidebar} />}
+      <Sidebar
+        className={classNames({ 'translate-y-0': showSidebar })}
+        onClose={handleShowSidebar}
+      />
     </>
   );
 };

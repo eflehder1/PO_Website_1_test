@@ -40,13 +40,13 @@ const customAnimation = keyframes`
 `;
 
 export const SustainabilitySection = () => (
-  <section className='py-40'>
+  <section className='py-20 md:py-40'>
     <Container>
       <SectionHeader
         heading='The sustainability challenge'
         text='Industries like food & beverages and water are now pursuing cleaner, renewable electricity solutions to meet global needs.'
       />
-      <div className='flex flex-col items-center sm:items-start sm:flex-row justify-between gap-10 pt-20'>
+      <div className='flex flex-col items-center sm:items-start sm:flex-row justify-between gap-10 pt-12 md:pt-20'>
         {CONTENT?.map((data) => (
           <Reveal
             keyframes={customAnimation}

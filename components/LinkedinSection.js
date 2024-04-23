@@ -10,12 +10,11 @@ const LinkedinPosts = [
 
 export const LinkedinSection = () => (
   <>
-    <div className='wave relative -mb-[132px]'>
-      <img src='/images/wave2.svg' alt='wave' className='w-full' />
-    </div>
-
-    <section className='linkedinSection bg-primary pt-48 pb-32 overflow-hidden'>
-      <div className='flex flex-col md:flex-row pl-[158px] 3xl:pr-[158px] 3xl:max-w-[1300px] mx-auto gap-5 items-center'>
+    <section className='linkedinSection bg-primary pt-48 pb-32 3xl:pt-60 overflow-hidden relative'>
+      <div className='wave absolute top-0 w-full'>
+        <img src='/images/wave2.svg' alt='wave' className='w-full' />
+      </div>
+      <div className='flex flex-col md:flex-row pl-6 sm:pl-[45px] md:pr-0 tab:pl-[158px] 3xl:pr-[158px] 3xl:max-w-[1300px] mx-auto gap-5 items-center'>
         <div className='content md:w-[30%]'>
           <h3 className='text-4xl font-bold text-white mb-5'>Linkedin Feed</h3>
           <p className='text-base text-white'>
@@ -32,7 +31,10 @@ export const LinkedinSection = () => (
               modules={[Navigation]}
               breakpoints={{
                 600: {
-                  slidesPerView: 1.3,
+                  slidesPerView: 2,
+                },
+                768: {
+                  slidesPerView: 2,
                 },
                 991: {
                   slidesPerView: 2.7,
@@ -50,10 +52,6 @@ export const LinkedinSection = () => (
                 </SwiperSlide>
               ))}
             </Swiper>
-            {/* <div className='flex gap-3 mt-3'>
-                <ArrowLeftIcon className='cursor-pointer' />
-                <ArrowRightIcon className='cursor-pointer' />
-              </div> */}
           </div>
         </div>
       </div>

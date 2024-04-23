@@ -6,7 +6,7 @@ import { Container } from '../Container';
 
 const customAnimation = keyframes`
   from {
-    opacity: 0;
+    opacity: 1;
     transform: translate3d(0, 100px, 0);
     
   }
@@ -50,35 +50,35 @@ export const HeroSection = () => (
               Powering clean industry
             </p>
             <div className='flex gap-6 items-center'>
-              <Fade direction='left' delay={100}>
+              <Fade direction='left' delay={100} triggerOnce={true}>
                 <img
                   src='/images/logo1.png'
                   alt='logo'
                   className='w-[121px] h-[38px]'
                 />
               </Fade>
-              <Fade direction='left' delay={300}>
+              <Fade direction='left' delay={300} triggerOnce={true}>
                 <img
                   src='/images/logo2.png'
                   alt='logo'
                   className='w-[100px] h-[30px]'
                 />
               </Fade>
-              <Fade direction='left' delay={500}>
+              <Fade direction='left' delay={500} triggerOnce={true}>
                 <img
                   src='/images/logo3.png'
                   alt='logo'
                   className='w-[100px] h-[30px]'
                 />
               </Fade>
-              <Fade direction='left' delay={700}>
+              <Fade direction='left' delay={700} triggerOnce={true}>
                 <img
                   src='/images/logo4.png'
                   alt='logo'
                   className='w-[100px] h-[30px]'
                 />
               </Fade>
-              <Fade direction='left' delay={900}>
+              <Fade direction='left' delay={900} triggerOnce={true}>
                 <img
                   src='/images/logo5.png'
                   alt='logo'
@@ -105,9 +105,9 @@ export const HeroSection = () => (
           </Reveal>
         </div>
       </Container>
-    </div>
-    <div className='wave relative -mt-[76px] md:-mt-[195px]'>
-      <img src='/images/wave.svg' alt='wave' className='w-full' />
+      <div className='wave absolute -bottom-[1px] w-full'>
+        <img src='/images/wave.svg' alt='wave' className='w-full' />
+      </div>
     </div>
   </>
 );
