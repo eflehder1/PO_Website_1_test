@@ -10,11 +10,11 @@ const LinkedinPosts = [
 
 export const LinkedinSection = () => (
   <>
-    <section className='linkedinSection bg-primary pt-48 pb-32 3xl:pt-60 overflow-hidden relative'>
+    <section className='linkedinSection bg-primary pt-56 pb-32 3xl:pt-60 overflow-hidden relative'>
       <div className='wave absolute top-0 w-full'>
         <img src='/images/wave2.svg' alt='wave' className='w-full' />
       </div>
-      <div className='flex flex-col md:flex-row pl-6 sm:pl-[45px] md:pr-0 tab:pl-[158px] 3xl:pl-0 3xl:max-w-[1300px] mx-auto gap-5 items-center'>
+      <div className='flex flex-col md:flex-row pl-6 sm:pl-[45px] md:pr-0 tab:px-[158px] 3xl:pl-0 3xl:max-w-[1300px] mx-auto gap-5 items-center'>
         <div className='content md:w-[30%]'>
           <h3 className='text-4xl font-bold text-white mb-5'>Linkedin Feed</h3>
           <p className='text-base text-white'>
@@ -37,7 +37,7 @@ export const LinkedinSection = () => (
                   slidesPerView: 2,
                 },
                 991: {
-                  slidesPerView: 2.7,
+                  slidesPerView: 3,
                 },
               }}
             >
