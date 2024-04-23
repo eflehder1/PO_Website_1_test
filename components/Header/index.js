@@ -38,7 +38,7 @@ export const Header = () => {
         className='text-gray-600 body-font fixed top-0 z-50 w-full bg-[#ffffffcc]'
         style={{ backdropFilter: 'blur(40px)' }}
       >
-        <div className='mx-auto 3xl:max-w-[1440px] flex flex-wrap py-3.5 px-6 md:px-16 tab:px-[124px] flex-row items-center justify-between'>
+        <div className='mx-auto 3xl:max-w-[1440px] flex flex-wrap py-3.5 px-6 md:px-16 tab:px-[124px] 3xl:px-0 flex-row items-center justify-between'>
           <Link href='/'>
             <LogoIcon />
           </Link>
