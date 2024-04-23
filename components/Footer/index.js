@@ -44,7 +44,7 @@ export const Footer = () => (
               <LogoIcon />
             </div>
             <div className='relative md:pl-20'>
-              <div className='links flex items-center gap-3 sm:gap-5 md:gap-8 mb-3'>
+              <div className='links flex items-center gap-3 sm:gap-5 md:gap-8'>
                 {FOOTER_LINKS?.map((data) => (
                   <Link
                     href={data?.url}
@@ -55,9 +55,9 @@ export const Footer = () => (
                   </Link>
                 ))}
               </div>
-              <p className='text-sm text-gray font-medium'>
+              {/* <p className='text-sm text-gray font-medium'>
                 © 2024 Pipeline Organics, All rights reserved.
-              </p>
+              </p> */}
             </div>
           </div>
           <div className='socailIcons'>
@@ -65,9 +65,8 @@ export const Footer = () => (
           </div>
         </div>
         <div className='flex flex-col md:flex-row gap-[10px] text-center md:text-left justify-between items-center mt-7'>
-          <p className='text-sm font-medium text-gray md:w-[65%]'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting.
-            Lorem Ipsum is simply dummy text of the printing.
+          <p className='text-sm font-medium text-gray'>
+            © 2024 Pipeline Organics, All rights reserved.
           </p>
           <div className='links flex gap-3'>
             <Link href='/privacy-poilcy' className='text-sm text-secondary'>
