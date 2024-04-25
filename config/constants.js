@@ -37,3 +37,141 @@ export const HOMESECTIONCONENT = [
     ],
   },
 ];
+export const CONTENT = [
+  {
+    id: 1,
+    image: '/images/profile-image.png',
+    title: 'Andrew Raslan',
+    text: ' MSc, AMRSC, COO',
+    logo: '/images/linkedin-logo.svg',
+  },
+  {
+    id: 2,
+    image: '/images/Arielle-profile.png',
+    title: 'Arielle Torres',
+    text: ' MEng, CEO',
+    logo: '/images/linkedin-logo.svg',
+  },
+  {
+    id: 3,
+    image: '/images/EricLehder-profile.png',
+    title: 'Dr. Eric Lehder',
+    text: ' BEng, MSc, PhD, CTO',
+    logo: '/images/linkedin-logo.svg',
+  },
+  {
+    id: 4,
+    image: '/images/Keyvan Jodeiri-profile.png',
+    title: 'Dr. Keyvan Jodeiri',
+    text: ' MSc, PhD, CSO',
+    logo: '/images/linkedin-logo.svg',
+  },
+  {
+    id: 5,
+    image: '/images/Thanmaya Arunkumar-profile.png',
+    title: 'Thanmaya Arunkumar',
+    text: 'BSc, MSc, Technical Lab Assistant',
+    logo: '/images/linkedin-logo.svg',
+  },
+  {
+    id: 6,
+    image: '/images/Ben Myers-profile.png',
+    title: 'Ben Myers',
+    text: 'BSc, PhD, Research Scientist',
+    logo: '/images/linkedin-logo.svg',
+  },
+];
+export const TimelineData = [
+  {
+    id: 1,
+    title: '2024',
+    url: '/images/timeline-img.png',
+    text: 'First two hires!',
+  },
+  {
+    id: 2,
+    title: '2023',
+    url: '/images/cocaCola-red.png',
+    text: 'Coca Cola Case Study Site Viability',
+  },
+  {
+    id: 3,
+    title: '2023',
+    url: '/images/XTX Investment.png',
+    text: 'XTX Investment',
+  },
+  {
+    id: 4,
+    title: '2023',
+    url: '/images/UK Patent filed.png',
+    text: 'UK Patent filed',
+  },
+  {
+    id: 5,
+    title: '2023',
+    url: '/images/Business Winners.png',
+    text: 'Engineers in Business Winners',
+  },
+  {
+    id: 6,
+    title: '2023',
+    url: '/images/Ingenuity lab winners.png',
+    text: 'Ingenuity lab winners',
+  },
+  {
+    id: 7,
+    title: '2023',
+    url: '/images/£50K Grant Innovate UK.png',
+    text: '£50K Grant Innovate UK',
+  },
+  {
+    id: 8,
+    title: '2023',
+    url: '/images/copilot.png',
+    text: 'Letter of intent for copilot',
+  },
+  {
+    id: 9,
+    title: '2023',
+    url: '/images/ownership confirmed.png',
+    text: '100% IP ownership confirmed',
+  },
+  {
+    id: 10,
+    title: '2023',
+    url: '/images/Water case study.png',
+    text: 'Welsh Water case study',
+  },
+  {
+    id: 11,
+    title: '2023',
+    url: '/images/Company Incorporation.png',
+    text: 'Company Incorporation',
+  },
+  {
+    id: 12,
+    title: '2022',
+    url: '/images/Engineering Prize Winners.png',
+    text: ' YES Engineering Prize Winners',
+  },
+];
+export const BLOGCONTENT = [
+  {
+    id: 1,
+    title: 'Lorem ipsum',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting.',
+    color: '#F6F9FF',
+  },
+  {
+    id: 2,
+    title: 'Lorem ipsum',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting.',
+    color: '#FFF6F1',
+  },
+  {
+    id: 3,
+    title: 'Lorem ipsum',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting.',
+    color: '#E8FAFF',
+  },
+];

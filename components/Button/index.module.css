@@ -1,3 +1,6 @@
 .primary {
   @apply bg-primary text-white;
 }
+.secondary {
+  @apply bg-BurntOrange rounded-full;
+}

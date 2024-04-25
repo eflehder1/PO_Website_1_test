@@ -9,3 +9,4 @@ export * from './RightSection';
 export * from './LinkedinSection';
 export * from './Footer';
 export * from './Container';
+export * from './TimelineCard';

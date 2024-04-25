@@ -1,0 +1,8 @@
+.wrapper {
+  @apply mx-auto my-[30px] w-full md:w-1/2 relative before:absolute before:left-0 before:w-[2px] before:h-full before:bg-cover before:bg-no-repeat
+   before:bg-[url(/images/line.svg)];
+}
+
+.headingText {
+  @apply mb-[60px] pl-[60px] before:absolute before:left-[-33px] before:w-[70px] before:h-[70px] before:top-[-32px] before:bg-[url(/images/star.svg)];
+}
