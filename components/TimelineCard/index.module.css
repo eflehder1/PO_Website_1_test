@@ -3,5 +3,5 @@
 }
 
 .card {
-  @apply flex items-center gap-4 pl-[30px] md:pl-[60px] pb-[30px] before:absolute before:w-2 before:h-2 before:bg-[#da8a86] before:rounded-full before:left-[-3px];
+  @apply flex items-center gap-4 pl-[30px] md:pl-[86px] pb-[30px] before:absolute before:w-2 before:h-2 before:bg-[#da8a86] before:rounded-full before:left-[-3px];
 }

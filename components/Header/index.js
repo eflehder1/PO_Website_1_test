@@ -36,7 +36,10 @@ export const Header = () => {
     <>
       <header
         className='text-gray-600 body-font fixed top-0 z-50 w-full bg-[#ffffffcc]'
-        style={{ backdropFilter: 'blur(40px)' }}
+        style={{
+          backdropFilter: 'blur(40px)',
+          boxShadow: '0 5px 12px rgb(0 0 0 / 5%)',
+        }}
       >
         <div className='mx-auto 3xl:max-w-[1440px] flex flex-wrap py-3.5 px-6 md:px-16 tab:px-[110px] 3xl:px-0 flex-row items-center justify-between'>
           <Link href='/'>

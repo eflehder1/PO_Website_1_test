@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import classNames from 'classnames';
 
-import { CrossIcon } from '../icons';
+import { CrossIcon, LogoIcon } from '../icons';
 
 const NAV_LINKS = [
   {
@@ -34,21 +34,40 @@ export const Sidebar = ({ onClose, className, ...rest }) => (
     )}
     {...rest}
   >
-    <div className='pt-5 pr-5'>
-      <CrossIcon onClick={onClose} className='cursor-pointer ml-auto' />
-      <div className='links pt-16 pl-10'>
-        <nav className='flex flex-col gap-8'>
-          {NAV_LINKS?.map((data) => (
-            <Link
-              key={data?.id}
-              href={data?.url}
-              className='text-secondary text-base font-semibold'
-            >
-              {data?.text}
-            </Link>
-          ))}
-        </nav>
+    <div className='flex flex-col justify-between pb-5 h-full'>
+      <div className='pt-5 pr-5'>
+        <div className='flex justify-between pl-5'>
+          <LogoIcon />
+          <CrossIcon onClick={onClose} className='cursor-pointer ml-auto' />
+        </div>
+        <div className='links pt-16 pl-10'>
+          <nav className='flex flex-col gap-4'>
+            {NAV_LINKS?.map((data) => (
+              <Link
+                key={data?.id}
+                href={data?.url}
+                className='text-secondary text-base font-semibold'
+              >
+                {data?.text}
+              </Link>
+            ))}
+          </nav>
+        </div>
       </div>
+      <nav className='flex flex-col gap-4 pt-4 pl-10'>
+        <Link
+          href='/privacy-policy'
+          className='text-secondary text-base font-semibold'
+        >
+          Privacy Policy
+        </Link>
+        <Link
+          href='/privacy-policy'
+          className='text-secondary text-base font-semibold'
+        >
+          Terms & Conditions
+        </Link>
+      </nav>
     </div>
   </div>
 );
