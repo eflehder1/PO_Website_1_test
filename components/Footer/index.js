@@ -37,7 +37,7 @@ export const Footer = () => (
   <footer className=' bg-white border-t border-[#E7E9ED]'>
     <Container>
       <EmailSection />
-      <div className='bottomSection pt-12 md:pt-20'>
+      <div className='bottomSection pt-12 pb-12 md:pt-20'>
         <div className='flex flex-col gap-7 md:gap-[10px] text-center md:text-left md:flex-row justify-center md:justify-between items-center'>
           <div className='relative flex flex-col gap-6 md:gap-2 md:flex-row items-center'>
             <div className='image'>

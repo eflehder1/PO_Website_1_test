@@ -187,3 +187,55 @@ export const BLOGCONTENT = [
     color: '#E8FAFF',
   },
 ];
+
+export const TIMELINE_CONTENT = [
+  {
+    id: 1,
+    year: '2024',
+    company: 'First two hires!',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing.',
+    icon: '/images/Engineering Prize Winners.png',
+  },
+  {
+    id: 2,
+    year: '2023',
+    company: 'First two hires!',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing.',
+    icon: '/images/Engineering Prize Winners.png',
+  },
+  {
+    id: 3,
+    year: '2022',
+    company: 'First two hires!',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing.',
+    icon: '/images/Engineering Prize Winners.png',
+  },
+  {
+    id: 4,
+    year: '2021',
+    company: 'First two hires!',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing.',
+    icon: '/images/Engineering Prize Winners.png',
+  },
+  {
+    id: 5,
+    year: '2020',
+    company: 'First two hires!',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing.',
+    icon: '/images/Engineering Prize Winners.png',
+  },
+  {
+    id: 6,
+    year: '2019',
+    company: 'First two hires!',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing.',
+    icon: '/images/Engineering Prize Winners.png',
+  },
+  {
+    id: 7,
+    year: '2018',
+    company: 'First two hires!',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing.',
+    icon: '/images/Engineering Prize Winners.png',
+  },
+];

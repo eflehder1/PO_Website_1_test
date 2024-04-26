@@ -12,3 +12,4 @@ export * from './Container';
 export * from './TimelineCard';
 export * from './TeamDetailModal';
 export * from './NewsletterSection';
+export * from './ProgressTimeline';

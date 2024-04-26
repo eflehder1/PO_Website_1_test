@@ -61,3 +61,19 @@ body {
 .swiperSlider .swiper-button-next::after {
   background-image: url(/images/arrowRight.svg);
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2e4169;
+  border-radius: 8px;
+}

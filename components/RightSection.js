@@ -31,7 +31,7 @@ export const RightSection = ({ data, list, className }) => (
               <img
                 src={data?.url}
                 alt='img'
-                width='80%'
+                width='85%'
                 className='mx-auto md:mr-auto md:ml-0'
               />
             </div>

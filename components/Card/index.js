@@ -1,6 +1,6 @@
 export const Card = ({ data, onClick, setSelectedUser }) => (
   <div
-    className='w-full'
+    className='w-full cursor-pointer'
     onClick={() => {
       onClick();
       setSelectedUser(data);

@@ -1,20 +1,18 @@
 import { Fade } from 'react-awesome-reveal';
 import { useState } from 'react';
 
-import styles from './index.module.css';
-
 import {
   Button,
   Container,
   Layout,
   NewsletterSection,
+  ProgressTimeline,
   TeamDetailModal,
-  TimelineCard,
 } from '@/components';
 import { Card } from '@/components/Card';
 import { StoryCard } from '@/components/StoryCard';
 import { BlogCard } from '@/components/BlogCard';
-import { BLOGCONTENT, CONTENT, TimelineData } from '@/config/constants';
+import { BLOGCONTENT, CONTENT } from '@/config/constants';
 
 export default function Company() {
   const [showModal, setShowModal] = useState();
@@ -181,21 +179,12 @@ export default function Company() {
           </div>
         </Container>
       </div>
-      <div className='pt-16 md:pt-44 '>
+      <div className='pt-20'>
         <Container>
-          <div className={styles.wrapper}>
-            <div className={styles.headingText}>
-              <h2 className='text-black text-2xl md:text-4xl font-semibold '>
-                Progress
-              </h2>
-            </div>
-            {TimelineData?.map((data) => (
-              <TimelineCard data={data} key={data.id} />
-            ))}
-          </div>
+          <ProgressTimeline />
         </Container>
       </div>
-      <div className='py-28'>
+      <div className='pt-14 pb-28'>
         <Container>
           <NewsletterSection />
         </Container>

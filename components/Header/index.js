@@ -35,7 +35,7 @@ export const Header = () => {
   return (
     <>
       <header
-        className='text-gray-600 body-font fixed top-0 z-50 w-full bg-[#ffffffcc]'
+        className='text-gray-600 body-font fixed top-0 z-[60] w-full bg-[#ffffffcc]'
         style={{
           backdropFilter: 'blur(40px)',
           boxShadow: '0 5px 12px rgb(0 0 0 / 5%)',

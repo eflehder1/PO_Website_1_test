@@ -24,7 +24,7 @@ export const HeroSection = () => (
         <div className='max-w-[33rem]'>
           <div className='space-y-2'>
             <Fade direction='up'>
-              <p className='text-xl text-white font-medium mb-4'>
+              <p className='text-xl text-white font-semibold mb-4'>
                 Using wastewater to generate
               </p>
             </Fade>
@@ -52,41 +52,31 @@ export const HeroSection = () => (
 
             <div className='flex gap-6 items-center'>
               <Fade direction='left' triggerOnce={true} cascade>
-                {/* <Fade direction='left' delay={100} triggerOnce={true}> */}
                 <img
                   src='/images/logo1.png'
                   alt='logo'
                   className='w-[121px] h-[38px]'
                 />
-                {/* </Fade> */}
-                {/* <Fade direction='left' delay={300} triggerOnce={true}> */}
                 <img
                   src='/images/logo2.png'
                   alt='logo'
                   className='w-[100px] h-[30px]'
                 />
-                {/* </Fade> */}
-                {/* <Fade direction='left' delay={500} triggerOnce={true}> */}
                 <img
                   src='/images/logo3.png'
                   alt='logo'
                   className='w-[100px] h-[30px]'
                 />
-                {/* </Fade> */}
-                {/* <Fade direction='left' delay={700} triggerOnce={true}> */}
                 <img
                   src='/images/logo4.png'
                   alt='logo'
                   className='w-[100px] h-[30px]'
                 />
-                {/* </Fade> */}
-                {/* <Fade direction='left' delay={900} triggerOnce={true}> */}
                 <img
                   src='/images/logo5.png'
                   alt='logo'
                   className='w-[100px] h-[30px] mix-blend-darken'
                 />
-                {/* </Fade> */}
               </Fade>
             </div>
           </div>
