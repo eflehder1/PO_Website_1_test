@@ -1,6 +1,21 @@
 export const HOMESECTIONCONENT = [
   {
     id: 1,
+    url: '/images/left0.png',
+    title: 'Using Next Generation Fuel Cell Technology',
+    text: 'To harness the untapped chemical potential found in industrial wastewater.',
+    listTitle:
+      'When used to power industrial operations, our customers benefit from:',
+    list: [
+      'Clean in-house ',
+      'No processing of fuel source',
+      'Easy, affordable retrofit',
+      'No land requirements',
+      'Easy, affordable retrofit',
+    ],
+  },
+  {
+    id: 2,
     url: '/images/left1.png',
     title: 'What do we offer?',
     text: 'No single renewable energy generation solution can bring our B2B customers’ operational sites to full energy self-sufficiency and Net Zero energy-related emissions. Even existing, mature renewables must be used in combination and frequently do not make users 100% independent from polluting energy from the grid due to limitations like high CapEx and weather dependence of their energy solutions. This is where TankArc comes in! No established competitor product such as wind, solar, microbial fuel cells or anaerobic digesters individually combines all these advantages:',
@@ -14,7 +29,7 @@ export const HOMESECTIONCONENT = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     url: '/images/left2.png',
     title: 'Who do we target?',
     text: '89% of food business respondents in the UK will make “low carbon” business a brand priority by 2025 (Centrica 2020). Additionally, 73% of respondents indicated that they are accelerating plans for more sustainable business. Large food companies like Coca Cola and Diageo have recently invested in large green energy capital projects with E.On. However, even these large projects have only covered 20-60% of the sites’ total energy needs, and there is scope for bioenergy to provide bridge their gap in energy self-sufficiency.According to the Water 2050 Report by Water UK, the situation is similar in our secondary target of water treatment.',
@@ -26,7 +41,7 @@ export const HOMESECTIONCONENT = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     url: '/images/left3.png',
     title: 'What is our customers’ energy consumption?',
     list: [
@@ -45,7 +60,7 @@ export const CONTENT = [
     text: ' MSc, AMRSC, COO',
     logo: '/images/linkedin-logo.svg',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      'Andy is one of the Co-Founders of the company. His focus is on project management, grant writing as well as company management.',
   },
   {
     id: 2,
@@ -54,7 +69,7 @@ export const CONTENT = [
     text: ' MEng, CEO',
     logo: '/images/linkedin-logo.svg',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      'Arielle is one of the Co-Founders of the company. Her focus is on the financial strategy and modelling as well as company management.',
   },
   {
     id: 3,
@@ -63,7 +78,7 @@ export const CONTENT = [
     text: ' BEng, MSc, PhD, CTO',
     logo: '/images/linkedin-logo.svg',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      'Eric is one of the Co-Founders of the company, his focus is on the Design and Production as well as company management. ',
   },
   {
     id: 4,
@@ -72,7 +87,7 @@ export const CONTENT = [
     text: ' MSc, PhD, CSO',
     logo: '/images/linkedin-logo.svg',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      'Keyvan is one of the Co-Founders as well as the main inventor of our technology. His focus is on surface chemistry as well as company management.',
   },
   {
     id: 5,
@@ -81,7 +96,7 @@ export const CONTENT = [
     text: 'BSc, MSc, Technical Lab Assistant',
     logo: '/images/linkedin-logo.svg',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      'Thanmaya recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells.',
   },
   {
     id: 6,
@@ -90,7 +105,7 @@ export const CONTENT = [
     text: 'BSc, PhD, Research Scientist',
     logo: '/images/linkedin-logo.svg',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      'Ben has recently joined Pipeline Organics to accelerate the characterisation, development, and implementation of TankArc.',
   },
 ];
 export const TimelineData = [

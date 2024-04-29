@@ -27,7 +27,7 @@ module.exports = {
         primary: '#2E4169',
         secondary: '#161C2D',
         gray: '#5C606C',
-        burntOrange: '#E6966F',
+        peach: '#E6966F',
       },
       boxShadow: {
         grayShadow: '0px 0px 50px 0px rgba(39, 92, 141, 0.08)',

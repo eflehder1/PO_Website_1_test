@@ -63,17 +63,17 @@ export const HeroSection = () => (
                   className='w-[100px] h-[30px]'
                 />
                 <img
-                  src='/images/logo3.png'
+                  src='/images/conception.png'
                   alt='logo'
                   className='w-[100px] h-[30px]'
                 />
                 <img
-                  src='/images/logo4.png'
+                  src='/images/innovate.png'
                   alt='logo'
                   className='w-[100px] h-[30px]'
                 />
                 <img
-                  src='/images/logo5.png'
+                  src='/images/techround.png'
                   alt='logo'
                   className='w-[100px] h-[30px] mix-blend-darken'
                 />

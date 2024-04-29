@@ -53,7 +53,7 @@ export const TeamDetailModal = ({
               />
             </div>
             <div className='content p-5'>
-              <h2 className='text-gray text-base font-medium relative before:absolute before:border-b-2 before:w-[50px] before:border-burntOrange before:bottom-0'>
+              <h2 className='text-gray text-base font-medium relative before:absolute before:border-b-2 before:w-[50px] before:border-peach before:bottom-0'>
                 OUR TEAM
               </h2>
               <div className='pt-14'>
@@ -61,7 +61,7 @@ export const TeamDetailModal = ({
                   {selectedUser?.title}
                 </h3>
                 <h5 className='text-gray text-base mb-8'>
-                  <span className='w-[13px] h-[13px] bg-burntOrange inline-block mr-[13px]'></span>
+                  <span className='w-[13px] h-[13px] bg-peach inline-block mr-[13px]'></span>
                   {selectedUser?.text}
                 </h5>
                 <p className='text-gray text-base'>

@@ -103,11 +103,12 @@ export default function Company() {
             </h2>
 
             <p className='text-gray-700 text-base text-gray mt-5 mb-[26px]'>
-              Lorem Ipsum is simply dummy text of the printing and typesetting.
-              Lorem Ipsum is simply dummy text of the printing.
+              Our technical and commercial experts specialise in tech-transfer,
+              biochemistry, computational design, simulation, advanced
+              manufacturing, innovation, sales and commercialisation.
             </p>
           </div>
-          <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[26px] '>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-[26px] '>
             {CONTENT.map((data) => (
               <Card
                 key={data.id}
