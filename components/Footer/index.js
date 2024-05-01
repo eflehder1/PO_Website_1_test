@@ -13,12 +13,12 @@ const FOOTER_LINKS = [
   },
   {
     id: 2,
-    url: '/#',
+    url: '/contact-us',
     text: 'Contact us',
   },
   {
     id: 3,
-    url: '/##',
+    url: '/company',
     text: 'Timeline',
   },
   {
