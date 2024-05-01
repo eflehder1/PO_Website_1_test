@@ -4,7 +4,7 @@ import { Right } from './Right';
 import { TIMELINE_CONTENT } from '@/config/constants';
 
 export const ProgressTimeline = () => (
-  <div className='text-white p-28 rounded-[40px] bg-[linear-gradient(197deg,rgba(49,60,89,1)0%,rgba(22,28,45,1)100%)]'>
+  <div className='text-white p-28 rounded-[40px] bg-[linear-gradient(162deg,rgba(230,150,111,1)26%,rgba(109,163,173,1)79%)]'>
     <div className='sectionHeader pb-24'>
       <h3 className='text-4xl font-bold mb-4'>Programs</h3>
       <p className='text-base font-medium'>

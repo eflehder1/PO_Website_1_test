@@ -1,0 +1,12 @@
+.wrapper {
+  @apply mx-auto my-[30px] w-full md:w-[80%] relative before:absolute before:left-0 before:w-[2px] before:h-full before:bg-cover before:bg-no-repeat
+     before:bg-[url(/images/blueLine.svg)];
+}
+
+.headingText {
+  @apply mb-[60px] pl-[80px] before:absolute before:left-[-33px] before:w-[70px] before:h-[70px] before:top-[-32px] before:bg-[url(/images/blueStar.svg)];
+}
+
+.list {
+  @apply relative before:absolute before:w-2 before:h-2 before:bg-[#2E4169] before:rounded-full before:left-[-3px] before:top-[7px];
+}

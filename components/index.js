@@ -13,3 +13,4 @@ export * from './TimelineCard';
 export * from './TeamDetailModal';
 export * from './NewsletterSection';
 export * from './ProgressTimeline';
+export * from './Timeline';

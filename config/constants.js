@@ -207,50 +207,86 @@ export const TIMELINE_CONTENT = [
   {
     id: 1,
     year: '2024',
-    company: 'First two hires!',
-    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing.',
-    icon: '/images/Engineering Prize Winners.png',
+    achievements: [
+      {
+        id: 1,
+        title: 'Coca Cola Case Study Site Viability',
+        text: 'Recently we had the pleasure of welcoming Thanmaya and Ben to our team. They are great assets to our pool of technical expertise and also a really good fit culturally, we are looking forward to achieving great things together. ',
+        icon: '/images/logo/logo1.svg',
+      },
+      {
+        id: 2,
+        title: 'Team Grows to Six!',
+        text: 'As we pivoted toward the Food and Beverages sector, we got in touch with Coca Cola Europacific Partners and we have completed an initial viability study for generating electricity at their wastewater site. It is particularly exciting because their wastewater is rich in the fuel of TankArc, our predictions are looking very promising.',
+        icon: '/images/logo/logo2.svg',
+      },
+    ],
   },
   {
     id: 2,
     year: '2023',
-    company: 'First two hires!',
-    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing.',
-    icon: '/images/Engineering Prize Winners.png',
+    achievements: [
+      {
+        id: 1,
+        title: 'UK Patent filed',
+        text: 'After a great pitch by our CEO Arielle Torrres, showcasing what we have done at Pipeline Organics and the revolutionary goals we have for the future, we secured our first pot of investment.',
+        icon: '/images/logo/logo3.svg',
+      },
+      {
+        id: 2,
+        title: 'Engineers in Business Winners',
+        text: 'Having obtained full ownership of our IP earlier on, we embarked on the journey of defining where our innovation sits and together with our Lawyers filed our first patent to protect our revolutionary high surface 3D Printed Enzymatic Biofuel cell technology.',
+        icon: '/images/logo/logo4.svg',
+      },
+      {
+        id: 3,
+        title: 'Innovate UK Transformative Technologies Grant',
+        text: 'A brilliant pitch delivered by our CEO Arielle Torres, showcasing the groundbreaking work by the Pipeline Organics team, culminated in winning this prestigious competition.',
+        icon: '/images/logo/logo5.svg',
+      },
+      {
+        id: 4,
+        title: 'Ingenuity lab winners',
+        text: 'Lead by our COO Andrew Raslaan, this competition saw Pipeline Organics win yet another prize. We received several prizes as part of this competition, such as the Engineers in Business prize.',
+        icon: '/images/logo/logo6.svg',
+      },
+      {
+        id: 5,
+        title: 'Joined Conception X Accelerator',
+        text: 'The unique invaluable skills of our COO Andrew Raslaan with communicating our company and technology through grant writing lead us to secure our first significant funding pot. Our technical experts CSO Keyvan Jodeiri and CTO Eric Lehder made good use of this to accelerate our technology readiness.',
+        icon: '/images/logo/logo7.svg',
+      },
+    ],
   },
   {
     id: 3,
     year: '2022',
-    company: 'First two hires!',
-    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing.',
-    icon: '/images/Engineering Prize Winners.png',
+    achievements: [
+      {
+        id: 1,
+        title: 'First Customer Case Study',
+        text: 'Deep dive conversations with the head of energy at Welsh Water lead to promising concepts and a letter of intent for developing a copilot to be installed at their wastewater plant.',
+        icon: '/images/logo/logo8.svg',
+      },
+      {
+        id: 2,
+        title: 'First Prototype!',
+        text: 'Aware of the importance our IP has for the success of Pipeline Organics, we made sure to prioritise this early and 100% IP ownership was confirmed by the University of Nottingham legal team.',
+        icon: '/images/logo/logo9.svg',
+      },
+    ],
   },
+
   {
     id: 4,
     year: '2021',
-    company: 'First two hires!',
-    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing.',
-    icon: '/images/Engineering Prize Winners.png',
-  },
-  {
-    id: 5,
-    year: '2020',
-    company: 'First two hires!',
-    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing.',
-    icon: '/images/Engineering Prize Winners.png',
-  },
-  {
-    id: 6,
-    year: '2019',
-    company: 'First two hires!',
-    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing.',
-    icon: '/images/Engineering Prize Winners.png',
-  },
-  {
-    id: 7,
-    year: '2018',
-    company: 'First two hires!',
-    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing.',
-    icon: '/images/Engineering Prize Winners.png',
+    achievements: [
+      {
+        id: 1,
+        title: 'Company Incorporation',
+        text: 'Tailoring our product to the needs of an end-user was a key stage for us in order to truly understand the potential of our technology and the challenges to focus on.',
+        icon: '/images/logo/logo10.svg',
+      },
+    ],
   },
 ];

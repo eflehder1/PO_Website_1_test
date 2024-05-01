@@ -1,18 +1,23 @@
-import { Fade } from 'react-awesome-reveal';
+import Reveal from 'react-awesome-reveal';
 import { useState } from 'react';
+import { keyframes } from '@emotion/react';
 
-import {
-  Button,
-  Container,
-  Layout,
-  NewsletterSection,
-  ProgressTimeline,
-  TeamDetailModal,
-} from '@/components';
+import { Container, Layout, TeamDetailModal, Timeline } from '@/components';
 import { Card } from '@/components/Card';
-import { StoryCard } from '@/components/StoryCard';
-import { BlogCard } from '@/components/BlogCard';
-import { BLOGCONTENT, CONTENT } from '@/config/constants';
+import { CONTENT } from '@/config/constants';
+
+const customAnimation = keyframes`
+  from {
+    opacity: 1;
+    transform: translate3d(0, 100px, 0);
+    
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+`;
 
 export default function Company() {
   const [showModal, setShowModal] = useState();
@@ -28,7 +33,12 @@ export default function Company() {
 
   return (
     <Layout>
-      <div className='relative w-full md:h-[895px] pt-[200px] bg-[url(/images/BG.png)] bg-no-repeat bg-cover'>
+      <div className='mt-[86px]'>
+        <div className=''>
+          <img src='/images/about.webp' alt='aboutimg' className='w-full' />
+        </div>
+      </div>
+      {/* <div className='relative w-full md:h-[895px] pt-[200px] bg-[url(/images/BG.png)] bg-no-repeat bg-cover'>
         <div className='flex flex-col justify-between items-center h-full'>
           <div className='max-w-[60rem] flex p-[20px] md:p-0 flex-col items-center justify-center text-center'>
             <div className='space-y-2'>
@@ -59,8 +69,8 @@ export default function Company() {
         <div className='wave absolute -bottom-[1px] w-full'>
           <img src='/images/wave.svg' alt='wave' className='w-full' />
         </div>
-      </div>
-      <div className='poweredSection flex flex-col justify-center items-center pt-16 md:pt-80'>
+      </div> */}
+      {/* <div className='poweredSection flex flex-col justify-center items-center pt-16 md:pt-80'>
         <p className='text-gray font-semibold mb-5'>Powering clean industry</p>
 
         <div className='grid grid-cols-2 sm:flex gap-6 items-center'>
@@ -94,8 +104,45 @@ export default function Company() {
             />
           </Fade>
         </div>
+      </div> */}
+      <div className='missionSection pt-28'>
+        <Container>
+          <div className='flex gap-5 items-center max-md:flex-col max-md:gap-0'>
+            <div className='flex md:w-[45%] pr-5'>
+              <div className='content'>
+                <h3 className='text-3xl sm:text-4xl font-bold mb-5 text-secondary'>
+                  Our Mission
+                </h3>
+                <p className='text-sm leading-[24px] text-gray font-medium'>
+                  To provide clean, reliable electricity to energy-intensive
+                  industries while making a positive impact on the environment
+                  and society, we are confident in our ability to achieve our
+                  goals and drive meaningful change in the renewable energy
+                  landscape.
+                </p>
+              </div>
+            </div>
+            <div className='flex md:w-[55%]'>
+              <Reveal
+                direction='bottom'
+                keyframes={customAnimation}
+                delay={0.5}
+                duration={1500}
+              >
+                <div className='image'>
+                  <img
+                    src='/images/left3.png'
+                    alt='img'
+                    width='75%'
+                    className='mx-auto md:ml-auto md:mr-0'
+                  />
+                </div>
+              </Reveal>
+            </div>
+          </div>
+        </Container>
       </div>
-      <div>
+      <div className='meetteamSection'>
         <Container>
           <div className=' max-w-[610px] m-auto flex flex-col pt-16 md:pt-[200px] pb-[40px] items-center justify-center text-center'>
             <h2 className=' text-4xl font-bold text-secondary'>
@@ -121,7 +168,7 @@ export default function Company() {
           </div>
         </Container>
       </div>
-      <div>
+      {/* <div>
         <Container>
           <div className='max-w-[46rem] m-auto flex flex-col pt-16 md:pt-[200px] pb-5 md:pb-[40px] items-center justify-center text-center'>
             <h2 className=' text-4xl font-bold text-secondary '>
@@ -179,17 +226,18 @@ export default function Company() {
             ))}
           </div>
         </Container>
-      </div>
-      <div className='pt-20'>
+      </div> */}
+      <div className='py-20'>
         <Container>
-          <ProgressTimeline />
+          {/* <ProgressTimeline /> */}
+          <Timeline />
         </Container>
       </div>
-      <div className='pt-14 pb-28'>
+      {/* <div className='pt-14 pb-28'>
         <Container>
           <NewsletterSection />
         </Container>
-      </div>
+      </div> */}
       {showModal && (
         <TeamDetailModal
           openModal={showModal}

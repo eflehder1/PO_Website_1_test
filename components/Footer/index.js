@@ -34,7 +34,7 @@ const FOOTER_LINKS = [
 ];
 
 export const Footer = () => (
-  <footer className=' bg-white border-t border-[#E7E9ED]'>
+  <footer className=' bg-white'>
     <Container>
       <EmailSection />
       <div className='bottomSection pt-12 pb-12 md:pt-20'>

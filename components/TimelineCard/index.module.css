@@ -1,7 +1,7 @@
 .imageCard {
-  @apply border border-[#EAEAEA] bg-[#f2f2eb73] flex items-center justify-center min-w-16 w-16 h-16 md:min-w-20 md:w-20 md:h-20 rounded-full p-2;
+  @apply border border-[#EAEAEA] bg-[#F7F7F8] flex items-center justify-center min-w-16 w-16 h-16 md:min-w-36 md:w-36 md:h-36 rounded-[5px] p-2;
 }
 
 .card {
-  @apply flex items-center gap-4 pl-[30px] md:pl-[86px] pb-[30px] before:absolute before:w-2 before:h-2 before:bg-[#da8a86] before:rounded-full before:left-[-3px];
+  @apply flex items-start gap-8 pl-[30px] md:pl-[86px] pb-[30px];
 }
