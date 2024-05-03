@@ -37,14 +37,14 @@ export const TeamDetailModal = ({
       <div
         className={classNames(modalDialog, {
           [width]: width,
-          ['max-w-[85%]']: !width,
+          ['max-w-full md:max-w-[85%]']: !width,
         })}
         onClick={(e) => e.stopPropagation()}
       >
-        <div className='bg-white rounded-3xl p-10'>
+        <div className='bg-white md:rounded-3xl p-10'>
           <CrossIcon onClick={closeModal} className='cursor-pointer ml-auto' />
-          <div className='flex gap-5'>
-            <div className='image w-[500px] min-w-[500px]'>
+          <div className='flex flex-col md:flex-row gap-5'>
+            <div className='image w-[500px] max-w-full md:min-w-[500px]'>
               <img
                 src={selectedUser?.image}
                 alt='img'
@@ -71,7 +71,6 @@ export const TeamDetailModal = ({
             </div>
           </div>
         </div>
-        <h1>hello</h1>
       </div>
     </div>
   </div>

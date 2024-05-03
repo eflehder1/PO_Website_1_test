@@ -4,7 +4,7 @@
 }
 
 .headingText {
-  @apply mb-[60px] pl-[80px] before:absolute before:left-[-33px] before:w-[70px] before:h-[70px] before:top-[-32px] before:bg-[url(/images/blueStar.svg)];
+  @apply mb-[60px] pl-[80px] before:absolute before:left-[-27px] sm:before:left-[-33px] before:w-[57px] sm:before:w-[70px] before:h-[57px] before:bg-contain sm:before:h-[70px] before:top-[-32px] before:bg-[url(/images/blueStar.svg)];
 }
 
 .list {

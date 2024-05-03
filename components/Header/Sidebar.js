@@ -17,7 +17,7 @@ const NAV_LINKS = [
   {
     id: 3,
     text: 'Company',
-    url: '/#',
+    url: '/company',
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const NAV_LINKS = [
 export const Sidebar = ({ onClose, className, ...rest }) => (
   <div
     className={classNames(
-      'fixed h-full w-full transition-all delay-[0.2s] duration-500 ease-in-out -translate-y-full bg-white z-50',
+      'fixed top-0 h-full w-full transition-all delay-[0.2s] duration-500 ease-in-out -translate-y-full bg-white z-[555]',
       className,
     )}
     {...rest}

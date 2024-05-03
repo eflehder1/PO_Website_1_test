@@ -38,7 +38,7 @@ export const Footer = () => (
     <Container>
       <EmailSection />
       <div className='bottomSection pt-12 pb-12 md:pt-20'>
-        <div className='flex flex-col gap-7 md:gap-[10px] text-center md:text-left md:flex-row justify-center md:justify-between items-center'>
+        <div className='flex flex-col gap-7 lg:gap-[10px] text-center lg:text-left lg:flex-row justify-center lg:justify-between items-center'>
           <div className='relative flex flex-col gap-6 md:gap-2 md:flex-row items-center'>
             <div className='image'>
               <LogoIcon />
@@ -61,7 +61,7 @@ export const Footer = () => (
             </div>
           </div>
           <div className='socailIcons'>
-            <LinkedinIcon />
+            <LinkedinIcon className='text-primary' />
           </div>
         </div>
         <div className='flex flex-col md:flex-row gap-7 md:gap-[10px] text-center md:text-left justify-between items-center mt-7'>

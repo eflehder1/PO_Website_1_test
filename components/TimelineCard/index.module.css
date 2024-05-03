@@ -3,5 +3,5 @@
 }
 
 .card {
-  @apply flex items-start gap-8 pl-[30px] md:pl-[86px] pb-[30px];
+  @apply flex flex-col sm:flex-row items-start gap-8 pl-5 sm:pl-[30px] md:pl-[86px] pb-[30px];
 }
