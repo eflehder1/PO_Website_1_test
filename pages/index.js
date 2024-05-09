@@ -11,6 +11,7 @@ import {
 } from '@/components';
 import { CheckIcon } from '@/components/icons';
 import { HOMESECTIONCONENT } from '@/config/constants';
+import { EmailSection } from '@/components/Footer/EmailSection';
 
 const customAnimation = keyframes`
   from {
@@ -88,6 +89,7 @@ export default function Home() {
         ))}
       </Reveal>
       <LinkedinSection />
+      <EmailSection />
     </Layout>
   );
 }

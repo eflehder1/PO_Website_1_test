@@ -12,7 +12,7 @@ const NAV_LINKS = [
   {
     id: 2,
     text: 'Contact us',
-    url: '/##',
+    url: '/contact-us',
   },
   {
     id: 3,

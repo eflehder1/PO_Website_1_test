@@ -1,9 +1,8 @@
 import Link from 'next/link';
 
-import { LinkedinIcon, LogoIcon } from '../icons';
+import { LogoIcon } from '../icons';
 import { Container } from '../Container';
-
-import { EmailSection } from './EmailSection';
+import { Button } from '../Button';
 
 const FOOTER_LINKS = [
   {
@@ -18,7 +17,7 @@ const FOOTER_LINKS = [
   },
   {
     id: 3,
-    url: '/company',
+    url: '/##',
     text: 'Timeline',
   },
   {
@@ -26,45 +25,62 @@ const FOOTER_LINKS = [
     url: '/###',
     text: 'Team',
   },
-  {
-    id: 5,
-    url: '/####',
-    text: 'Dashboard',
-  },
 ];
 
 export const Footer = () => (
-  <footer className=' bg-white'>
+  <footer className='bg-[#f7f7f8] rounded-t-[30px]'>
     <Container>
-      <EmailSection />
-      <div className='bottomSection pt-12 pb-12 md:pt-20'>
-        <div className='flex flex-col gap-7 lg:gap-[10px] text-center lg:text-left lg:flex-row justify-center lg:justify-between items-center'>
-          <div className='relative flex flex-col gap-6 md:gap-2 md:flex-row items-center'>
-            <div className='image'>
-              <LogoIcon />
+      {/* <EmailSection /> */}
+      <div className='bottomSection pt-16 md:pt-28'>
+        <div className='relative grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-2'>
+          <div className='image'>
+            <LogoIcon />
+          </div>
+          <div className='relative'>
+            <h3 className='font-semibold text-lg mb-5'>About Pipeline</h3>
+            <div className='links flex flex-col gap-3 flex-wrap xs:flex-nowrap'>
+              {FOOTER_LINKS?.map((data) => (
+                <Link
+                  href={data?.url}
+                  key={data?.id}
+                  className='text-base whitespace-nowrap text-black font-regular'
+                >
+                  {data?.text}
+                </Link>
+              ))}
             </div>
-            <div className='relative md:pl-20'>
-              <div className='links flex items-center gap-3 flex-wrap xs:flex-nowrap sm:gap-5 md:gap-8'>
-                {FOOTER_LINKS?.map((data) => (
-                  <Link
-                    href={data?.url}
-                    key={data?.id}
-                    className=' text-base whitespace-nowrap xs:text-base text-black font-semibold'
-                  >
-                    {data?.text}
-                  </Link>
-                ))}
-              </div>
-              {/* <p className='text-sm text-gray font-medium'>
-                © 2024 Pipeline Organics, All rights reserved.
-              </p> */}
+          </div>
+          <div className='relative'>
+            <h3 className='font-semibold text-lg mb-5'>Contact</h3>
+            <div className='links flex flex-col gap-3 flex-wrap xs:flex-nowrap'>
+              <Link
+                href='mailto:info@pipelineorganics.co.uk'
+                className='text-base whitespace-nowrap text-black font-regular'
+              >
+                info@pipelineorganics.co.uk
+              </Link>
+              <Link
+                href='/#'
+                className='text-base whitespace-nowrap text-black font-regular'
+              >
+                Dashboard
+              </Link>
             </div>
           </div>
           <div className='socailIcons'>
-            <LinkedinIcon className='text-primary' />
+            <div className='relative flex border border-[#E7E9ED] rounded-lg overflow-hidden py-[6px] px-2'>
+              <input
+                type='email'
+                placeholder='Enter email'
+                name='email'
+                className='w-full bg-transparent border-0 focus:outline-none placeholder:text-[#161C2D]'
+              />
+              <Button>Subscribe</Button>
+            </div>
           </div>
         </div>
-        <div className='flex flex-col md:flex-row gap-7 md:gap-[10px] text-center md:text-left justify-between items-center mt-7'>
+
+        <div className='flex flex-col md:flex-row gap-7 md:gap-[10px] text-center md:text-left justify-between items-center py-7 mt-16 border-t border-[#e7e9ed]'>
           <p className='text-xs font-medium text-gray'>
             © 2024 Pipeline Organics, All rights reserved.
           </p>

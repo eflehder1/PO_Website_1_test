@@ -56,7 +56,9 @@ export const Header = () => {
               </Link>
             ))}
           </nav>
-          <Button className='ml-8 hidden sm:block'>Contact us</Button>
+          <Link href='/contact-us'>
+            <Button className='ml-8 hidden sm:block'>Contact us</Button>
+          </Link>
           <HamburgerIcon
             className='sm:hidden cursor-pointer'
             onClick={handleShowSidebar}
