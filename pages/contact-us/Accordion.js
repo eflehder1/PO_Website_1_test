@@ -65,7 +65,7 @@ export default function Accordion () {
                 <h3 className='mb-1 text-black font-semibold text-base'>
                   {item?.contentTitle}
                 </h3>
-                <p>{item.text}</p>
+                <p className='text-black'>{item.text}</p>
               </div>
             </div>
           )}
