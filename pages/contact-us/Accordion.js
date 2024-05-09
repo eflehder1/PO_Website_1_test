@@ -32,7 +32,7 @@ const items = [
   },
 ];
 
-export const Accordion = () => {
+export default function Accordion () {
   const [openIndex, setOpenIndex] = useState(0);
 
   const toggleAccordion = (index) => {
