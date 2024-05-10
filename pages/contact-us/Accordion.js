@@ -1,38 +1,9 @@
-// Accordion.js
+import { CONTACTUS_CONTENT } from '@/config/constants';
 import { useState } from 'react';
 
-const items = [
-  {
-    id: 1,
-    title: 'Talent',
-    contentTitle: 'People first',
-    text: 'Building a multi-disciplinary impact-driven team. At Pipeline Organics we put people first and we believe that people perform at their best when their wellbeing is prioritized. ​Currently we don’t have vacancies, but we will be putting our job vacancies here in the future.',
-    img: '/images/partener.png',
-  },
-  {
-    id: 2,
-    title: 'Talent',
-    contentTitle: 'People first',
-    text: 'Building a multi-disciplinary impact-driven team. At Pipeline Organics we put people first and we believe that people perform at their best when their wellbeing is prioritized. ​Currently we don’t have vacancies, but we will be putting our job vacancies here in the future.',
-    img: '/images/partener.png',
-  },
-  {
-    id: 3,
-    title: 'Talent',
-    contentTitle: 'People first',
-    text: 'Building a multi-disciplinary impact-driven team. At Pipeline Organics we put people first and we believe that people perform at their best when their wellbeing is prioritized. ​Currently we don’t have vacancies, but we will be putting our job vacancies here in the future.',
-    img: '/images/partener.png',
-  },
-  {
-    id: 4,
-    title: 'Talent',
-    contentTitle: 'People first',
-    text: 'Building a multi-disciplinary impact-driven team. At Pipeline Organics we put people first and we believe that people perform at their best when their wellbeing is prioritized. ​Currently we don’t have vacancies, but we will be putting our job vacancies here in the future.',
-    img: '/images/partener.png',
-  },
-];
 
-export default function Accordion () {
+
+export default function Accordion() {
   const [openIndex, setOpenIndex] = useState(0);
 
   const toggleAccordion = (index) => {
@@ -41,7 +12,8 @@ export default function Accordion () {
 
   return (
     <div className='w-full'>
-      {items.map((item, index) => (
+      {CONTACTUS_CONTENT.map((item, index) => (
+
         <div key={index} className='mb-2'>
           <div
             className='flex justify-between items-center p-4 bg-gray-200 cursor-pointer'
@@ -65,7 +37,17 @@ export default function Accordion () {
                 <h3 className='mb-1 text-black font-semibold text-base'>
                   {item?.contentTitle}
                 </h3>
-                <p className='text-black'>{item.text}</p>
+                {item?.text && <p className='text-black'>{item.text}</p>}
+                {item?.list ?
+                <ul className='list-disc mt-3'>
+                  {item?.list?.map((data)=>(
+                    <li className='mb-3'>
+                      {data?.title && <h6 className='text-sm font-semibold text-black'>{data?.title}</h6>}
+                      {data?.text && <p className='text-sm text-black'>{data?.text}</p>}
+                    </li>
+                  ))}
+                </ul>
+                :''}
               </div>
             </div>
           )}

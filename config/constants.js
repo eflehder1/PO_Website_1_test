@@ -290,3 +290,85 @@ export const TIMELINE_CONTENT = [
     ],
   },
 ];
+
+
+export const CONTACTUS_CONTENT = [
+  {
+    id: 1,
+    title: 'Talent',
+    contentTitle: 'People first',
+    text: 'Building a multi-disciplinary impact-driven team. At Pipeline Organics we put people first and we believe that people perform at their best when their wellbeing is prioritized. ​Currently we don’t have vacancies, but we will be putting our job vacancies here in the future.',
+    img: '/images/partener.png',
+  },
+  {
+    id: 2,
+    title: 'Partner',
+    contentTitle: 'Our partnership targets:',
+    img: '/images/partener.png',
+    list: [
+      {
+        id: 1,
+        title: 'Key Opinion Leaders (KOLs):​',
+        text: 'Identify and collaborate with key opinion leaders, industry experts, and environmental advocates who can endorse TankArc technology and amplify its message to a wider audience.​'
+      },
+      {
+        id: 2,
+        title: 'Content Co-Creation:​',
+        text: 'Co-create content with influential decision-makers in F&B and their own marketing teams, including blog posts, videos, and social media campaigns, to showcase TankArcs value proposition and promote its adoption within their respective networks.​'
+      },
+      {
+        id: 3,
+        title: 'Speaking Engagements:​',
+        text: 'Invite influencers to participate in webinars and other speaking engagements to share their insights on sustainable energy solutions and the role of TankArc in driving environmental impact.​'
+      }
+    ]
+  },
+  {
+    id: 3,
+    title: 'Customers​',
+    contentTitle: 'Fields of interest for customers:​',
+    text: 'Building a multi-disciplinary impact-driven team. At Pipeline Organics we put people first and we believe that people perform at their best when their wellbeing is prioritized. ​Currently we don’t have vacancies, but we will be putting our job vacancies here in the future.',
+    img: '/images/partener.png',
+    list: [
+      {
+        id: 1,
+        text: 'Soft Drinks​',
+      },
+      {
+        id: 2,
+        text: 'Beer',
+      },
+      {
+        id: 3,
+        text: 'Juice',
+      },
+      {
+        id: 4,
+        text: 'Dairy'
+      },
+      {
+        id: 5,
+        text: 'Fruit Salad​'
+      },
+      {
+        id: 6,
+        text: 'Sugar Biorefineries​'
+      },
+      {
+        id: 7,
+        text: 'Baked Beans​'
+      },
+      {
+        id: 8,
+        text: 'Wastewater Treatment Plants'
+      },
+    ]
+  },
+  {
+    id: 4,
+    title: 'Investors​',
+    contentTitle: 'Invest in the future of intelligent renewable clean energy​',
+    text: 'Building a multi-disciplinary impact-driven team. At Pipeline Organics we put people first and we believe that people perform at their best when their wellbeing is prioritized. ​Currently we don’t have vacancies, but we will be putting our job vacancies here in the future.',
+    img: '/images/partener.png',
+  },
+];
