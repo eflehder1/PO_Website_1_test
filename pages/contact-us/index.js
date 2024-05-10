@@ -1,7 +1,6 @@
-
+import Accordion from './Accordion';
 
 import { Button, Container, Layout } from '@/components';
-import Accordion from './Accordion';
 
 export default function ContactUs() {
   return (

@@ -1,7 +1,6 @@
-import { CONTACTUS_CONTENT } from '@/config/constants';
 import { useState } from 'react';
 
-
+import { CONTACTUS_CONTENT } from '@/config/constants';
 
 export default function Accordion() {
   const [openIndex, setOpenIndex] = useState(0);
@@ -13,7 +12,6 @@ export default function Accordion() {
   return (
     <div className='w-full'>
       {CONTACTUS_CONTENT.map((item, index) => (
-
         <div key={index} className='mb-2'>
           <div
             className='flex justify-between items-center p-4 bg-gray-200 cursor-pointer'
@@ -38,16 +36,24 @@ export default function Accordion() {
                   {item?.contentTitle}
                 </h3>
                 {item?.text && <p className='text-black'>{item.text}</p>}
-                {item?.list ?
-                <ul className='list-disc mt-3'>
-                  {item?.list?.map((data)=>(
-                    <li className='mb-3'>
-                      {data?.title && <h6 className='text-sm font-semibold text-black'>{data?.title}</h6>}
-                      {data?.text && <p className='text-sm text-black'>{data?.text}</p>}
-                    </li>
-                  ))}
-                </ul>
-                :''}
+                {item?.list ? (
+                  <ul className='list-disc mt-3'>
+                    {item?.list?.map((data) => (
+                      <li className='mb-3' key={data?.id}>
+                        {data?.title && (
+                          <h6 className='text-sm font-semibold text-black'>
+                            {data?.title}
+                          </h6>
+                        )}
+                        {data?.text && (
+                          <p className='text-sm text-black'>{data?.text}</p>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  ''
+                )}
               </div>
             </div>
           )}
@@ -55,4 +61,4 @@ export default function Accordion() {
       ))}
     </div>
   );
-};
+}
