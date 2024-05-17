@@ -21,7 +21,7 @@ const NAV_LINKS = [
   {
     id: 3,
     text: 'Tech',
-    url: '/##',
+    url: '/tech',
   },
 ];
 

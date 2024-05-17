@@ -22,7 +22,7 @@ const NAV_LINKS = [
   {
     id: 4,
     text: 'Tech',
-    url: '/##',
+    url: '/tech',
   },
 ];
 

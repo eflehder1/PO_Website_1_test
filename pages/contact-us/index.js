@@ -20,8 +20,7 @@ export default function ContactUs() {
               <div className='bg-white rounded-[20px] flex flex-col w-full mt-10 relative z-10 shadow-[0_0_10px_#00000014]'>
                 <div className='bg-[#F7F7F8] p-8'>
                   <p className='leading-relaxed text-sm font-medium text-gray'>
-                    We would be happy to hear from you about any feedback or
-                    questions about Pipeline organics and how it works.
+                    We look forward to hearing from you!
                   </p>
                 </div>
                 <form className='p-7'>

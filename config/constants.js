@@ -57,11 +57,20 @@ export const CONTENT = [
     id: 1,
     image: '/images/profile-image.png',
     title: 'Andrew Raslan',
-    text: ' MSc, AMRSC, COO',
+    text: ' COO and Co-founder',
     logo: '/images/linkedin-logo.svg',
     description:
-      'Andy is one of the Co-Founders of the company. His focus is on project management, grant writing as well as company management.',
+      'Andy is one of the Co-Founders of the company. His focus is on project management, grant writing as well as company management.  Business Administration | Research and Grant Funding | Programme and Project Management | Legal and Operational Lead',
+    list: [
+      {
+        list1: 'Hobbies: Fencing (Modern & Historical), Boxing, Cooking',
+        list2:
+          'Motto: “The obstacles to action encourage action. What stands in the way becomes the way” – Marcus Aurelius',
+      },
+    ],
+    imageList: ['/images/attachment1.png', '/images/attachment.png'],
   },
+
   {
     id: 2,
     image: '/images/Arielle-profile.png',
@@ -69,7 +78,17 @@ export const CONTENT = [
     text: ' MEng, CEO',
     logo: '/images/linkedin-logo.svg',
     description:
-      'Arielle is one of the Co-Founders of the company. Her focus is on the financial strategy and modelling as well as company management.',
+      'Arielle is one of the Co-Founders of the company. Her focus is on the financial strategy and modelling as well as company management.Financia Strategy | Investment Analysis | Sales | Mechanical Engineering | Additive Manufacturing & Materials',
+    list: [
+      {
+        list1: ' Arielle is also an athlete and adventure seeker!',
+      },
+    ],
+    imageList: [
+      '/images/attachment2.png',
+      '/images/attachment3.png',
+      '/images/attachment-1.png',
+    ],
   },
   {
     id: 3,
@@ -78,8 +97,16 @@ export const CONTENT = [
     text: ' BEng, MSc, PhD, CTO',
     logo: '/images/linkedin-logo.svg',
     description:
-      'Eric is one of the Co-Founders of the company, his focus is on the Design and Production as well as company management. ',
+      'Eric is one of the Co-Founders of the company, his focus is on the Design and Production as well as company management. Design Engineering | Design for Additive Manufacturing | Manufacturing | Data Science | R&D Startup experience',
+    imageList: ['/images/attachment5.png', '/images/attachment6.png'],
+    list: [
+      {
+        list1:
+          'Loves all kinds of racket sports, currently focusing on Padel! Also really enjoy water sports such as kayaking and wind surfing!',
+      },
+    ],
   },
+
   {
     id: 4,
     image: '/images/Keyvan Jodeiri-profile.png',
@@ -87,7 +114,13 @@ export const CONTENT = [
     text: ' MSc, PhD, CSO',
     logo: '/images/linkedin-logo.svg',
     description:
-      'Keyvan is one of the Co-Founders as well as the main inventor of our technology. His focus is on surface chemistry as well as company management.',
+      'Keyvan is one of the Co-Founders as well as the main inventor of our technology. His focus is on surface chemistry as well as company management. Surface coating | Additive Manufacturing | Catalysis Scientist | Research | Enzymatic biofuel cells',
+    imageList: ['/images/attachment7.png', '/images/attachment8.png'],
+    list: [
+      {
+        list1: 'Enjoys playing badminton and also chess!',
+      },
+    ],
   },
   {
     id: 5,
@@ -96,7 +129,7 @@ export const CONTENT = [
     text: 'BSc, MSc, Technical Lab Assistant',
     logo: '/images/linkedin-logo.svg',
     description:
-      'Thanmaya recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells.',
+      'Thanmaya recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells.  Thanmaya did her Bachelor of Technology in Chemical Engineering at the Manipal Academy of Higher Education, followed by an Advanced Chemical Engineering Master’s degree at the University of Birmingham. She recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells. More specifically, her initial focus is on improving the immobilisation strategy to increase the power density of TankArc as well as the stability.',
   },
   {
     id: 6,
@@ -108,6 +141,7 @@ export const CONTENT = [
       'Ben has recently joined Pipeline Organics to accelerate the characterisation, development, and implementation of TankArc.',
   },
 ];
+
 export const TimelineData = [
   {
     id: 1,
@@ -291,43 +325,145 @@ export const TIMELINE_CONTENT = [
   },
 ];
 
-
 export const CONTACTUS_CONTENT = [
   {
     id: 1,
     title: 'Talent',
-    contentTitle: 'People first',
-    text: 'Building a multi-disciplinary impact-driven team. At Pipeline Organics we put people first and we believe that people perform at their best when their wellbeing is prioritized. ​Currently we don’t have vacancies, but we will be putting our job vacancies here in the future.',
+    content: [
+      {
+        contentTitle: 'People first',
+        contentDescription:
+          'Building a multi-disciplinary impact-driven team with skills ranging from nanotechnology to design engineering. At Pipeline Organics we put people first and we believe that people perform at their best when their wellbeing is prioritized. ​Currently we don’t have vacancies, but we will be putting our job vacancies here in the future.',
+      },
+    ],
     img: '/images/partener.png',
   },
   {
     id: 2,
-    title: 'Partner',
-    contentTitle: 'Our partnership targets:',
+    title: 'Partner With Us',
+    content: [
+      {
+        contentTitle: 'Our partnership targets:',
+        list: [
+          {
+            id: 1,
+            title: 'Key Opinion Leaders (KOLs):​',
+            text: 'Identify and collaborate with key opinion leaders, industry experts, and environmental advocates who can endorse TankArc technology and amplify its message to a wider audience.​',
+          },
+          {
+            id: 2,
+            title: 'Content Co-Creation:​',
+            text: 'Co-create content with influential decision-makers in F&B and their own marketing teams, including blog posts, videos, and social media campaigns, to showcase TankArcs value proposition and promote its adoption within their respective networks.​',
+          },
+          {
+            id: 3,
+            title: 'Speaking Engagements:​',
+            text: 'Invite influencers to participate in webinars and other speaking engagements to share their insights on sustainable energy solutions and the role of TankArc in driving environmental impact.​',
+          },
+        ],
+      },
+      {
+        contentTitle: 'Innovation through Collaboration:',
+        list: [
+          {
+            id: 1,
+            text: 'We are a highly innovative company using multidisciplinary approaches to power the clean industry of tomorrow. Much of our R&D work is conducted in collaboration with industry partners. We are particulary on the lookout for commercial partners to collaborate on large European Innovation Council (EIC) grants, especially those operating in the following areas:',
+          },
+          {
+            id: 2,
+            text: 'Bioengineering and enzyme engineering.',
+          },
+          {
+            id: 3,
+            text: 'Nanomaterials.',
+          },
+          {
+            id: 4,
+            text: 'Electrical interface design.',
+          },
+          {
+            id: 5,
+            text: 'Regulatory consultancies for energy and Net Zero products.',
+          },
+          {
+            id: 6,
+            text: 'Environmental and analytical chemistry.',
+          },
+          {
+            id: 7,
+            text: 'Consortia built around cleaner energy or better resource usage',
+          },
+        ],
+      },
+    ],
     img: '/images/partener.png',
     list: [
       {
         id: 1,
         title: 'Key Opinion Leaders (KOLs):​',
-        text: 'Identify and collaborate with key opinion leaders, industry experts, and environmental advocates who can endorse TankArc technology and amplify its message to a wider audience.​'
+        text: 'Identify and collaborate with key opinion leaders, industry experts, and environmental advocates who can endorse TankArc technology and amplify its message to a wider audience.​',
       },
       {
         id: 2,
         title: 'Content Co-Creation:​',
-        text: 'Co-create content with influential decision-makers in F&B and their own marketing teams, including blog posts, videos, and social media campaigns, to showcase TankArcs value proposition and promote its adoption within their respective networks.​'
+        text: 'Co-create content with influential decision-makers in F&B and their own marketing teams, including blog posts, videos, and social media campaigns, to showcase TankArcs value proposition and promote its adoption within their respective networks.​',
       },
       {
         id: 3,
         title: 'Speaking Engagements:​',
-        text: 'Invite influencers to participate in webinars and other speaking engagements to share their insights on sustainable energy solutions and the role of TankArc in driving environmental impact.​'
-      }
-    ]
+        text: 'Invite influencers to participate in webinars and other speaking engagements to share their insights on sustainable energy solutions and the role of TankArc in driving environmental impact.​',
+      },
+    ],
+    conclusion:
+      'Pipeline Organics energy-generating product is tailored to customer operational environment, so we are also keen on partnering with Customer Co-Innovators from the Food and Beverages and Water industries, which will allow us to develop, build and install the best product for your sites individual needs. For more information, please use the contact form provided.',
   },
   {
     id: 3,
     title: 'Customers​',
-    contentTitle: 'Fields of interest for customers:​',
-    text: 'Building a multi-disciplinary impact-driven team. At Pipeline Organics we put people first and we believe that people perform at their best when their wellbeing is prioritized. ​Currently we don’t have vacancies, but we will be putting our job vacancies here in the future.',
+    content: [
+      {
+        contentTitle: 'Our product is a tailorable Enzymatic Biofuel Cell​',
+        contentDescription:
+          'We can alter its chemistry and geometry to turn liquid organic waste into zero-carbon electricity in a variety of customer operational environments, including',
+      },
+      {
+        contentTitle: 'Fields of interest for customers:',
+        list: [
+          {
+            id: 1,
+            text: 'Soft Drinks​',
+          },
+          {
+            id: 2,
+            text: 'Beer',
+          },
+          {
+            id: 3,
+            text: 'Juice',
+          },
+          {
+            id: 4,
+            text: 'Dairy',
+          },
+          {
+            id: 5,
+            text: 'Fruit Salad​',
+          },
+          {
+            id: 6,
+            text: 'Sugar Biorefineries​',
+          },
+          {
+            id: 7,
+            text: 'Baked Beans​',
+          },
+          {
+            id: 8,
+            text: 'Wastewater Treatment Plants',
+          },
+        ],
+      },
+    ],
     img: '/images/partener.png',
     list: [
       {
@@ -344,31 +480,39 @@ export const CONTACTUS_CONTENT = [
       },
       {
         id: 4,
-        text: 'Dairy'
+        text: 'Dairy',
       },
       {
         id: 5,
-        text: 'Fruit Salad​'
+        text: 'Fruit Salad​',
       },
       {
         id: 6,
-        text: 'Sugar Biorefineries​'
+        text: 'Sugar Biorefineries​',
       },
       {
         id: 7,
-        text: 'Baked Beans​'
+        text: 'Baked Beans​',
       },
       {
         id: 8,
-        text: 'Wastewater Treatment Plants'
+        text: 'Wastewater Treatment Plants',
       },
-    ]
+    ],
+    conclusion:
+      'As long as you have a steady production of liquid organic waste, we can use it to provide baseload energy or power your plant and machinery.',
   },
   {
     id: 4,
     title: 'Investors​',
-    contentTitle: 'Invest in the future of intelligent renewable clean energy​',
-    text: 'Building a multi-disciplinary impact-driven team. At Pipeline Organics we put people first and we believe that people perform at their best when their wellbeing is prioritized. ​Currently we don’t have vacancies, but we will be putting our job vacancies here in the future.',
+    content: [
+      {
+        contentTitle:
+          'Invest in the future of intelligent renewable clean energy​',
+        contentDescription:
+          'Building a multi-disciplinary impact-driven team. At Pipeline Organics we put people first and we believe that people perform at their best when their wellbeing is prioritized. ​Currently we don’t have vacancies, but we will be putting our job vacancies here in the future.',
+      },
+    ],
     img: '/images/partener.png',
   },
 ];

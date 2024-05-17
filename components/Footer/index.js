@@ -37,7 +37,9 @@ export const Footer = () => (
             <LogoIcon />
           </div>
           <div className='relative'>
-            <h3 className='font-semibold text-lg mb-5'>About Pipeline</h3>
+            <h3 className='font-semibold text-lg text-black mb-5'>
+              About Pipeline
+            </h3>
             <div className='links flex flex-col gap-3 flex-wrap xs:flex-nowrap'>
               {FOOTER_LINKS?.map((data) => (
                 <Link
@@ -51,7 +53,7 @@ export const Footer = () => (
             </div>
           </div>
           <div className='relative'>
-            <h3 className='font-semibold text-lg mb-5'>Contact</h3>
+            <h3 className='font-semibold text-lg mb-5 text-black'>Contact</h3>
             <div className='links flex flex-col gap-3 flex-wrap xs:flex-nowrap'>
               <Link
                 href='mailto:info@pipelineorganics.co.uk'

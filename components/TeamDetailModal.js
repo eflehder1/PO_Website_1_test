@@ -67,6 +67,21 @@ export const TeamDetailModal = ({
                 <p className='text-gray text-base'>
                   {selectedUser?.description}
                 </p>
+                {selectedUser?.list?.map((items, index) => (
+                  <>
+                    <div key={index}>
+                      <p className='text-gray text-base mt-2'>{items?.list1}</p>
+                      <p className='text-gray text-base mt-2'>{items?.list2}</p>
+                    </div>
+                  </>
+                ))}
+                <div className='flex items-center mt-4 gap-2 '>
+                  {selectedUser?.imageList?.map((items, index) => (
+                    <div key={index}>
+                      <img src={items} className='h-[120px]' />
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
