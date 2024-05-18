@@ -23,6 +23,11 @@ const NAV_LINKS = [
     text: 'Tech',
     url: '/tech',
   },
+  {
+    id: 3,
+    text: 'Fun',
+    url: '/Fun',
+  },
 ];
 
 export const Header = () => {

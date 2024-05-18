@@ -90,7 +90,7 @@ export const HeroSection = () => (
           >
             <img
               alt='Innovative material'
-              className='w-full h-full object-cover object-center mix-blend-darken'
+              className='w-full h-full object-cover object-center mix-blend-darken mr-[80] md:mr-0'
               height='100%'
               src='/images/slide1.png'
               width='100%'
