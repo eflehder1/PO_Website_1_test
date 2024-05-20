@@ -18,7 +18,7 @@ export const HOMESECTIONCONENT = [
     id: 2,
     url: '/images/left1.png',
     title: 'What do we offer?',
-    text: 'No single renewable energy generation solution can bring our B2B customers’ operational sites to full energy self-sufficiency and Net Zero energy-related emissions. Even existing, mature renewables must be used in combination and frequently do not make users 100% independent from polluting energy from the grid due to limitations like high CapEx and weather dependence of their energy solutions. This is where TankArc comes in! No established competitor product such as wind, solar, microbial fuel cells or anaerobic digesters individually combines all these advantages:',
+    text: 'No single renewable energy generation solution can bring our B2B customers’ operational sites to full energy self-sufficiency and Net Zero energy-related emissions. Even existing, mature renewables must be used in combination and frequently do not make users 100% independent from polluting energy from the grid due to limitations like high CapEx and weather dependence of their energy solutions. This is where TankArc™ comes in! No established competitor product such as wind, solar, microbial fuel cells or anaerobic digesters individually combines all these advantages:',
     listTitle: 'Our Value Proposition:​',
     list: [
       'Direct electricity from waste',
@@ -48,7 +48,7 @@ export const HOMESECTIONCONENT = [
       'The Food and Beverage industry is responsible for 25-30% of global carbon emissions and about 17% of UK emissions',
       'Food and Beverage industry in the UK consumes 11.17 Terawatt Hours per year [Need example of a real correlate here e.g. “x multiples of y machine consume this much in a year”]',
       '4,656,815 tonnes of Carbon Dioxide equivalents per year – the average yearly driving emissions of 1,108,330 passenger vehicles [EPA method]!',
-      '11% of these emissions care caused by manufacturing, storage and logistics, which TankArc can mitigate by powering local plant and electric vehicles',
+      '11% of these emissions care caused by manufacturing, storage and logistics, which TankArc™ can mitigate by powering local plant and electric vehicles',
     ],
   },
 ];
@@ -129,7 +129,7 @@ export const CONTENT = [
     text: 'BSc, MSc, Technical Lab Assistant',
     logo: '/images/linkedin-logo.svg',
     description:
-      'Thanmaya recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells.  Thanmaya did her Bachelor of Technology in Chemical Engineering at the Manipal Academy of Higher Education, followed by an Advanced Chemical Engineering Master’s degree at the University of Birmingham. She recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells. More specifically, her initial focus is on improving the immobilisation strategy to increase the power density of TankArc as well as the stability.',
+      'Thanmaya recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells.  Thanmaya did her Bachelor of Technology in Chemical Engineering at the Manipal Academy of Higher Education, followed by an Advanced Chemical Engineering Master’s degree at the University of Birmingham. She recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells. More specifically, her initial focus is on improving the immobilisation strategy to increase the power density of TankArc™ as well as the stability.',
   },
   {
     id: 6,
@@ -138,7 +138,7 @@ export const CONTENT = [
     text: 'BSc, PhD, Research Scientist',
     logo: '/images/linkedin-logo.svg',
     description:
-      'Ben has recently joined Pipeline Organics to accelerate the characterisation, development, and implementation of TankArc.',
+      'Ben has recently joined Pipeline Organics to accelerate the characterisation, development, and implementation of TankArc™.',
   },
 ];
 
@@ -251,7 +251,7 @@ export const TIMELINE_CONTENT = [
       {
         id: 2,
         title: 'Team Grows to Six!',
-        text: 'As we pivoted toward the Food and Beverages sector, we got in touch with Coca Cola Europacific Partners and we have completed an initial viability study for generating electricity at their wastewater site. It is particularly exciting because their wastewater is rich in the fuel of TankArc, our predictions are looking very promising.',
+        text: 'As we pivoted toward the Food and Beverages sector, we got in touch with Coca Cola Europacific Partners and we have completed an initial viability study for generating electricity at their wastewater site. It is particularly exciting because their wastewater is rich in the fuel of TankArc™, our predictions are looking very promising.',
         icon: '/images/logo/logo2.svg',
       },
     ],
@@ -325,6 +325,48 @@ export const TIMELINE_CONTENT = [
   },
 ];
 
+export const TECHSECTION_CONTENT = [
+  {
+    id: 1,
+    url: '/images/left0.png',
+    title: 'TankArc™ Technology',
+    text: 'TankArc™ technology converts the organic material found in wastewater into clean electricity. This happens via a novel enzymatic biofuel cell consisting of two computationally optimised 3D Printed electrodes, the anode and the cathode.',
+    list: [
+      'Scale to meet industry demands without exacerbating climate change.',
+      'We are exploting the untapped energy available from wastewater processed within Industry.',
+    ],
+  },
+  {
+    id: 2,
+    url: '/images/left1.png',
+    title: 'Pioneering',
+    text: 'We are pioneering the fusion of Biofuel cell technology with Additive Manufacturing, while in the process contributing to a global solution to the energy crisis. We are experts with biofuel cell technology as well as Additive Manufacturing Design and Engineering. Our innovations reflect the interface of these technologies.',
+    list: [
+      'Exploiting AM-enabled design freedom to maximise electrodes surface area while minimising fluid disturbances.',
+      'Enhancing surface coating processes and electrochemical analysis to ensure maximum fuel cells stability.',
+    ],
+  },
+  {
+    id: 3,
+    url: '/images/propriaryLattice.png',
+    title: 'Proprierary lattice design',
+    text: 'Lattice design is optimised for:​',
+    list: [
+      'Minimum surface area',
+      'Minimal capacity reduction',
+      'Efficient wastewater flow & mixing',
+      'Maximum reactivity of electrons',
+    ],
+    conclusion:
+      'Thus, maximising energy density while maintaining essential buffer tank functionality​.',
+  },
+  {
+    id: 4,
+    title: 'How its installed',
+    text: 'Lorem ipsum is simply the dummy text of printing and typesetting. Lorm ipsum is simply the dummy text of printing.',
+  },
+];
+
 export const CONTACTUS_CONTENT = [
   {
     id: 1,
@@ -348,17 +390,17 @@ export const CONTACTUS_CONTENT = [
           {
             id: 1,
             title: 'Key Opinion Leaders (KOLs):​',
-            text: 'Identify and collaborate with key opinion leaders, industry experts, and environmental advocates who can endorse TankArc technology and amplify its message to a wider audience.​',
+            text: 'Identify and collaborate with key opinion leaders, industry experts, and environmental advocates who can endorse TankArc™ technology and amplify its message to a wider audience.​',
           },
           {
             id: 2,
             title: 'Content Co-Creation:​',
-            text: 'Co-create content with influential decision-makers in F&B and their own marketing teams, including blog posts, videos, and social media campaigns, to showcase TankArcs value proposition and promote its adoption within their respective networks.​',
+            text: 'Co-create content with influential decision-makers in F&B and their own marketing teams, including blog posts, videos, and social media campaigns, to showcase TankArc™s value proposition and promote its adoption within their respective networks.​',
           },
           {
             id: 3,
             title: 'Speaking Engagements:​',
-            text: 'Invite influencers to participate in webinars and other speaking engagements to share their insights on sustainable energy solutions and the role of TankArc in driving environmental impact.​',
+            text: 'Invite influencers to participate in webinars and other speaking engagements to share their insights on sustainable energy solutions and the role of TankArc™ in driving environmental impact.​',
           },
         ],
       },
@@ -401,17 +443,17 @@ export const CONTACTUS_CONTENT = [
       {
         id: 1,
         title: 'Key Opinion Leaders (KOLs):​',
-        text: 'Identify and collaborate with key opinion leaders, industry experts, and environmental advocates who can endorse TankArc technology and amplify its message to a wider audience.​',
+        text: 'Identify and collaborate with key opinion leaders, industry experts, and environmental advocates who can endorse TankArc™ technology and amplify its message to a wider audience.​',
       },
       {
         id: 2,
         title: 'Content Co-Creation:​',
-        text: 'Co-create content with influential decision-makers in F&B and their own marketing teams, including blog posts, videos, and social media campaigns, to showcase TankArcs value proposition and promote its adoption within their respective networks.​',
+        text: 'Co-create content with influential decision-makers in F&B and their own marketing teams, including blog posts, videos, and social media campaigns, to showcase TankArc™s value proposition and promote its adoption within their respective networks.​',
       },
       {
         id: 3,
         title: 'Speaking Engagements:​',
-        text: 'Invite influencers to participate in webinars and other speaking engagements to share their insights on sustainable energy solutions and the role of TankArc in driving environmental impact.​',
+        text: 'Invite influencers to participate in webinars and other speaking engagements to share their insights on sustainable energy solutions and the role of TankArc™ in driving environmental impact.​',
       },
     ],
     conclusion:

@@ -30,6 +30,11 @@ export const LeftSection = ({ data, list, className }) => (
               {data?.text}
             </p>
             {list ? <div>{list}</div> : ''}
+            {data?.conclusion && (
+              <p className='text-sm leading-[24px] text-gray font-medium mb-6 mt-6'>
+                {data?.conclusion}
+              </p>
+            )}
           </div>
         </div>
         <div className='flex md:w-[45%]'>
@@ -40,12 +45,14 @@ export const LeftSection = ({ data, list, className }) => (
             duration={1500}
           >
             <div className='image'>
-              <img
-                src={data?.url}
-                alt='img'
-                width='85%'
-                className='mx-auto md:ml-auto md:mr-0'
-              />
+              {data?.url && (
+                <img
+                  src={data?.url}
+                  alt='img'
+                  width='85%'
+                  className='mx-auto md:ml-auto md:mr-0'
+                />
+              )}
             </div>
           </Reveal>
         </div>
