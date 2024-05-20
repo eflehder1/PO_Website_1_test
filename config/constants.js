@@ -288,7 +288,7 @@ export const TIMELINE_CONTENT = [
         id: 5,
         title: 'Joined Conception X Accelerator',
         text: 'The unique invaluable skills of our COO Andrew Raslaan with communicating our company and technology through grant writing lead us to secure our first significant funding pot. Our technical experts CSO Keyvan Jodeiri and CTO Eric Lehder made good use of this to accelerate our technology readiness.',
-        icon: '/images/logo/logo7.svg',
+        icon: '/images/image980.svg',
       },
     ],
   },
