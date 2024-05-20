@@ -24,9 +24,14 @@ const NAV_LINKS = [
     url: '/tech',
   },
   {
-    id: 3,
+    id: 4,
     text: 'Fun',
     url: '/Fun',
+  },
+  {
+    id: 5,
+    text: 'dashboard',
+    url: '/dashboard',
   },
 ];
 

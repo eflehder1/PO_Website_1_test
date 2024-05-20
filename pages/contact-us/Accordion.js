@@ -29,7 +29,7 @@ export default function Accordion() {
               <div className='p-2'>
                 <img
                   src={item?.img}
-                  className='h-[137px] w-full object-cover mb-4'
+                  className='h-[70%] w-full object-cover mb-4'
                   alt='img'
                 />
                 {item?.content?.map((content, index) => (
@@ -38,7 +38,7 @@ export default function Accordion() {
                       {content?.contentTitle}
                     </h3>
                     {content?.contentDescription && (
-                      <p className='text-black'>{content.contentDescription}</p>
+                      <p className='text-black text-sm'>{content.contentDescription}</p>
                     )}
                     {content?.list ? (
                       <ul className={'list-disc mt-3 pl-4 text-black'}>

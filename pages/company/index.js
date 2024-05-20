@@ -35,7 +35,7 @@ export default function Company() {
     <Layout>
       <div className='mt-[86px]'>
         <div className=''>
-          <img src='/images/about.webp' alt='aboutimg' className='w-full' />
+          <img src='/images/Team.jpg' alt='aboutimg' className='w-full' />
         </div>
       </div>
       {/* <div className='relative w-full md:h-[895px] pt-[200px] bg-[url(/images/BG.png)] bg-no-repeat bg-cover'>
@@ -131,9 +131,9 @@ export default function Company() {
               >
                 <div className='image'>
                   <img
-                    src='/images/left3.png'
+                    src='/images/Founders.jpg'
                     alt='img'
-                    width='75%'
+                    width='90%'
                     className='mx-auto md:ml-auto md:mr-0'
                   />
                 </div>

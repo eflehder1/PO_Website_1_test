@@ -8,20 +8,20 @@ import { Container } from './Container';
 const CONTENT = [
   {
     id: 1,
-    title: '627M+',
-    text: ' F&B consumes £627m worth of electricity per year in the UK alone (HMG, 2022; Ofgem, 2022).',
+    title: '50 Bn',
+    text: ' of CO2 emissions produced globally every year.',
     icon: '/images/json/one.json',
   },
   {
     id: 2,
-    title: '25-30%',
-    text: ' The Food and Beverage (F&B) industry produces 25-30% of world GHG emissions.',
+    title: '24%',
+    text: ' of global GHG emissions come from the energy used to power Industry.',
     icon: '/images/json/two.json',
   },
   {
     id: 3,
-    title: '50%',
-    text: ' The water sector offers a 50% renewable energy gap (Water UK, 2022)',
+    title: '9.5 Tr',
+    text: ' 9.5 Tr MWh of electricity consumed across the Industry per year',
     icon: '/images/json/three.json',
   },
 ];
@@ -43,8 +43,8 @@ export const SustainabilitySection = () => (
   <section className='py-20 md:py-40'>
     <Container>
       <SectionHeader
-        heading='The sustainability challenge'
-        text='Industries like food & beverages and water are now pursuing cleaner, renewable electricity solutions to meet global needs.'
+        heading='Energy self-sufficiency challenge'
+        text='Industry consumes a large portion of the total electricity globally. The impact this is having in the enviroment is shocking. Cleaner forms of electricity are therefore needed.'
       />
       <div className='flex flex-col items-center sm:items-start sm:flex-row justify-between gap-10 pt-12 md:pt-20'>
         {CONTENT?.map((data) => (

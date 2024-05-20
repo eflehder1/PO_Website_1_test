@@ -1,7 +1,7 @@
 export const HOMESECTIONCONENT = [
   {
     id: 1,
-    url: '/images/left0.png',
+    url: '/images/HomePageImage.png',
     title: 'Using Next Generation Fuel Cell Technology',
     text: 'To harness the untapped chemical potential found in industrial wastewater.',
     listTitle:
@@ -10,27 +10,11 @@ export const HOMESECTIONCONENT = [
       'Clean in-house ',
       'No processing of fuel source',
       'Easy, affordable retrofit',
-      'No land requirements',
-      'Easy, affordable retrofit',
-    ],
-  },
-  {
-    id: 2,
-    url: '/images/left1.png',
-    title: 'What do we offer?',
-    text: 'No single renewable energy generation solution can bring our B2B customers’ operational sites to full energy self-sufficiency and Net Zero energy-related emissions. Even existing, mature renewables must be used in combination and frequently do not make users 100% independent from polluting energy from the grid due to limitations like high CapEx and weather dependence of their energy solutions. This is where TankArc comes in! No established competitor product such as wind, solar, microbial fuel cells or anaerobic digesters individually combines all these advantages:',
-    listTitle: 'Our Value Proposition:​',
-    list: [
-      'Direct electricity from waste',
-      'No processing of fuel source',
-      'Easy, affordable retrofit',
-      'No land requirements',
-      'Easy, affordable retrofit',
     ],
   },
   {
     id: 3,
-    url: '/images/left2.png',
+    url: '/images/GlucoseIm.png',
     title: 'Who do we target?',
     text: '89% of food business respondents in the UK will make “low carbon” business a brand priority by 2025 (Centrica 2020). Additionally, 73% of respondents indicated that they are accelerating plans for more sustainable business. Large food companies like Coca Cola and Diageo have recently invested in large green energy capital projects with E.On. However, even these large projects have only covered 20-60% of the sites’ total energy needs, and there is scope for bioenergy to provide bridge their gap in energy self-sufficiency.According to the Water 2050 Report by Water UK, the situation is similar in our secondary target of water treatment.',
     list: [
@@ -42,7 +26,7 @@ export const HOMESECTIONCONENT = [
   },
   {
     id: 4,
-    url: '/images/left3.png',
+    icon: '/images/json/EnergyConsumption.json',
     title: 'What is our customers’ energy consumption?',
     list: [
       'The Food and Beverage industry is responsible for 25-30% of global carbon emissions and about 17% of UK emissions',
@@ -55,7 +39,7 @@ export const HOMESECTIONCONENT = [
 export const CONTENT = [
   {
     id: 1,
-    image: '/images/profile-image.png',
+    image: '/images/AndyNew.jpg',
     title: 'Andrew Raslan',
     text: ' COO and Co-founder',
     logo: '/images/linkedin-logo.svg',
@@ -73,7 +57,7 @@ export const CONTENT = [
 
   {
     id: 2,
-    image: '/images/Arielle-profile.png',
+    image: '/images/ArielleNew.jpg',
     title: 'Arielle Torres',
     text: ' MEng, CEO',
     logo: '/images/linkedin-logo.svg',
@@ -92,7 +76,7 @@ export const CONTENT = [
   },
   {
     id: 3,
-    image: '/images/EricLehder-profile.png',
+    image: '/images/EricNew.jpg',
     title: 'Dr. Eric Lehder',
     text: ' BEng, MSc, PhD, CTO',
     logo: '/images/linkedin-logo.svg',
@@ -109,7 +93,7 @@ export const CONTENT = [
 
   {
     id: 4,
-    image: '/images/Keyvan Jodeiri-profile.png',
+    image: '/images/KeyvanNew.jpg',
     title: 'Dr. Keyvan Jodeiri',
     text: ' MSc, PhD, CSO',
     logo: '/images/linkedin-logo.svg',
@@ -124,7 +108,7 @@ export const CONTENT = [
   },
   {
     id: 5,
-    image: '/images/Thanmaya Arunkumar-profile.png',
+    image: '/images/ThanmayaNew.jpg',
     title: 'Thanmaya Arunkumar',
     text: 'BSc, MSc, Technical Lab Assistant',
     logo: '/images/linkedin-logo.svg',
@@ -133,7 +117,7 @@ export const CONTENT = [
   },
   {
     id: 6,
-    image: '/images/Ben Myers-profile.png',
+    image: '/images/BenNew.jpg',
     title: 'Ben Myers',
     text: 'BSc, PhD, Research Scientist',
     logo: '/images/linkedin-logo.svg',
@@ -328,15 +312,15 @@ export const TIMELINE_CONTENT = [
 export const CONTACTUS_CONTENT = [
   {
     id: 1,
-    title: 'Talent',
+    title: 'People',
     content: [
       {
         contentTitle: 'People first',
         contentDescription:
-          'Building a multi-disciplinary impact-driven team with skills ranging from nanotechnology to design engineering. At Pipeline Organics we put people first and we believe that people perform at their best when their wellbeing is prioritized. ​Currently we don’t have vacancies, but we will be putting our job vacancies here in the future.',
+          'Building a multi-disciplinary impact-driven team with skills ranging from nanotechnology to design engineering. At Pipeline Organics we put people first and we believe that individuals perform at their best when their wellbeing is prioritized. ​Currently we don’t have vacancies, but we will be putting our job vacancies here in the future.',
       },
     ],
-    img: '/images/partener.png',
+    img: '/images/Frideas1.jpg',
   },
   {
     id: 2,
@@ -364,11 +348,8 @@ export const CONTACTUS_CONTENT = [
       },
       {
         contentTitle: 'Innovation through Collaboration:',
+        contentDescription: 'We are a highly innovative company using multidisciplinary approaches to power the clean industry of tomorrow. Much of our R&D work is conducted in collaboration with industry partners. We are particulary on the lookout for commercial partners to collaborate on large European Innovation Council (EIC) grants, especially those operating in the following areas:',
         list: [
-          {
-            id: 1,
-            text: 'We are a highly innovative company using multidisciplinary approaches to power the clean industry of tomorrow. Much of our R&D work is conducted in collaboration with industry partners. We are particulary on the lookout for commercial partners to collaborate on large European Innovation Council (EIC) grants, especially those operating in the following areas:',
-          },
           {
             id: 2,
             text: 'Bioengineering and enzyme engineering.',
@@ -396,7 +377,7 @@ export const CONTACTUS_CONTENT = [
         ],
       },
     ],
-    img: '/images/partener.png',
+    img: '/images/FoundersFocus.jpg',
     list: [
       {
         id: 1,
@@ -464,7 +445,7 @@ export const CONTACTUS_CONTENT = [
         ],
       },
     ],
-    img: '/images/partener.png',
+    img: '/images/SevernTrentTrip.jpeg',
     list: [
       {
         id: 1,
@@ -510,9 +491,9 @@ export const CONTACTUS_CONTENT = [
         contentTitle:
           'Invest in the future of intelligent renewable clean energy​',
         contentDescription:
-          'Building a multi-disciplinary impact-driven team. At Pipeline Organics we put people first and we believe that people perform at their best when their wellbeing is prioritized. ​Currently we don’t have vacancies, but we will be putting our job vacancies here in the future.',
+          'Get in touch if you are interested in investing, we would be happy to tell you more about our business plan, our brilliant team and ofcourse our technology.',
       },
     ],
-    img: '/images/partener.png',
+    img: '/images/TechLatt.jpg',
   },
 ];

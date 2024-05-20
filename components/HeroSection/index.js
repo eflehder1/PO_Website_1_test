@@ -24,58 +24,56 @@ export const HeroSection = () => (
         <div className='max-w-[33rem]'>
           <div className='space-y-2'>
             <Fade direction='up'>
-              <p className='text-xl text-white font-semibold mb-4'>
-                Using wastewater to generate
+              <p className='text-2xl text-white font-semibold mb-4'>
+                Harnessing wastewater to
               </p>
             </Fade>
             <Fade direction='up'>
               <h1 className='text-6xl font-bold text-white'>
-                Clean Electricity.
+                Power clean Industry
               </h1>
             </Fade>
           </div>
           <Fade direction='up'>
-            <p className='text-gray-700 text-base text-white mt-5 mb-[26px]'>
-              Pipeline Organics is developing higher efficiency enzymatic
-              biofuel cells to generate clean, continuous renewable electricity
-              from wastewater, aiding energy-intensive industries meet net-zero
-              targets.
+            <p className='text-2xl text-white mt-5 mb-5'>
+            Pipeline Organics is pioneering next generation enzymatic biofuel cell 
+            technology to generate clean, renewable electricity from industrial waste streams.
             </p>
           </Fade>
           <Fade direction='up'>
-            <Button>Explore now →</Button>
+            <Button className='text-2xl'>Our Tech →</Button>
           </Fade>
-          <div className='poweredSection mt-[60px]'>
-            <p className='text-white font-semibold mb-5'>
-              Powering clean industry
+          <div className='poweredSection mt-5'>
+            <p className='text-2xl text-white font-semibold mb-5'>
+              Our supporters
             </p>
 
-            <div className='flex gap-6 items-center'>
+            <div className='grid grid-cols-3 gap-2 items-center'>
               <Fade direction='left' triggerOnce={true} cascade>
                 <img
                   src='/images/logo1.png'
                   alt='logo'
-                  className='w-[121px] h-[38px]'
+                  className='w-[250%]'
                 />
                 <img
                   src='/images/logo2.png'
                   alt='logo'
-                  className='w-[100px] h-[30px]'
+                  className='w-[250%]'
                 />
                 <img
                   src='/images/conception.png'
                   alt='logo'
-                  className='w-[100px] h-[30px]'
+                  className='w-[250%]'
                 />
                 <img
                   src='/images/innovate.png'
                   alt='logo'
-                  className='w-[100px] h-[30px]'
+                  className='w-[250%]'
                 />
                 <img
                   src='/images/techround.png'
                   alt='logo'
-                  className='w-[100px] h-[30px] mix-blend-darken'
+                  className='w-[250%] mix-blend-darken'
                 />
               </Fade>
             </div>

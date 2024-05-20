@@ -7,7 +7,7 @@ export default function ContactUs() {
     <Layout>
       <div className='mt-[86px]'>
         <div className=''>
-          <img src='/images/about.webp' alt='aboutimg' className='w-full' />
+          <img src='/images/Team2.jpg' alt='aboutimg' className='w-full' />
         </div>
       </div>
       <div className='formSection pb-20'>
