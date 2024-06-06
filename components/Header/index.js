@@ -23,11 +23,11 @@ const NAV_LINKS = [
     text: 'Tech',
     url: '/tech',
   },
-  {
-    id: 4,
-    text: 'Fun',
-    url: '/Fun',
-  },
+  // {
+  //   id: 4,
+  //   text: 'Fun',
+  //   url: '/Fun',
+  // },
   {
     id: 5,
     text: 'dashboard',

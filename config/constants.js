@@ -515,3 +515,46 @@ export const CONTACTUS_CONTENT = [
     img: '/images/TechLatt.jpg',
   },
 ];
+
+export const TECHSECTION_CONTENT = [
+  {
+    id: 1,
+    url: '/images/left0.png',
+    title: 'TankArc™ Technology',
+    text: 'TankArc™ technology converts the organic material found in wastewater into clean electricity. This happens via a novel enzymatic biofuel cell consisting of two computationally optimised 3D Printed electrodes, the anode and the cathode.',
+    list: [
+      'Scale to meet industry demands without exacerbating climate change.',
+      'We are exploting the untapped energy available from wastewater processed within Industry.',
+    ],
+  },
+  {
+    id: 2,
+    url: '/images/left1.png',
+    title: 'Pioneering',
+    text: 'We are pioneering the fusion of Biofuel cell technology with Additive Manufacturing, while in the process contributing to a global solution to the energy crisis. We are experts with biofuel cell technology as well as Additive Manufacturing Design and Engineering. Our innovations reflect the interface of these technologies.',
+    list: [
+      'Exploiting AM-enabled design freedom to maximise electrodes surface area while minimising fluid disturbances.',
+      'Enhancing surface coating processes and electrochemical analysis to ensure maximum fuel cells stability.',
+    ],
+  },
+  {
+    id: 3,
+    url: '/images/propriaryLattice.png',
+    title: 'Proprierary lattice design',
+    text: 'Lattice design is optimised for:​',
+    list: [
+      'Minimum surface area',
+      'Minimal capacity reduction',
+      'Efficient wastewater flow & mixing',
+      'Maximum reactivity of electrons',
+    ],
+    conclusion:
+      'Thus, maximising energy density while maintaining essential buffer tank functionality​.',
+  },
+  {
+    id: 4,
+    title: 'How its installed',
+    text: 'Lorem ipsum is simply the dummy text of printing and typesetting. Lorm ipsum is simply the dummy text of printing.',
+  },
+];
+
