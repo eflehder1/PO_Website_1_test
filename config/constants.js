@@ -43,8 +43,9 @@ export const CONTENT = [
     title: 'Andrew Raslan',
     text: ' COO and Co-founder',
     logo: '/images/linkedin-logo.svg',
+    linkedinUrl: 'https://www.linkedin.com/in/andrew-raslan-bsc-msc-amrsc/',
     description:
-      'Andy is one of the Co-Founders of the company. His focus is on project management, grant writing as well as company management.  Business Administration | Research and Grant Funding | Programme and Project Management | Legal and Operational Lead',
+      'Business Administration | Research and Grant Funding | Programme and Project Management | Legal and Operational Lead',
     list: [
       {
         list1: 'Hobbies: Fencing (Modern & Historical), Boxing, Cooking',
@@ -59,10 +60,11 @@ export const CONTENT = [
     id: 2,
     image: '/images/ArielleNew.jpg',
     title: 'Arielle Torres',
-    text: ' MEng, CEO',
+    text: ' CEO and Co-founder',
     logo: '/images/linkedin-logo.svg',
+    linkedinUrl: 'https://www.linkedin.com/in/arielle-torres-2017/',
     description:
-      'Arielle is one of the Co-Founders of the company. Her focus is on the financial strategy and modelling as well as company management.Financia Strategy | Investment Analysis | Sales | Mechanical Engineering | Additive Manufacturing & Materials',
+      'Financia Strategy | Investment Analysis | Sales | Mechanical Engineering | Additive Manufacturing & Materials | Network',
     list: [
       {
         list1: ' Arielle is also an athlete and adventure seeker!',
@@ -77,11 +79,12 @@ export const CONTENT = [
   {
     id: 3,
     image: '/images/EricNew.jpg',
-    title: 'Dr. Eric Lehder',
-    text: ' BEng, MSc, PhD, CTO',
+    title: 'Eric Lehder',
+    text: ' CTO and Co-founder',
     logo: '/images/linkedin-logo.svg',
+    linkedinUrl: 'https://www.linkedin.com/in/ericlehder/',
     description:
-      'Eric is one of the Co-Founders of the company, his focus is on the Design and Production as well as company management. Design Engineering | Design for Additive Manufacturing | Manufacturing | Data Science | R&D Startup experience',
+      'Design Engineering | Computational Engineering | Design for Additive Manufacturing | Manufacturing | Data Science | R&D Startups | People',
     imageList: ['/images/attachment5.png', '/images/attachment6.png'],
     list: [
       {
@@ -94,11 +97,12 @@ export const CONTENT = [
   {
     id: 4,
     image: '/images/KeyvanNew.jpg',
-    title: 'Dr. Keyvan Jodeiri',
-    text: ' MSc, PhD, CSO',
+    title: 'Keyvan Jodeiri',
+    text: ' CS and Co-founder',
     logo: '/images/linkedin-logo.svg',
+    linkedinUrl: 'https://www.linkedin.com/in/keyvan-jodeiri-503552106/',
     description:
-      'Keyvan is one of the Co-Founders as well as the main inventor of our technology. His focus is on surface chemistry as well as company management. Surface coating | Additive Manufacturing | Catalysis Scientist | Research | Enzymatic biofuel cells',
+      'Surface coating | Additive Manufacturing | Catalysis Scientist | Research | Enzymatic biofuel cells | Chemistry | People Management',
     imageList: ['/images/attachment7.png', '/images/attachment8.png'],
     list: [
       {
@@ -110,19 +114,33 @@ export const CONTENT = [
     id: 5,
     image: '/images/ThanmayaNew.jpg',
     title: 'Thanmaya Arunkumar',
-    text: 'BSc, MSc, Technical Lab Assistant',
+    text: 'Technical Lab Assistant',
     logo: '/images/linkedin-logo.svg',
+    linkedinUrl: 'https://www.linkedin.com/in/thanmaya-arunkumar-92b459171/',
     description:
-      'Thanmaya recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells.  Thanmaya did her Bachelor of Technology in Chemical Engineering at the Manipal Academy of Higher Education, followed by an Advanced Chemical Engineering Master’s degree at the University of Birmingham. She recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells. More specifically, her initial focus is on improving the immobilisation strategy to increase the power density of TankArc as well as the stability.',
-  },
+      'Thanmaya recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells.',
+    imageList: [],
+    list: [
+      {
+        list1: 'Thanmaya did her Bachelor of Technology in Chemical Engineering at the Manipal Academy of Higher Education, followed by an Advanced Chemical Engineering Master’s degree at the University of Birmingham. She recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells. More specifically, her initial focus is on improving the immobilisation strategy to increase the power density of TankArc as well as the stability.',
+      },
+    ],
+    },
   {
     id: 6,
     image: '/images/BenNew.jpg',
     title: 'Ben Myers',
-    text: 'BSc, PhD, Research Scientist',
+    text: 'Research Scientist',
     logo: '/images/linkedin-logo.svg',
+    linkedinUrl: 'https://www.linkedin.com/company/pipeline-organics/?viewAsMember=true',
     description:
       'Ben has recently joined Pipeline Organics to accelerate the characterisation, development, and implementation of TankArc.',
+    imageList: [],
+    list: [
+      {
+        list1: 'Ben completed his bachelor’s degree in food science at the University of Nottingham. After industrial roles in analytical chemistry and environmental consulting, he followed on to complete a PhD in Microbial Bioelectrochemistry at the University of Nottingham from which he recently graduated in 2024. Ben has 4-years’ experience in designing Biofuel Cell systems, and the electrochemical analytical techniques required to assess their performance. Ben started at Pipeline Organics in March 2024 to accelerate the characterisation, development, and implementation of TankArc, our Enzymatic Biofuel Cell.',
+      },
+    ],
   },
 ];
 

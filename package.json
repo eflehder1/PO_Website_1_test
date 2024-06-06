@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.11.5",
     "@lottiefiles/react-lottie-player": "^3.5.3",
     "@mui/material": "^5.15.18",
+    "@next/swc-win32-x64-msvc": "^15.0.0-rc.0",
     "chart.js": "^4.4.3",
     "classnames": "^2.5.1",
     "next": "14.2.1",

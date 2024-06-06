@@ -21,7 +21,7 @@ const customAnimation = keyframes`
 `;
 
 export const Timeline = () => (
-  <div className='text-white p-8 lg:p-28 rounded-xl bg-[linear-gradient(162deg,rgba(230,150,111,1)26%,rgba(109,163,173,1)79%)]'>
+  <div className='text-white p-8 lg:p-28 rounded-xl bg-[linear-gradient(162deg,rgba(109,163,173,0.8)26%,rgba(230,150,111,0.8)79%)]'>
     <div className={styles.wrapper}>
       <div className={styles.headingText}>
         <h2 className='text-white text-4xl font-semibold'>Programs</h2>

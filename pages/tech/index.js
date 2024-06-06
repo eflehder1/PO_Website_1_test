@@ -15,12 +15,15 @@ export default function Tech() {
       <div style={{ marginTop: '86px' }}>
         <div className='relative'>
           <div className='videoSection' style={{ position: 'relative', width: '100%', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
-            <iframe 
+            {/* <iframe 
               style={videoStyle}
               src="https://www.youtube.com/embed/XFSzF5oKMOE?rel=0&controls=0&showinfo=0&autoplay=1&mute=1"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-            ></iframe>
+            ></iframe> */}
+            <video autoPlay loop controls className='w-full'>
+              <source src='/video/tech-video2.mp4' type='video/mp4' />
+            </video>
           </div>
           <Container>
             <div className='sectionHeader max-w-[788px] mx-auto text-center flex flex-col justify-center items-center py-12'>

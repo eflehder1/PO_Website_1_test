@@ -35,7 +35,7 @@ export default function Company() {
     <Layout>
       <div className='mt-[86px]'>
         <div className=''>
-          <img src='/images/Team.jpg' alt='aboutimg' className='w-full' />
+          <img src='/images/Team_200p.jpg' alt='aboutimg' className='w-full' />
         </div>
       </div>
       {/* <div className='relative w-full md:h-[895px] pt-[200px] bg-[url(/images/BG.png)] bg-no-repeat bg-cover'>
