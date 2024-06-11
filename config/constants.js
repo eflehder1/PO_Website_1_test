@@ -1,7 +1,7 @@
 export const HOMESECTIONCONENT = [
   {
     id: 1,
-    url: '/images/HomePageImage.png',
+    url: '/images/HomePageImage2.png',
     title: 'Using Next Generation Fuel Cell Technology',
     text: 'To harness the untapped chemical potential found in industrial wastewater.',
     listTitle:
@@ -98,7 +98,7 @@ export const CONTENT = [
     id: 4,
     image: '/images/KeyvanNew.jpg',
     title: 'Keyvan Jodeiri',
-    text: ' CS and Co-founder',
+    text: ' CSO and Co-founder',
     logo: '/images/linkedin-logo.svg',
     linkedinUrl: 'https://www.linkedin.com/in/keyvan-jodeiri-503552106/',
     description:
@@ -147,7 +147,7 @@ export const CONTENT = [
 export const TimelineData = [
   {
     id: 1,
-    title: '2024',
+    title: 'This Year',
     url: '/images/timeline-img.png',
     text: 'First two hires!',
   },
@@ -155,7 +155,7 @@ export const TimelineData = [
     id: 2,
     title: '2023',
     url: '/images/cocaCola-red.png',
-    text: 'Coca Cola Case Study Site Viability',
+    text: 'Coca Cola Europacific Partners (CCEP) Invest!',
   },
   {
     id: 3,
@@ -242,20 +242,22 @@ export const BLOGCONTENT = [
 export const TIMELINE_CONTENT = [
   {
     id: 1,
-    year: '2024',
+    year: 'This Year',
+    timage: '/images/timage1.jpg',
     achievements: [
       {
         id: 1,
-        title: 'Coca Cola Case Study Site Viability',
+        title: ['Coca Cola Case Study Site Viability',
+                'Team Grows to Six!'],
         text: 'Recently we had the pleasure of welcoming Thanmaya and Ben to our team. They are great assets to our pool of technical expertise and also a really good fit culturally, we are looking forward to achieving great things together. ',
-        icon: '/images/logo/logo1.svg',
+        icon: '/images/timage1.jpg',
       },
-      {
-        id: 2,
-        title: 'Team Grows to Six!',
-        text: 'As we pivoted toward the Food and Beverages sector, we got in touch with Coca Cola Europacific Partners and we have completed an initial viability study for generating electricity at their wastewater site. It is particularly exciting because their wastewater is rich in the fuel of TankArc, our predictions are looking very promising.',
-        icon: '/images/logo/logo2.svg',
-      },
+      // {
+      //   id: 2,
+      //   title: 'Team Grows to Six!',
+      //   text: 'As we pivoted toward the Food and Beverages sector, we got in touch with Coca Cola Europacific Partners and we have completed an initial viability study for generating electricity at their wastewater site. It is particularly exciting because their wastewater is rich in the fuel of TankArc, our predictions are looking very promising.',
+      //   icon: '/images/logo/logo2.svg',
+      // },
     ],
   },
   {
@@ -264,33 +266,23 @@ export const TIMELINE_CONTENT = [
     achievements: [
       {
         id: 1,
-        title: 'UK Patent filed',
+        title: ['UK Patent filed',
+          'Engineers in Business Winners'],
         text: 'After a great pitch by our CEO Arielle Torrres, showcasing what we have done at Pipeline Organics and the revolutionary goals we have for the future, we secured our first pot of investment.',
-        icon: '/images/logo/logo3.svg',
+        icon: '/images/timage2.png',
       },
       {
         id: 2,
-        title: 'Engineers in Business Winners',
-        text: 'Having obtained full ownership of our IP earlier on, we embarked on the journey of defining where our innovation sits and together with our Lawyers filed our first patent to protect our revolutionary high surface 3D Printed Enzymatic Biofuel cell technology.',
-        icon: '/images/logo/logo4.svg',
+        title: ['Innovate UK Transformative Technologies Grant',
+          'Ingenuity Programme Climate Champions'],
+        text: 'After a great pitch by our CEO Arielle Torrres, showcasing what we have done at Pipeline Organics and the revolutionary goals we have for the future, we secured our first pot of investment.',
+        icon: '/images/timage3.png',
       },
       {
         id: 3,
-        title: 'Innovate UK Transformative Technologies Grant',
-        text: 'A brilliant pitch delivered by our CEO Arielle Torres, showcasing the groundbreaking work by the Pipeline Organics team, culminated in winning this prestigious competition.',
-        icon: '/images/logo/logo5.svg',
-      },
-      {
-        id: 4,
-        title: 'Ingenuity lab winners',
-        text: 'Lead by our COO Andrew Raslaan, this competition saw Pipeline Organics win yet another prize. We received several prizes as part of this competition, such as the Engineers in Business prize.',
-        icon: '/images/logo/logo6.svg',
-      },
-      {
-        id: 5,
         title: 'Joined Conception X Accelerator',
-        text: 'The unique invaluable skills of our COO Andrew Raslaan with communicating our company and technology through grant writing lead us to secure our first significant funding pot. Our technical experts CSO Keyvan Jodeiri and CTO Eric Lehder made good use of this to accelerate our technology readiness.',
-        icon: '/images/logo/logo7.svg',
+        text: 'Having obtained full ownership of our IP earlier on, we embarked on the journey of defining where our innovation sits and together with our Lawyers filed our first patent to protect our revolutionary high surface 3D Printed Enzymatic Biofuel cell technology.',
+        icon: '/images/timage4.png',
       },
     ],
   },
@@ -302,13 +294,13 @@ export const TIMELINE_CONTENT = [
         id: 1,
         title: 'First Customer Case Study',
         text: 'Deep dive conversations with the head of energy at Welsh Water lead to promising concepts and a letter of intent for developing a copilot to be installed at their wastewater plant.',
-        icon: '/images/logo/logo8.svg',
+        icon: '/images/timage5.png',
       },
       {
         id: 2,
         title: 'First Prototype!',
         text: 'Aware of the importance our IP has for the success of Pipeline Organics, we made sure to prioritise this early and 100% IP ownership was confirmed by the University of Nottingham legal team.',
-        icon: '/images/logo/logo9.svg',
+        icon: '/images/timage6.png',
       },
     ],
   },
@@ -321,7 +313,7 @@ export const TIMELINE_CONTENT = [
         id: 1,
         title: 'Company Incorporation',
         text: 'Tailoring our product to the needs of an end-user was a key stage for us in order to truly understand the potential of our technology and the challenges to focus on.',
-        icon: '/images/logo/logo10.svg',
+        icon: '/images/timage7.jpg',
       },
     ],
   },

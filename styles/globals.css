@@ -94,3 +94,17 @@ body {
   overflow: auto;
   height: 350px; /* Set a fixed height if necessary */
 }
+
+/* Add this to your global CSS file or a component-specific CSS file */
+.mission-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.mission-section.visible {
+  opacity: 1;
+}

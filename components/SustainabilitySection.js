@@ -8,14 +8,14 @@ import { Container } from './Container';
 const CONTENT = [
   {
     id: 1,
-    title: '50 Bn',
-    text: ' of CO2 emissions produced globally every year.',
+    title: '24%',
+    text: ' of global GHG emissions come from the energy used to power Industry.',
     icon: '/images/json/one.json',
   },
   {
     id: 2,
-    title: '24%',
-    text: ' of global GHG emissions come from the energy used to power Industry.',
+    title: '50 Bn',
+    text: ' of CO2 emissions produced globally every year.',
     icon: '/images/json/two.json',
   },
   {
