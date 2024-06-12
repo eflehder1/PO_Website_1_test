@@ -1,8 +1,10 @@
-import React from 'react';
 import Reveal from 'react-awesome-reveal';
 import { keyframes } from '@emotion/react';
+
 import { TimelineCard } from '../TimelineCard';
+
 import styles from './index.module.css';
+
 import { TIMELINE_CONTENT } from '@/config/constants';
 
 const customAnimation = keyframes`
@@ -22,7 +24,7 @@ export const Timeline = () => (
     <div className={styles.wrapper}>
       <div className={styles.logoTop}></div>
       <div className={styles.dotTop}></div>
-      {TIMELINE_CONTENT?.map((data, index) => (
+      {TIMELINE_CONTENT?.map((data) => (
         <div className={styles.list} key={data?.id}>
           <h3 className="w-full text-center pt-5 text-2xl font-bold mb-5">{data?.year}</h3>
           {/* <div className={styles.card}>

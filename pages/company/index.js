@@ -153,7 +153,7 @@ export default function Company() {
             technology that generates renewable electricity from wastewater.
             With expertise in tech-transfer, biochemistry, computational design, 
             simulation, advanced manufacturing, innovation, sales, and commercialization, 
-            we're on a mission to revolutionize renewable energy.
+            we&rsquo;re on a mission to revolutionize renewable energy.
             </p>
           </div>
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-[26px] '>

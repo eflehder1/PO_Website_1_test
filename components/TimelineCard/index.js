@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './index.module.css';
 
 export const TimelineCard = ({ data }) => (
@@ -8,10 +7,10 @@ export const TimelineCard = ({ data }) => (
     </div>
     <div className="right-section relative">
       {Array.isArray(data?.title) ? (
-        data?.title.map((sentence, index) => (
+        data?.title.map((sentence,index) => (
           // <React.Fragment key={index}>
           //   <div className={styles.squares} style={{ top: `${index * 100}px` }}></div> {/* Adjust the spacing as needed */}
-          <div className={styles.list}>
+          <div className={styles.list} key={index}>
             <p className="text-xl text-white font-semibold mb-20">{sentence}</p>
           </div>
           // </React.Fragment>

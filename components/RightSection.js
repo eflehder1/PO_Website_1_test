@@ -35,7 +35,7 @@ export const RightSection = ({ data, list, className }) => (
                     autoplay
                     loop // Play only once
                     src={data?.icon}
-                    style={{ height: '400px', width: '400px' }} // Adjust as necessary
+                    style={{ height: '400px', width: '200px' }} // Adjust as necessary
                   />
                 </div>
               ) : (
