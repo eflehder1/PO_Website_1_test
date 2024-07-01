@@ -7,9 +7,9 @@ export const HOMESECTIONCONENT = [
     listTitle:
       'When used to power industrial operations, our customers benefit from:',
     list: [
-      'Clean in-house ',
-      'No processing of fuel source',
-      'Easy, affordable retrofit',
+      'Zero-carbon energy from their own waste production;',
+      'Direct electricity with no processing of fuel such as gasification and burning;',
+      'Plug-and-play product with minimally disruptive retrofit, cleaning and maintenance.',
     ],
   },
   {
