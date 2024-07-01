@@ -113,7 +113,7 @@ export default function Company() {
                 <h3 className='text-3xl sm:text-4xl font-bold mb-5 text-secondary'>
                   Our Mission
                 </h3>
-                <p className='text-sm leading-[24px] text-gray font-medium'>
+                <p className='text-lg leading-[24px] text-gray font-medium'>
                   To provide clean, reliable electricity to energy-intensive
                   industries while making a positive impact on the environment
                   and society, we are confident in our ability to achieve our
@@ -131,7 +131,7 @@ export default function Company() {
               >
                 <div className='image'>
                   <img
-                    src='/images/Founders.jpg'
+                    src='/images/CompanyTechy.jpg'
                     alt='img'
                     width='90%'
                     className='mx-auto md:ml-auto md:mr-0'
@@ -144,15 +144,16 @@ export default function Company() {
       </div>
       <div className='meetteamSection'>
         <Container>
-          <div className=' max-w-[610px] m-auto flex flex-col pt-16 md:pt-[200px] pb-[40px] items-center justify-center text-center'>
+          <div className=' max-w-[610px] m-auto flex flex-col pt-16 md:pt-[200px] pb-[40px] items-center justify-center text-center -mt-10'>
             <h2 className=' text-4xl font-bold text-secondary'>
               Meet the team
             </h2>
-
-            <p className='text-gray-700 text-base text-gray mt-5 mb-[26px]'>
-              Our technical and commercial experts specialise in tech-transfer,
-              biochemistry, computational design, simulation, advanced
-              manufacturing, innovation, sales and commercialisation.
+            <p className='text-s text-gray-700 text-base text-gray mt-5 mb-[26px]'>
+            Our awesome team of specialists is dedicated to creating cutting-edge 
+            technology that generates renewable electricity from wastewater.
+            With expertise in tech-transfer, biochemistry, computational design, 
+            simulation, advanced manufacturing, innovation, sales, and commercialization, 
+            we&rsquo;re on a mission to revolutionize renewable energy.
             </p>
           </div>
           <div className='grid grid-cols-1 xl:grid-cols-2 gap-[26px] '>

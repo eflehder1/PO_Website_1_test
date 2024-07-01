@@ -22,7 +22,7 @@ export const Card = ({ data, onClick, setSelectedUser }) => (
           setSelectedUser(data);
         }}
       >
-        Read more
+        Dig deeper..
       </Button>
       <Link href={data?.linkedinUrl} target="_blank" rel="noopener noreferrer">
         <LinkedinIcon className='text-[#0076B2]' />

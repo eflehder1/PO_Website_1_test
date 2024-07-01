@@ -1,23 +1,23 @@
 import { useRef } from 'react';
+import Reveal from 'react-awesome-reveal';
+import { keyframes } from '@emotion/react';
 
 import { Container, Layout } from '@/components';
-// import Reveal from 'react-awesome-reveal';
-// import { LeftSection, RightSection } from '@/components';
-// import { CheckIcon } from '@/components/icons';
-// import { TECHSECTION_CONTENT } from '@/config/constants';
-// import { keyframes } from '@emotion/react';
+import { LeftSection, RightSection } from '@/components';
+import { CheckIcon } from '@/components/icons';
+import { TECHSECTION_CONTENT } from '@/config/constants';
 
-// const customAnimation = keyframes`
-//   from {
-//     opacity: 1;
-//     transform: translate3d(0, 100px, 0);
+const customAnimation = keyframes`
+  from {
+    opacity: 1;
+    transform: translate3d(0, 100px, 0);
     
-//   }
+  }
 
-//   to {
-//     opacity: 1;
-//     transform: translate3d(0, 0, 0);
-//   }`;
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }`;
 
 export default function Tech() {
   // const videoStyle = {
@@ -73,12 +73,12 @@ export default function Tech() {
           </div>
           <Container>
             <div className='sectionHeader max-w-[788px] mx-auto text-center flex flex-col justify-center items-center py-12'>
-              <h2 className='font-bold text-secondary text-4xl'>Power Generation with TankArc<sup>&trade;</sup></h2>
+              {/* <h2 className='font-bold text-secondary text-4xl'>Power Generation with TankArc<sup>&trade;</sup></h2> */}
             </div>
           </Container>
         </div>
       </div>
-      {/* <Reveal
+      <Reveal
         keyframes={customAnimation}
         delay={0.5}
         duration={1500}
@@ -134,7 +134,7 @@ export default function Tech() {
             )}
           </div>
         ))}
-      </Reveal> */}
+      </Reveal>
     </Layout>
   );
 }

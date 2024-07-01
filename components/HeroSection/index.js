@@ -1,5 +1,6 @@
 import Reveal, { Fade } from 'react-awesome-reveal';
 import { keyframes } from '@emotion/react';
+import Link from 'next/link';
 
 import { Button } from '../Button';
 import { Container } from '../Container';
@@ -29,8 +30,8 @@ export const HeroSection = () => (
               </p>
             </Fade>
             <Fade direction='up'>
-              <h1 className='text-6xl font-bold text-white'>
-                Power clean Industry
+              <h1 className='text-6xl font-bold text-white -ml-0.5'>
+              Power clean Industry
               </h1>
             </Fade>
           </div>
@@ -41,7 +42,9 @@ export const HeroSection = () => (
             </p>
           </Fade>
           <Fade direction='up'>
-            <Button className='text-2xl'>Our Tech →</Button>
+            <Link href='/tech'>
+              <Button className='text-2xl'>Discover →</Button>
+            </Link>
           </Fade>
           <div className='poweredSection mt-5'>
             <p className='text-2xl text-white font-semibold mb-5'>

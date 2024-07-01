@@ -35,7 +35,7 @@ export const RightSection = ({ data, list, className }) => (
                     autoplay
                     loop // Play only once
                     src={data?.icon}
-                    style={{ height: '400px', width: '400px' }} // Adjust as necessary
+                    style={{ height: '400px', width: '200px' }} // Adjust as necessary
                   />
                 </div>
               ) : (
@@ -43,7 +43,7 @@ export const RightSection = ({ data, list, className }) => (
                   src={data?.url}
                   alt='img'
                   width='100%'
-                  className='mx-auto md:mr-auto md:ml-0 rounded-lg'
+                  className='mx-auto md:mr-auto md:ml-0 rounded-xl'
                 />
               )}
             </div>
