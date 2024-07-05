@@ -55,15 +55,15 @@ export const CONTENT = [
     image2: '/images/AR_fun.jpg',
     title: 'Andrew Raslan',
     text: ' COO and Co-founder',
-    educ: 'MSc in Molecular Medicine, BSc in Biochemistry, PRINCE2™-accredited project manager ',
+    educ: 'MSc in Molecular Medicine, BSc in Biochemistry ',
     logo: '/images/linkedin-logo.svg',
     linkedinUrl: 'https://www.linkedin.com/in/andrew-raslan-bsc-msc-amrsc/',
     description:
-      'Planned, funded & equipped £1.2m participatory research centre for university client.',
+      'Led the planning and funding of £1.2m research centre for university client.',
       list: [
         {
-          list1: 'Andrew started his career as an infection biochemist and antimicrobial engineer before transitioning to 3D printing of advanced biomaterials. After meeting the Pipeline Organics team and co-founding the Company in 2021, he shifted from academia to merging business with STEM, nurturing his passion for business administration, governance, and fostering R&D. Andrew spearheaded a Knowledge Exchange hub with a University of Nottingham team, uniting food sciences, psychology, video games and virtual reality technology on Castle Meadow Campus. Concurrently, he has planned and funded R&D programmes at Pipeline Organics, having raised £1.2m for initiatives across both organisations in the past year.',
-          list2: 'Hobbies: Fencing (Modern & Historical), Boxing, Cooking. Motto: “The obstacles to action encourage action. What stands in the way becomes the way” – Marcus Aurelius'
+          list1: 'Andy started his career as an infection biochemist and antimicrobial engineer before transitioning to 3D printing of advanced biomaterials. After meeting the Pipeline Organics team and co-founding the Company in 2021, he shifted from academia to merging business with STEM, nurturing his passion for business administration, governance, and fostering R&D. Using a mix of scientific knowledge and connections as well as PRINCE2™ project management training, Andy spearheaded a Knowledge Exchange hub with a University of Nottingham team. This business engagement and civic impact project united food sciences, psychology, video games and virtual reality technology on Castle Meadow Campus. Concurrently, he has planned and funded R&D programmes at Pipeline Organics, having raised £1.8m for initiatives across both organisations in just the past year.',
+          list2: 'In his free time, Andy enjoys combat sports – particularly historical swordplay and amateur boxing. He is also fond of travel and learning new languages, cooking and game design.'
         },
       // list: [
       // {
@@ -89,7 +89,7 @@ export const CONTENT = [
     list: [
       {
         list1: ' Arielle is a creator at heart, her enthusiasm for turning an idea into reality is a common theme throughout her life. Choosing to pursue Mechanical Engineering at university was her first strategic step toward realising this passion, blending her aptitude for mathematics and a practical, hands-on nature. Throughout her undergraduate journey, her appreciation for computational design and manufacturing strengthened, leading her toward the exciting space of 3D printing, otherwise known as Additive Manufacturing (AM). For AM, the usual limitations of conventional manufacturing are eliminated, meaning almost any design idea can be fabricated, widening the scope of viable engineering solutions. Buying into its potential, Arielle decided to contribute to the advancement of AM technology through the pursuit of a PhD research opportunity at the University of Nottingham where she later met her co-founders. Today, Arielle harnesses her drive to create and funnels it into Pipeline Organics, bringing creative problem solving, an unapologetically ambitious attitude and an unfettered vision for the future.',
-        list2: ' In her free time, Arielle enjoys an active lifestyle, from running multiple DIY projects at once, to pursuing various sports, including rowing, mountain climbing, and volleyball, to everyday gardening.'
+        list2: ' Arielle enjoys an active lifestyle, from various DIY projects, to sports, including rowing, mountain climbing, and volleyball, to everyday gardening.'
       },
     ],
     imageList: [
@@ -118,7 +118,7 @@ export const CONTENT = [
   {
     id: 4,
     image: '/images/KeyvanNew.jpg',
-    image2: '/images/attachment8.png',
+    image2: '/images/KJ_social.jpg',
     title: 'Keyvan Jodeiri',
     text: ' CSO and Co-founder',
     educ: 'PhD in Additive Manufacturing, MSc in Chemistry',
@@ -129,8 +129,8 @@ export const CONTENT = [
     imageList: [],
     list: [
       {
-        list1: 'Keyvan is an accomplished chemist with in-depth expertise in surface chemistry, enzyme immobilisation, and the development of enzymatic biofuel cells. His academic journey commenced with a BSc in Applied Chemistry, leading to an MSc in Chemistry, where he honed his skills in nanoparticle synthesis and functionalisation for enzyme immobilisation. During his PhD, Keyvan innovated in additive manufacturing, developing functional printable materials suitable for enzyme immobilization, pivotal for crafting 3D structured micro enzymatic biofuel cells. Throughout his PhD, Keyvans involvement with the Pipeline Organics team culminated in their triumphant first-place victory at the National Young Enterprise Scheme (YES), a milestone that contributed to the founding of Pipeline Organic, making significant contributions to the field of sustainable energy.',
-        list2: 'Enjoys playing badminton and also chess!',
+        list1: 'Keyvan is an accomplished chemist with in-depth expertise in surface chemistry, enzyme immobilisation, and the development of enzymatic biofuel cells. His academic journey commenced with a BSc in Applied Chemistry, leading to an MSc in Chemistry, where he honed his skills in nanoparticle synthesis and functionalisation for enzyme immobilisation. During his PhD, Keyvan innovated in additive manufacturing, developing functional printable materials suitable for enzyme immobilisation, pivotal for crafting 3D structured micro enzymatic biofuel cells. Throughout his PhD, Keyvan’s involvement with the Pipeline Organics team culminated in their triumphant first-place win at the National Young Enterprise Scheme (YES), a milestone that contributed to the founding of Pipeline Organics, making significant contributions to sustainable energy.',
+        list2: 'Enjoys barbecue, playing badminton, and chess!',
       },
     ],
   },
@@ -144,11 +144,11 @@ export const CONTENT = [
     logo: '/images/linkedin-logo.svg',
     linkedinUrl: 'https://www.linkedin.com/in/thanmaya-arunkumar-92b459171/',
     description:
-      'Chemical Engineering specialist focusing on advanced immobilization techniques.',
+      'Chemical engineering specialist focused on advanced immobilisation techniques.',
     imageList: [],
     list: [
       {
-        list1: 'Thanmaya did her Bachelor of Technology in Chemical Engineering at the Manipal Academy of Higher Education, followed by an Advanced Chemical Engineering Master’s degree at the University of Birmingham. She recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells. More specifically, her initial focus is on improving the immobilisation strategy to increase the power density of TankArc as well as the stability.',
+        list1: 'Thanmaya did her Bachelor of Technology in Chemical engineering at the Manipal Academy of Higher Education, followed by an Advanced Chemical Engineering Master’s degree at the University of Birmingham. She recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells. More specifically, her initial focus is on improving the immobilisation strategy to increase the power density of TankArc as well as the stability.',
       },
     ],
     },
