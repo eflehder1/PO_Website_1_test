@@ -2,94 +2,115 @@ export const HOMESECTIONCONENT = [
   {
     id: 1,
     url: '/images/HomePageImage2.png',
-    title: 'Using Next Generation Fuel Cell Technology',
-    text: 'To harness the untapped chemical potential found in industrial wastewater.',
+    title: 'Introducing High Energy Density Fuel Cells',
+    text: 'Pipeline Organics is delivering a new era of industrial energy with cleaner, cheaper, and dependable renewable power. Our innovative enzymatic fuel cell technology utilises 3D printing and advanced chemistry to generate more energy in a compact design. In fact, the annual energy output of one solar panel can be achieved with a fuel cell the size of brick!',
     listTitle:
-      'When used to power industrial operations, our customers benefit from:',
+    '',
     list: [
-      'Zero-carbon energy from their own waste production;',
-      'Direct electricity with no processing of fuel such as gasification and burning;',
-      'Plug-and-play product with minimally disruptive retrofit, cleaning and maintenance.',
     ],
+    // listTitle:
+    //   'When used to power industrial operations, our customers benefit from:',
+    // list: [
+    //   'Zero-carbon energy from their own waste production;',
+    //   'Direct electricity with no processing of fuel such as gasification and burning;',
+    //   'Plug-and-play product with minimally disruptive retrofit, cleaning and maintenance.',
+    // ],
   },
   {
     id: 3,
     url: '/images/GlucoseIm.png',
-    title: 'Who do we target?',
-    text: '89% of food business respondents in the UK will make “low carbon” business a brand priority by 2025 (Centrica 2020). Additionally, 73% of respondents indicated that they are accelerating plans for more sustainable business. Large food companies like Coca Cola and Diageo have recently invested in large green energy capital projects with E.On. However, even these large projects have only covered 20-60% of the sites’ total energy needs, and there is scope for bioenergy to provide bridge their gap in energy self-sufficiency.According to the Water 2050 Report by Water UK, the situation is similar in our secondary target of water treatment.',
+    title: 'Impact and Value',
+    text: 'Our highly adaptable technology is capable of seamlessly integrating into any existing infrastructure and tapping into the chemical potential of a range of wastes, enabling maximum impact potential worldwide. ',
     list: [
-      'Immediate reduction in energy bills with power from waste',
-      'Enhancement of ESG performance bioenergy generation',
-      'Zero-carbon, continuous, year-round and weather-independent electricity',
-      'Our proprietary mix of 3D printing and engineering will provide you with a bioenergy product that enhances, rather than competes with, your existing energy solutions, and that is tailorable to your operational environment and waste chemistry following a free case study.',
+      'We promise to deliver dramatic cost savings and carbon reductions to our customers, starting with the Food & Beverage industry. A recent case study with Coca-Cola Europacific Partners demonstrates nearly 75% of a UK-based bottling site’s total annual electricity consumption can be replaced by our cleaner, cheaper, more reliable renewable electricity.'
     ],
   },
-  {
-    id: 4,
-    icon: '/images/json/EnergyConsumption.json',
-    title: 'What is our customers’ energy consumption?',
-    list: [
-      'The Food and Beverage industry is responsible for 25-30% of global carbon emissions and about 17% of UK emissions',
-      'Food and Beverage industry in the UK consumes 11.17 Terawatt Hours per year [Need example of a real correlate here e.g. “x multiples of y machine consume this much in a year”]',
-      '4,656,815 tonnes of Carbon Dioxide equivalents per year – the average yearly driving emissions of 1,108,330 passenger vehicles [EPA method]!',
-      '11% of these emissions care caused by manufacturing, storage and logistics, which TankArc can mitigate by powering local plant and electric vehicles',
-    ],
-  },
+  // {
+  //   id: 3,
+  //   url: '/images/GlucoseIm.png',
+  //   title: 'Who do we target?',
+  //   text: 'When used to power industrial operations, our customers benefit from:',
+  //   list: [
+  //     'Zero-carbon energy from their own waste production;',
+  //     'Direct electricity with no processing of fuel such as gasification and burning;',
+  //     'Plug-and-play product with minimally disruptive retrofit, cleaning and maintenance.',
+  //   ],
+  // },
+  // {
+  //   id: 4,
+  //   icon: '/images/json/EnergyConsumption.json',
+  //   title: 'What is our customers’ energy consumption?',
+  //   list: [
+  //     'The Food and Beverage industry is responsible for 25-30% of global carbon emissions and about 17% of UK emissions',
+  //     'Food and Beverage industry in the UK consumes 11.17 Terawatt Hours per year [Need example of a real correlate here e.g. “x multiples of y machine consume this much in a year”]',
+  //     '4,656,815 tonnes of Carbon Dioxide equivalents per year – the average yearly driving emissions of 1,108,330 passenger vehicles [EPA method]!',
+  //     '11% of these emissions care caused by manufacturing, storage and logistics, which TankArc can mitigate by powering local plant and electric vehicles',
+  //   ],
+  // },
 ];
 export const CONTENT = [
   {
     id: 1,
     image: '/images/AndyNew.jpg',
+    image2: '/images/AR_fun.jpg',
     title: 'Andrew Raslan',
     text: ' COO and Co-founder',
+    educ: 'MSc in Molecular Medicine, BSc in Biochemistry, PRINCE2™-accredited project manager ',
     logo: '/images/linkedin-logo.svg',
     linkedinUrl: 'https://www.linkedin.com/in/andrew-raslan-bsc-msc-amrsc/',
     description:
-      'Business Administration | Research and Grant Funding | Programme and Project Management | Legal and Operational Lead',
-    list: [
-      {
-        list1: 'Hobbies: Fencing (Modern & Historical), Boxing, Cooking',
-        list2:
-          'Motto: “The obstacles to action encourage action. What stands in the way becomes the way” – Marcus Aurelius',
-      },
+      'Planned, funded & equipped £1.2m participatory research centre for university client.',
+      list: [
+        {
+          list1: 'Andrew started his career as an infection biochemist and antimicrobial engineer before transitioning to 3D printing of advanced biomaterials. After meeting the Pipeline Organics team and co-founding the Company in 2021, he shifted from academia to merging business with STEM, nurturing his passion for business administration, governance, and fostering R&D. Andrew spearheaded a Knowledge Exchange hub with a University of Nottingham team, uniting food sciences, psychology, video games and virtual reality technology on Castle Meadow Campus. Concurrently, he has planned and funded R&D programmes at Pipeline Organics, having raised £1.2m for initiatives across both organisations in the past year.',
+          list2: 'Hobbies: Fencing (Modern & Historical), Boxing, Cooking. Motto: “The obstacles to action encourage action. What stands in the way becomes the way” – Marcus Aurelius'
+        },
+      // list: [
+      // {
+      //   list1: 'Hobbies: Fencing (Modern & Historical), Boxing, Cooking',
+      //   list2:
+      //     'Motto: “The obstacles to action encourage action. What stands in the way becomes the way” – Marcus Aurelius',
+      // },
     ],
-    imageList: ['/images/attachment1.png', '/images/attachment.png'],
+    imageList: [],
   },
 
   {
     id: 2,
     image: '/images/ArielleNew.jpg',
+    image2: '/images/AT_Fun.jpg',
     title: 'Arielle Torres',
     text: ' CEO and Co-founder',
+    educ: 'PhD in Additive Manufacturing, MEng in Mechanical Engineering',
     logo: '/images/linkedin-logo.svg',
     linkedinUrl: 'https://www.linkedin.com/in/arielle-torres-2017/',
     description:
-      'Financia Strategy | Investment Analysis | Sales | Mechanical Engineering | Additive Manufacturing & Materials | Network',
+      'Led small teams, sold six-figure sports holidays & evaluated startups for investment.',
     list: [
       {
-        list1: ' Arielle is also an athlete and adventure seeker!',
+        list1: ' Arielle is a creator at heart, her enthusiasm for turning an idea into reality is a common theme throughout her life. Choosing to pursue Mechanical Engineering at university was her first strategic step toward realising this passion, blending her aptitude for mathematics and a practical, hands-on nature. Throughout her undergraduate journey, her appreciation for computational design and manufacturing strengthened, leading her toward the exciting space of 3D printing, otherwise known as Additive Manufacturing (AM). For AM, the usual limitations of conventional manufacturing are eliminated, meaning almost any design idea can be fabricated, widening the scope of viable engineering solutions. Buying into its potential, Arielle decided to contribute to the advancement of AM technology through the pursuit of a PhD research opportunity at the University of Nottingham where she later met her co-founders. Today, Arielle harnesses her drive to create and funnels it into Pipeline Organics, bringing creative problem solving, an unapologetically ambitious attitude and an unfettered vision for the future.',
+        list2: ' In her free time, Arielle enjoys an active lifestyle, from running multiple DIY projects at once, to pursuing various sports, including rowing, mountain climbing, and volleyball, to everyday gardening.'
       },
     ],
     imageList: [
-      '/images/attachment2.png',
-      '/images/attachment3.png',
-      '/images/attachment-1.png',
     ],
   },
   {
     id: 3,
     image: '/images/EricNew.jpg',
+    image2: '/images/Padel1.png',
     title: 'Eric Lehder',
     text: ' CTO and Co-founder',
+    educ: 'PhD in Engineering enabled by Additive Manufacturing, MSc in Biomechanical Engineering, BEng in Mechanical Engineering',
     logo: '/images/linkedin-logo.svg',
     linkedinUrl: 'https://www.linkedin.com/in/ericlehder/',
     description:
-      'Design Engineering | Computational Engineering | Design for Additive Manufacturing | Manufacturing | Data Science | R&D Startups | People',
-    imageList: ['/images/attachment5.png', '/images/attachment6.png'],
+      'Computational design expert with industry experience developing 3D printed products.',
+    imageList: [],
     list: [
       {
-        list1:
-          'Loves all kinds of racket sports, currently focusing on Padel! Also really enjoy water sports such as kayaking and wind surfing!',
+        list1: 'Eric’s passion for technology, rooted in his school-time excellence in Mathematics and Physics, steered him towards Mechanical Engineering, focusing on Mechanical Design. His undergraduate journey was marked by several wins in design competitions. Eric’s interest deepened at Delft University of Technology, specializing in Biomechanical Design and excelling in algorithmic computational design and computational modeling. An early-stage practical stint at Porsche Engineering honed these skills further. During his PhD at the Centre for Additive Manufacturing, Eric optimized designs for Additively Manufactured tissue regeneration scaffolds. Concurrently, he ventured into entrepreneurship, co-founding Pipeline Organics, a renewable energy company, post 2.5 years in technology startups. Now, he contributes full-time as a co-Director at Pipeline Organics, leveraging his rich background in technology and early-stage innovation.',
+        list2: 'Loves all kinds of racket sports, currently focusing on Padel! Also really enjoy water sports such as kayaking and wind surfing!',
       },
     ],
   },
@@ -97,28 +118,33 @@ export const CONTENT = [
   {
     id: 4,
     image: '/images/KeyvanNew.jpg',
+    image2: '/images/attachment8.png',
     title: 'Keyvan Jodeiri',
     text: ' CSO and Co-founder',
+    educ: 'PhD in Additive Manufacturing, MSc in Chemistry',
     logo: '/images/linkedin-logo.svg',
     linkedinUrl: 'https://www.linkedin.com/in/keyvan-jodeiri-503552106/',
     description:
-      'Surface coating | Additive Manufacturing | Catalysis Scientist | Research | Enzymatic biofuel cells | Chemistry | People Management',
-    imageList: ['/images/attachment7.png', '/images/attachment8.png'],
+      'Surface chemistry expert and pioneering enzymatic biofuel cell scientist.',
+    imageList: [],
     list: [
       {
-        list1: 'Enjoys playing badminton and also chess!',
+        list1: 'Keyvan is an accomplished chemist with in-depth expertise in surface chemistry, enzyme immobilisation, and the development of enzymatic biofuel cells. His academic journey commenced with a BSc in Applied Chemistry, leading to an MSc in Chemistry, where he honed his skills in nanoparticle synthesis and functionalisation for enzyme immobilisation. During his PhD, Keyvan innovated in additive manufacturing, developing functional printable materials suitable for enzyme immobilization, pivotal for crafting 3D structured micro enzymatic biofuel cells. Throughout his PhD, Keyvans involvement with the Pipeline Organics team culminated in their triumphant first-place victory at the National Young Enterprise Scheme (YES), a milestone that contributed to the founding of Pipeline Organic, making significant contributions to the field of sustainable energy.',
+        list2: 'Enjoys playing badminton and also chess!',
       },
     ],
   },
   {
     id: 5,
     image: '/images/ThanmayaNew.jpg',
+    image2: '/images/Thanmaya Arunkumar-profile.png',
     title: 'Thanmaya Arunkumar',
     text: 'Technical Lab Assistant',
+    educ: 'MSc in Advanced Chemical Engineering, BSc in Chemical Engineering',
     logo: '/images/linkedin-logo.svg',
     linkedinUrl: 'https://www.linkedin.com/in/thanmaya-arunkumar-92b459171/',
     description:
-      'Thanmaya recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells.',
+      'Chemical Engineering specialist focusing on advanced immobilization techniques.',
     imageList: [],
     list: [
       {
@@ -129,12 +155,14 @@ export const CONTENT = [
   {
     id: 6,
     image: '/images/BenNew.jpg',
+    image2: '/images/Ben_fun.jpg',
     title: 'Ben Myers',
     text: 'Research Scientist',
+    educ: 'PhD in Microbial Bioelectrochemistry, BSc in Food Science',
     logo: '/images/linkedin-logo.svg',
     linkedinUrl: 'https://www.linkedin.com/company/pipeline-organics/?viewAsMember=true',
     description:
-      'Ben has recently joined Pipeline Organics to accelerate the characterisation, development, and implementation of TankArc.',
+      'Biofuel cell systems expert with industry experience in analytical chemistry.',
     imageList: [],
     list: [
       {
@@ -251,7 +279,7 @@ export const TIMELINE_CONTENT = [
                 'Team Grows to Six!'],
         text: 'Recently we had the pleasure of welcoming Thanmaya and Ben to our team. They are great assets to our pool of technical expertise and also a really good fit culturally, we are looking forward to achieving great things together. ',
         icon: '/images/timage1.jpg',
-      },
+      }
       // {
       //   id: 2,
       //   title: 'Team Grows to Six!',
@@ -283,7 +311,7 @@ export const TIMELINE_CONTENT = [
         title: 'Joined Conception X Accelerator',
         text: 'Having obtained full ownership of our IP earlier on, we embarked on the journey of defining where our innovation sits and together with our Lawyers filed our first patent to protect our revolutionary high surface 3D Printed Enzymatic Biofuel cell technology.',
         icon: '/images/timage4.png',
-      },
+      }
     ],
   },
   {
@@ -301,7 +329,7 @@ export const TIMELINE_CONTENT = [
         title: 'First Prototype!',
         text: 'Aware of the importance our IP has for the success of Pipeline Organics, we made sure to prioritise this early and 100% IP ownership was confirmed by the University of Nottingham legal team.',
         icon: '/images/timage6.png',
-      },
+      }
     ],
   },
 
@@ -314,7 +342,7 @@ export const TIMELINE_CONTENT = [
         title: 'Company Incorporation',
         text: 'Tailoring our product to the needs of an end-user was a key stage for us in order to truly understand the potential of our technology and the challenges to focus on.',
         icon: '/images/timage7.jpg',
-      },
+      }
     ],
   },
 ];

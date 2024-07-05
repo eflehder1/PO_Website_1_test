@@ -46,7 +46,7 @@ export const TeamDetailModal = ({
           <div className='flex flex-col md:flex-row gap-5'>
             <div className='image w-[500px] max-w-full md:min-w-[500px]'>
               <img
-                src={selectedUser?.image}
+                src={selectedUser?.image2}
                 alt='img'
                 width='500'
                 height='500'
@@ -62,11 +62,11 @@ export const TeamDetailModal = ({
                 </h3>
                 <h5 className='text-gray text-base mb-8'>
                   <span className='w-[13px] h-[13px] bg-peach inline-block mr-[13px]'></span>
-                  {selectedUser?.text}
+                  {selectedUser?.educ}
                 </h5>
-                <p className='text-gray text-base'>
+                {/* <p className='text-gray text-base'>
                   {selectedUser?.description}
-                </p>
+                </p> */}
                 {selectedUser?.list?.map((items, index) => (
                   <>
                     <div key={index}>

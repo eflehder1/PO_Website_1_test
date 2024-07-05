@@ -37,7 +37,7 @@ export const HeroSection = () => (
           </div>
           <Fade direction='up'>
             <p className='text-2xl text-white mt-5 mb-5'>
-            Pipeline Organics is pioneering next generation enzymatic biofuel cell 
+            Pipeline Organics is pioneering next generation biofuel cell 
             technology to generate clean, renewable electricity from industrial waste streams.
             </p>
           </Fade>
@@ -91,7 +91,7 @@ export const HeroSection = () => (
           >
             <img
               alt='Innovative material'
-              className='w-full h-full object-cover object-center mix-blend-darken mr-[80] md:mr-0'
+              className='object-cover object-center mix-blend-darken mr-0 md:mr-80'
               height='100%'
               src='/images/slide1.png'
               width='100%'

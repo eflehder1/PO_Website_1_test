@@ -9,19 +9,19 @@ const CONTENT = [
   {
     id: 1,
     title: '24%',
-    text: ' of global GHG emissions come from the energy used to power Industry.',
+    text: 'of global GHG emissions come from the energy used to power Industry.',
     icon: '/images/json/one.json',
   },
   {
     id: 2,
-    title: '50 Bn',
-    text: ' of CO2 emissions produced globally every year.',
+    title: '50 bn',
+    text: 'tonnes of CO2 emissions produced globally every year.',
     icon: '/images/json/two.json',
   },
   {
     id: 3,
-    title: '9.5 Tr',
-    text: ' 9.5 Tr MWh of electricity consumed across the Industry per year',
+    title: '9.5 tn',
+    text: 'megawatt hours of electricity consumed across Industry per year.',
     icon: '/images/json/three.json',
   },
 ];
@@ -44,7 +44,7 @@ export const SustainabilitySection = () => (
     <Container>
       <SectionHeader
         heading='Energy self-sufficiency challenge'
-        text='Industry consumes a large portion of the total electricity globally. The impact this is having in the enviroment is shocking. Cleaner forms of electricity are therefore needed.'
+        text='Rising energy costs, failing infrastructure, and unstable supply chains are straining industries, with over $145bn spent on energy bills within the F&B industry alone.'
       />
       <div className='flex flex-col items-center sm:items-start sm:flex-row justify-between gap-10 pt-12 md:pt-20'>
         {CONTENT?.map((data) => (

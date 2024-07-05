@@ -5,13 +5,13 @@ export const TimelineCard = ({ data }) => (
     <div className="left-section">
       <img src={data?.icon} alt="img" className="rounded-lg mx-auto" />
     </div>
-    <div className="right-section relative">
+    <div className="right-section">
       {Array.isArray(data?.title) ? (
         data?.title.map((sentence,index) => (
           // <React.Fragment key={index}>
           //   <div className={styles.squares} style={{ top: `${index * 100}px` }}></div> {/* Adjust the spacing as needed */}
           <div className={styles.list} key={index}>
-            <p className="text-xl text-white font-semibold mb-20">{sentence}</p>
+            <p className="lg:text-xl md:text-base sm:text-sm text-xs text-white font-semibold mb-2 sm:mb-2 lg:mb-50">{sentence}</p>
           </div>
           // </React.Fragment>
         ))
@@ -19,7 +19,7 @@ export const TimelineCard = ({ data }) => (
         // <React.Fragment key="single-title">
         //   <div className={styles.squares}></div> {/* Adjust the spacing as needed */}
         <div className={styles.list}>
-          <h3 className="text-xl text-white font-semibold mb-0">{data?.title}</h3>
+          <h3 className="lg:text-xl md:text-base sm:text-sm text-xs text-white font-semibold mb-0">{data?.title}</h3>
         </div>
         // </React.Fragment>
       )}

@@ -29,7 +29,10 @@ export const LeftSection = ({ data, list, className }) => (
             <p className='text-sm leading-[24px] text-gray font-medium mb-6'>
               {data?.text}
             </p>
-            {list ? <div>{list}</div> : ''}
+            <p className='text-sm leading-[24px] text-gray font-medium mb-6'>
+              {data?.list}
+            </p>
+            {/* {list ? <div>{list}</div> : ''} */}
           </div>
         </div>
         <div className='flex md:w-[45%]'>

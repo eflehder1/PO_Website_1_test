@@ -5,7 +5,7 @@
 
 /* Tailwind CSS for the wrapper */
 .wrapper {
-  @apply mx-auto my-[30px] w-full md:w-[80%] relative flex flex-col items-center;
+  @apply mx-auto my-[30px] w-full md:w-[80%] relative flex flex-col justify-center lg:items-center;
 }
 
 .wrapper::before {
@@ -49,6 +49,6 @@
 }
 
 .card .right-section {
-  @apply flex flex-col justify-center;
+  @apply flex justify-center;
 }
 
