@@ -17,7 +17,7 @@ const customAnimation = keyframes`
   }
 `;
 
-export const LeftSection = ({ data, list, className }) => (
+export const LeftSection = ({ data, className }) => (
   <section className={classNames('pb-12 md:pb-24', className)}>
     <Container>
       <div className='flex gap-5 items-center max-md:flex-col max-md:gap-0'>
