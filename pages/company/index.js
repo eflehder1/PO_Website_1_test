@@ -35,7 +35,7 @@ export default function Company() {
     <Layout>
       <div className='mt-[86px]'>
         <div className=''>
-          <img src='/images/Team_200p.jpg' alt='aboutimg' className='w-full' />
+          <img src='/images/Team_crop.jpg' alt='aboutimg' className='w-full' />
         </div>
       </div>
       {/* <div className='relative w-full md:h-[895px] pt-[200px] bg-[url(/images/BG.png)] bg-no-repeat bg-cover'>
@@ -152,7 +152,7 @@ export default function Company() {
             Our awesome team of specialists is dedicated to creating cutting-edge 
             technology that generates renewable electricity from wastewater.
             With expertise in tech-transfer, biochemistry, computational design, 
-            simulation, advanced manufacturing, innovation, sales, and commercialization, 
+            simulation, advanced manufacturing, innovation, sales, and commercialisation, 
             we&rsquo;re on a mission to revolutionize renewable energy.
             </p>
           </div>

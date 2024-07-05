@@ -17,7 +17,7 @@ const customAnimation = keyframes`
   }
 `;
 
-export const LeftSection = ({ data, className }) => (
+export const LeftSection = ({ data, list, className }) => (
   <section className={classNames('pb-12 md:pb-24', className)}>
     <Container>
       <div className='flex gap-5 items-center max-md:flex-col max-md:gap-0'>
@@ -30,9 +30,9 @@ export const LeftSection = ({ data, className }) => (
               {data?.text}
             </p>
             <p className='text-sm leading-[24px] text-gray font-medium mb-6'>
-              {data?.list}
+              {data?.text2}
             </p>
-            {/* {list ? <div>{list}</div> : ''} */}
+            {list ? <div>{list}</div> : ''}
           </div>
         </div>
         <div className='flex md:w-[45%]'>

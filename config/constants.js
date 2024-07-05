@@ -21,9 +21,8 @@ export const HOMESECTIONCONENT = [
     url: '/images/GlucoseIm.png',
     title: 'Impact and Value',
     text: 'Our highly adaptable technology is capable of seamlessly integrating into any existing infrastructure and tapping into the chemical potential of a range of wastes, enabling maximum impact potential worldwide. ',
-    list: [
-      'We promise to deliver dramatic cost savings and carbon reductions to our customers, starting with the Food & Beverage industry. A recent case study with Coca-Cola Europacific Partners demonstrates nearly 75% of a UK-based bottling site’s total annual electricity consumption can be replaced by our cleaner, cheaper, more reliable renewable electricity.'
-    ],
+    text2: 'We promise to deliver dramatic cost savings and carbon reductions to our customers, starting with the Food & Beverage industry. A recent case study with Coca-Cola Europacific Partners demonstrates nearly 75% of a UK-based bottling site’s total annual electricity consumption can be replaced by our cleaner, cheaper, more reliable renewable electricity.',
+    list: [],
   },
   // {
   //   id: 3,
@@ -137,7 +136,7 @@ export const CONTENT = [
   {
     id: 5,
     image: '/images/ThanmayaNew.jpg',
-    image2: '/images/Thanmaya Arunkumar-profile.png',
+    image2: '/images/TA_social.jpg',
     title: 'Thanmaya Arunkumar',
     text: 'Technical Lab Assistant',
     educ: 'MSc in Advanced Chemical Engineering, BSc in Chemical Engineering',
@@ -304,7 +303,7 @@ export const TIMELINE_CONTENT = [
         title: ['Innovate UK Transformative Technologies Grant',
           'Ingenuity Programme Climate Champions'],
         text: 'After a great pitch by our CEO Arielle Torrres, showcasing what we have done at Pipeline Organics and the revolutionary goals we have for the future, we secured our first pot of investment.',
-        icon: '/images/timage3.png',
+        icon: '/images/timage4.jpg',
       },
       {
         id: 3,
@@ -358,7 +357,7 @@ export const CONTACTUS_CONTENT = [
           'Building a multi-disciplinary impact-driven team with skills ranging from nanotechnology to design engineering. At Pipeline Organics we put people first and we believe that individuals perform at their best when their wellbeing is prioritized. ​Currently we don’t have vacancies, but we will be putting our job vacancies here in the future.',
       },
     ],
-    img: '/images/Frideas1.jpg',
+    img: '/images/Frideas2.jpg',
   },
   {
     id: 2,
@@ -415,7 +414,7 @@ export const CONTACTUS_CONTENT = [
         ],
       },
     ],
-    img: '/images/FoundersFocus.jpg',
+    img: '/images/FoundersFocus1.jpg',
     list: [
       {
         id: 1,
@@ -483,7 +482,7 @@ export const CONTACTUS_CONTENT = [
         ],
       },
     ],
-    img: '/images/SevernTrentTrip.jpeg',
+    img: '/images/TechLatt1.jpg',
     list: [
       {
         id: 1,
@@ -532,45 +531,49 @@ export const CONTACTUS_CONTENT = [
           'Get in touch if you are interested in investing, we would be happy to tell you more about our business plan, our brilliant team and ofcourse our technology.',
       },
     ],
-    img: '/images/TechLatt.jpg',
+    img: '/images/Contactus_investor.jpg',
   },
 ];
 
 export const TECHSECTION_CONTENT = [
   {
     id: 1,
-    url: '/video/tech1.gif',
+    url: '/video/tech2.gif',
     title: 'TankArc™ Technology',
-    text: 'TankArc™ technology converts the organic material found in wastewater into clean electricity. This happens via a novel enzymatic biofuel cell consisting of two computationally optimised 3D Printed electrodes, the anode and the cathode.',
-    list: [
-      'Scale to meet industry demands without exacerbating climate change.',
-      'We are exploting the untapped energy available from wastewater processed within Industry.',
-    ],
+    text: 'Utilising the biological strength of proteins, our technology harnesses the untapped energy potential within industrial organic wastes, such as simple sugars, which normally end up down the drains. Specialised coatings and computational electrode designs are combined to form next generation electrodes capable of industry-scale electricity outputs. ',
+    list: [],
+    // list: [
+    //   'Scale to meet industry demands without exacerbating climate change.',
+    //   'We are exploting the untapped energy available from wastewater processed within Industry.',
+    // ],
   },
   {
     id: 2,
-    url: '/video/tech2.gif',
-    title: 'Pioneering',
-    text: 'We are pioneering the fusion of Biofuel cell technology with Additive Manufacturing, while in the process contributing to a global solution to the energy crisis. We are experts with biofuel cell technology as well as Additive Manufacturing Design and Engineering. Our innovations reflect the interface of these technologies.',
+    url: '/images/company_tech.jpg',
+    title: 'Adaptable Chemistry and Engineering ',
+    text: 'Exploiting the design freedoms of advanced 3D printing techniques, electrode surface area can be maximised while minimising disturbances to the wastewater flow. The versatility of our enzymatic coating enables customer optimisation and tailoring to get the most out of the wastes produced on site.',
+    text2: 'Our competitive advantages and technology differentiators widen the range of viable applications across multiple sectors.',
     list: [
-      'Exploiting AM-enabled design freedom to maximise electrodes surface area while minimising fluid disturbances.',
-      'Enhancing surface coating processes and electrochemical analysis to ensure maximum fuel cells stability.',
+      'Adaptable coatings chemistry targets range of waste',
+      'Retrofit-design enables installation within any existing infrastructure',
+      'Easy-to-install, highly scalable modular electrode design',
+      'Re-useable electrodes can extend product lifetime beyond 20 years'
     ],
   },
-  {
-    id: 3,
-    url: '/images/LattTank.png',
-    title: 'Computational Engineering',
-    text: 'Computational workflows at Pipeline Organics include:​',
-    list: [
-      'Custom implicit lattice design',
-      'Physics-driven algorithmic design',
-      'Simulation mechano-fluid performance',
-      'Feedback integration for feature optimisation',
-    ],
-    conclusion:
-      'Thus, maximising energy density while maintaining essential buffer tank functionality​.',
-  },
+  // {
+  //   id: 3,
+  //   url: '/images/LattTank.png',
+  //   title: 'Computational Engineering',
+  //   text: 'Computational workflows at Pipeline Organics include:​',
+  //   list: [
+  //     'Custom implicit lattice design',
+  //     'Physics-driven algorithmic design',
+  //     'Simulation mechano-fluid performance',
+  //     'Feedback integration for feature optimisation',
+  //   ],
+  //   conclusion:
+  //     'Thus, maximising energy density while maintaining essential buffer tank functionality​.',
+  // },
   // {
   //   id: 4,
   //   title: 'How its installed',

@@ -90,7 +90,7 @@ export const LinkedinSection = () => {
       </div>
       <div className='flex flex-col md:flex-row pl-6 sm:pl-[45px] md:pr-0 tab:px-[140px] 3xl:pl-0 3xl:max-w-[1300px] mx-auto gap-5 items-center'>
         <div className='content md:w-[30%]'>
-          <h3 className='text-4xl font-bold text-white mb-5'>Linkedin Feed</h3>
+          <h3 className='text-4xl font-bold text-white mb-5'>LinkedIn Feed</h3>
           <p className='text-base text-white'>
           Follow Us: Stay up to date with our progress and be the first to hear about exciting developments on our first commercial product
           </p>
