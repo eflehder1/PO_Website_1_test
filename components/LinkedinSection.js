@@ -5,10 +5,10 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 const LinkedinPosts = [
-  'https://www.linkedin.com/embed/feed/update/urn:li:share:7155506248577101825',
-  'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7137814353726070784',
-  'https://www.linkedin.com/embed/feed/update/urn:li:share:7082261256249712640',
-  'https://www.linkedin.com/embed/feed/update/urn:li:share:7115617531272261633',
+  'https://www.linkedin.com/embed/feed/update/urn:li:activity:7214215832539643906',
+  'https://www.linkedin.com/embed/feed/update/urn:li:activity:7210923507935793152',
+  'https://www.linkedin.com/embed/feed/update/urn:li:activity:7204029252726341633',
+  'https://www.linkedin.com/embed/feed/update/urn:li:activity:7199014753162133504',
 ];
 
 const iframeContainerStyle = {

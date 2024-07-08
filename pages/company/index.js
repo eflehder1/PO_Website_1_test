@@ -105,7 +105,7 @@ export default function Company() {
           </Fade>
         </div>
       </div> */}
-      <div className='missionSection pt-28'>
+      {/* <div className='missionSection pt-28'>
         <Container>
           <div className='flex gap-5 items-center max-md:flex-col max-md:gap-0'>
             <div className='flex md:w-[45%] pr-5'>
@@ -116,9 +116,7 @@ export default function Company() {
                 <p className='text-lg leading-[24px] text-gray font-medium'>
                   To provide clean, reliable electricity to energy-intensive
                   industries while making a positive impact on the environment
-                  and society, we are confident in our ability to achieve our
-                  goals and drive meaningful change in the renewable energy
-                  landscape.
+                  and society.
                 </p>
               </div>
             </div>
@@ -131,7 +129,7 @@ export default function Company() {
               >
                 <div className='image'>
                   <img
-                    src='/images/CompanyTechy.jpg'
+                    src='/images/TechLatt.jpg'
                     alt='img'
                     width='90%'
                     className='mx-auto md:ml-auto md:mr-0'
@@ -141,10 +139,10 @@ export default function Company() {
             </div>
           </div>
         </Container>
-      </div>
+      </div> */}
       <div className='meetteamSection'>
         <Container>
-          <div className=' max-w-[610px] m-auto flex flex-col pt-16 md:pt-[200px] pb-[40px] items-center justify-center text-center -mt-10'>
+          <div className=' max-w-[610px] m-auto flex flex-col pt-[100px] pb-[40px] items-center justify-center text-center -mt-10'>
             <h2 className=' text-4xl font-bold text-secondary'>
               Meet the team
             </h2>

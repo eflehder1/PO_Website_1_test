@@ -34,7 +34,7 @@ export const Footer = () => (
     <Container>
       {/* <EmailSection /> */}
       <div className='bottomSection pt-16 md:pt-28'>
-        <div className='relative grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-2'>
+        <div className='relative grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-20'>
           <div className='image'>
             <LogoIcon />
           </div>
@@ -72,7 +72,7 @@ export const Footer = () => (
             </div>
           </div>
           <div className='socailIcons'>
-            <div className='relative flex overflow-hidden py-[6px] px-2'>
+            <div className='relative flex overflow-hidden py-[6px] px-20'>
             <Link href='https://www.linkedin.com/company/pipeline-organics/?viewAsMember=true'>
               <LinkedinIcon className='text-[#0076B2] h-12 w-12' />
             </Link>

@@ -1,7 +1,7 @@
 export const HOMESECTIONCONENT = [
   {
     id: 1,
-    url: '/images/HomePageImage2.png',
+    url: '/video/tech1.gif',
     title: 'Introducing High Energy Density Fuel Cells',
     text: 'Pipeline Organics is delivering a new era of industrial energy with cleaner, cheaper, and dependable renewable power. Our innovative enzymatic fuel cell technology utilises 3D printing and advanced chemistry to generate more energy in a compact design. In fact, the annual energy output of one solar panel can be achieved with a fuel cell the size of brick!',
     listTitle:
@@ -18,7 +18,7 @@ export const HOMESECTIONCONENT = [
   },
   {
     id: 3,
-    url: '/images/GlucoseIm.png',
+    url: '/images/company_tech.jpg',
     title: 'Impact and Value',
     text: 'Our highly adaptable technology is capable of seamlessly integrating into any existing infrastructure and tapping into the chemical potential of a range of wastes, enabling maximum impact potential worldwide. ',
     text2: 'We promise to deliver dramatic cost savings and carbon reductions to our customers, starting with the Food & Beverage industry. A recent case study with Coca-Cola Europacific Partners demonstrates nearly 75% of a UK-based bottling site’s total annual electricity consumption can be replaced by our cleaner, cheaper, more reliable renewable electricity.',
@@ -108,7 +108,7 @@ export const CONTENT = [
     imageList: [],
     list: [
       {
-        list1: 'Eric’s passion for technology, rooted in his school-time excellence in Mathematics and Physics, steered him towards Mechanical Engineering, focusing on Mechanical Design. His undergraduate journey was marked by several wins in design competitions. Eric’s interest deepened at Delft University of Technology, specializing in Biomechanical Design and excelling in algorithmic computational design and computational modeling. An early-stage practical stint at Porsche Engineering honed these skills further. During his PhD at the Centre for Additive Manufacturing, Eric optimized designs for Additively Manufactured tissue regeneration scaffolds. Concurrently, he ventured into entrepreneurship, co-founding Pipeline Organics, a renewable energy company, post 2.5 years in technology startups. Now, he contributes full-time as a co-Director at Pipeline Organics, leveraging his rich background in technology and early-stage innovation.',
+        list1: 'Eric’s passion for technology, rooted in his school-time excellence in Mathematics and Physics, steered him towards Mechanical Engineering, focusing on Mechanical Design. His undergraduate journey was marked by several wins in design competitions. Eric’s interest deepened at Delft University of Technology, specialising in Biomechanical Design and excelling in algorithmic computational design and computational modeling. An early-stage practical stint at Porsche Engineering honed these skills further. During his PhD at the Centre for Additive Manufacturing, Eric optimised designs for Additively Manufactured tissue regeneration scaffolds. Concurrently, he ventured into entrepreneurship, co-founding Pipeline Organics, a renewable energy company, post 2.5 years in technology startups. Now, he contributes full-time as a co-Director at Pipeline Organics, leveraging his rich background in technology and early-stage innovation.',
         list2: 'Loves all kinds of racket sports, currently focusing on Padel! Also really enjoy water sports such as kayaking and wind surfing!',
       },
     ],
@@ -148,6 +148,7 @@ export const CONTENT = [
     list: [
       {
         list1: 'Thanmaya did her Bachelor of Technology in Chemical engineering at the Manipal Academy of Higher Education, followed by an Advanced Chemical Engineering Master’s degree at the University of Birmingham. She recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells. More specifically, her initial focus is on improving the immobilisation strategy to increase the power density of TankArc as well as the stability.',
+        list2: 'In her free time, Thanmaya enjoys wine tasting, painting and photography.',
       },
     ],
     },
@@ -166,6 +167,7 @@ export const CONTENT = [
     list: [
       {
         list1: 'Ben completed his bachelor’s degree in food science at the University of Nottingham. After industrial roles in analytical chemistry and environmental consulting, he followed on to complete a PhD in Microbial Bioelectrochemistry at the University of Nottingham from which he recently graduated in 2024. Ben has 4-years’ experience in designing Biofuel Cell systems, and the electrochemical analytical techniques required to assess their performance. Ben started at Pipeline Organics in March 2024 to accelerate the characterisation, development, and implementation of TankArc, our Enzymatic Biofuel Cell.',
+        list2: 'Outside the lab, Ben enjoys outdoor pursuits, including hiking and mountain biking, photography, cooking and growing his own herbs and hot peppers.'
       },
     ],
   },
@@ -361,79 +363,26 @@ export const CONTACTUS_CONTENT = [
   },
   {
     id: 2,
-    title: 'Partner With Us',
+    title: 'Partners',
     content: [
       {
-        contentTitle: 'Our partnership targets:',
+        contentTitle: 'Collaborative Innovation',
+        contentDescription:'We are a highly innovative company using multidisciplinary approaches to power the clean industry of tomorrow. We rely on strategic partnerships and collaborations accelerate technology developments and reach widespread impact sooner. We are always looking for support in the following areas: ',
         list: [
           {
             id: 1,
-            title: 'Key Opinion Leaders (KOLs):​',
-            text: 'Identify and collaborate with key opinion leaders, industry experts, and environmental advocates who can endorse TankArc technology and amplify its message to a wider audience.​',
+            text: 'Customer Case Studies including desktop, experimental and in-situ pilot Enzyme Engineering & Nanomaterials.​',
           },
           {
             id: 2,
-            title: 'Content Co-Creation:​',
-            text: 'Co-create content with influential decision-makers in F&B and their own marketing teams, including blog posts, videos, and social media campaigns, to showcase TankArcs value proposition and promote its adoption within their respective networks.​',
-          },
-          {
-            id: 3,
-            title: 'Speaking Engagements:​',
-            text: 'Invite influencers to participate in webinars and other speaking engagements to share their insights on sustainable energy solutions and the role of TankArc in driving environmental impact.​',
-          },
-        ],
-      },
-      {
-        contentTitle: 'Innovation through Collaboration:',
-        contentDescription: 'We are a highly innovative company using multidisciplinary approaches to power the clean industry of tomorrow. Much of our R&D work is conducted in collaboration with industry partners. We are particulary on the lookout for commercial partners to collaborate on large European Innovation Council (EIC) grants, especially those operating in the following areas:',
-        list: [
-          {
-            id: 2,
-            text: 'Bioengineering and enzyme engineering.',
-          },
-          {
-            id: 3,
-            text: 'Nanomaterials.',
-          },
-          {
-            id: 4,
-            text: 'Electrical interface design.',
-          },
-          {
-            id: 5,
-            text: 'Regulatory consultancies for energy and Net Zero products.',
-          },
-          {
-            id: 6,
-            text: 'Environmental and analytical chemistry.',
-          },
-          {
-            id: 7,
-            text: 'Consortia built around cleaner energy or better resource usage',
+            text: 'Electrical Systems Integration Design.​',
           },
         ],
       },
     ],
     img: '/images/FoundersFocus1.jpg',
-    list: [
-      {
-        id: 1,
-        title: 'Key Opinion Leaders (KOLs):​',
-        text: 'Identify and collaborate with key opinion leaders, industry experts, and environmental advocates who can endorse TankArc technology and amplify its message to a wider audience.​',
-      },
-      {
-        id: 2,
-        title: 'Content Co-Creation:​',
-        text: 'Co-create content with influential decision-makers in F&B and their own marketing teams, including blog posts, videos, and social media campaigns, to showcase TankArcs value proposition and promote its adoption within their respective networks.​',
-      },
-      {
-        id: 3,
-        title: 'Speaking Engagements:​',
-        text: 'Invite influencers to participate in webinars and other speaking engagements to share their insights on sustainable energy solutions and the role of TankArc in driving environmental impact.​',
-      },
-    ],
     conclusion:
-      'Pipeline Organics energy-generating product is tailored to customer operational environment, so we are also keen on partnering with Customer Co-Innovators from the Food and Beverages and Water industries, which will allow us to develop, build and install the best product for your sites individual needs. For more information, please use the contact form provided.',
+      'To assess if there is a fit, please reaching out directly with a member of the team or use the contact form provided.',
   },
   {
     id: 3,
@@ -549,15 +498,15 @@ export const TECHSECTION_CONTENT = [
   },
   {
     id: 2,
-    url: '/images/company_tech.jpg',
-    title: 'Adaptable Chemistry and Engineering ',
-    text: 'Exploiting the design freedoms of advanced 3D printing techniques, electrode surface area can be maximised while minimising disturbances to the wastewater flow. The versatility of our enzymatic coating enables customer optimisation and tailoring to get the most out of the wastes produced on site.',
-    text2: 'Our competitive advantages and technology differentiators widen the range of viable applications across multiple sectors.',
+    url: '/Images/LattTank.png',
+    title: 'Advanced Adaptability',
+    text: 'Pipeline Organics leverages cutting-edge 3D printing to maximise electrode surface area, extracting more clean energy from wastewater without disrupting flow.  Our adaptable enzymatic coatings can be customised to target the specific waste streams of each customer, ensuring optimal performance.',
+    text2: 'These innovative features translate into powerful benefits for your business:',
     list: [
-      'Adaptable coatings chemistry targets range of waste',
-      'Retrofit-design enables installation within any existing infrastructure',
-      'Easy-to-install, highly scalable modular electrode design',
-      'Re-useable electrodes can extend product lifetime beyond 20 years'
+      'Broad Applicability: Our technology tackles a wide range of waste streams across diverse industries.',
+      'Retrofit Ready: Seamlessly integrate our system into your existing infrastructure, eliminating costly redesigns.',
+      'Plug-and-Play Simplicity: The modular design ensures easy installation and scalability to meet your specific needs.',
+      'Long-Lasting Performance: Reusable electrodes extend the life of the system beyond 20 years, minimising waste and maximising value.'
     ],
   },
   // {

@@ -64,6 +64,7 @@ export default function Tech() {
               ref={videoRef}
               autoPlay
               controls
+              muted
               className='w-full'
               onLoadedMetadata={handleLoadedMetadata}
               onTimeUpdate={handleTimeUpdate}

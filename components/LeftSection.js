@@ -46,7 +46,7 @@ export const LeftSection = ({ data, list, className }) => (
               <img
                 src={data?.url}
                 alt='img'
-                width='80%'
+                width='100%'
                 className='rounded-lg mx-auto md:ml-auto md:mr-0'
               />
             </div>
