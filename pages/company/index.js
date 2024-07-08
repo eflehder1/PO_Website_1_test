@@ -1,23 +1,23 @@
-import Reveal from 'react-awesome-reveal';
+// import Reveal from 'react-awesome-reveal';
 import { useState } from 'react';
-import { keyframes } from '@emotion/react';
+// import { keyframes } from '@emotion/react';
 
 import { Container, Layout, TeamDetailModal, Timeline } from '@/components';
 import { Card } from '@/components/Card';
 import { CONTENT } from '@/config/constants';
 
-const customAnimation = keyframes`
-  from {
-    opacity: 1;
-    transform: translate3d(0, 100px, 0);
+// const customAnimation = keyframes`
+//   from {
+//     opacity: 1;
+//     transform: translate3d(0, 100px, 0);
     
-  }
+//   }
 
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-`;
+//   to {
+//     opacity: 1;
+//     transform: translate3d(0, 0, 0);
+//   }
+// `;
 
 export default function Company() {
   const [showModal, setShowModal] = useState();
