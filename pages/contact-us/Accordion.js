@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Image from 'next/image';
 
 import { CONTACTUS_CONTENT } from '@/config/constants';
 
@@ -27,9 +28,11 @@ export default function Accordion() {
           {openIndex === index && (
             <div className='pt-4 bg-white border-t-2 border-[#eeeeee]'>
               <div className='p-2'>
-                <img
+                <Image
                   src={item?.img}
-                  className='h-[137px] w-full object-cover mb-4'
+                  width={1020}
+                  height={720}
+                  className='h-[70%] w-full object-cover mb-4'
                   alt='img'
                 />
                 {item?.content?.map((content, index) => (
@@ -38,7 +41,9 @@ export default function Accordion() {
                       {content?.contentTitle}
                     </h3>
                     {content?.contentDescription && (
-                      <p className='text-black'>{content.contentDescription}</p>
+                      <p className='text-black text-sm'>
+                        {content.contentDescription}
+                      </p>
                     )}
                     {content?.list ? (
                       <ul className={'list-disc mt-3 pl-4 text-black'}>

@@ -1,23 +1,9 @@
-import Reveal from 'react-awesome-reveal';
 import { useState } from 'react';
-import { keyframes } from '@emotion/react';
+import Image from 'next/image';
 
 import { Container, Layout, TeamDetailModal, Timeline } from '@/components';
 import { Card } from '@/components/Card';
 import { CONTENT } from '@/config/constants';
-
-const customAnimation = keyframes`
-  from {
-    opacity: 1;
-    transform: translate3d(0, 100px, 0);
-    
-  }
-
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-`;
 
 export default function Company() {
   const [showModal, setShowModal] = useState();
@@ -35,7 +21,13 @@ export default function Company() {
     <Layout>
       <div className='mt-[86px]'>
         <div className=''>
-          <img src='/images/about.webp' alt='aboutimg' className='w-full' />
+          <Image
+            width={1400}
+            height={1000}
+            src='/images/Team_crop.jpg'
+            alt='aboutimg'
+            className='w-full'
+          />
         </div>
       </div>
       {/* <div className='relative w-full md:h-[895px] pt-[200px] bg-[url(/images/BG.png)] bg-no-repeat bg-cover'>
@@ -57,17 +49,17 @@ export default function Company() {
             <Button variant='primary'>Explore now →</Button>
           </div>
           <div className='pt-20 relative z-10'>
-            <img
+            <Image
               alt='Innovative material'
               className='w-full h-full object-cover object-center'
-              height='100%'
+             width={1020}
+                  height={720}
               src='/images/FoundersPicture .png'
-              width='100%'
             />
           </div>
         </div>
         <div className='wave absolute -bottom-[1px] w-full'>
-          <img src='/images/wave.svg' alt='wave' className='w-full' />
+          <Image src='/images/wave.svg' alt='wave' width={1020} height={720} className='w-full' />
         </div>
       </div> */}
       {/* <div className='poweredSection flex flex-col justify-center items-center pt-16 md:pt-80'>
@@ -75,37 +67,47 @@ export default function Company() {
 
         <div className='grid grid-cols-2 sm:flex gap-6 items-center'>
           <Fade direction='left' triggerOnce={true} cascade>
-            <img
+            <Image
               src='/images/CocaCola-white.png'
               alt='logo'
+              width={1020}
+              height={720}
               className='w-[121px] h-[38px]'
             />
-            <img
+            <Image
               src='/images/White-water.png'
               alt='logo'
+              width={1020}
+              height={720}
               className='w-[100px] h-[30px]'
             />
-            <img
+            <Image
               src='/images/logo3.png'
               alt='logo'
+              width={1020}
+              height={720}
               className='w-[100px] h-[30px]'
             />
 
-            <img
+            <Image
               src='/images/logo4.png'
               alt='logo'
+              width={1020}
+              height={720}
               className='w-[100px] h-[30px]'
             />
 
-            <img
+            <Image
               src='/images/logo5.png'
               alt='logo'
+              width={1020}
+              height={720}
               className='w-[100px] h-[30px] mix-blend-darken'
             />
           </Fade>
         </div>
       </div> */}
-      <div className='missionSection pt-28'>
+      {/* <div className='missionSection pt-28'>
         <Container>
           <div className='flex gap-5 items-center max-md:flex-col max-md:gap-0'>
             <div className='flex md:w-[45%] pr-5'>
@@ -113,12 +115,10 @@ export default function Company() {
                 <h3 className='text-3xl sm:text-4xl font-bold mb-5 text-secondary'>
                   Our Mission
                 </h3>
-                <p className='text-sm leading-[24px] text-gray font-medium'>
+                <p className='text-lg leading-[24px] text-gray font-medium'>
                   To provide clean, reliable electricity to energy-intensive
                   industries while making a positive impact on the environment
-                  and society, we are confident in our ability to achieve our
-                  goals and drive meaningful change in the renewable energy
-                  landscape.
+                  and society.
                 </p>
               </div>
             </div>
@@ -130,32 +130,33 @@ export default function Company() {
                 duration={1500}
               >
                 <div className='image'>
-                  <img
-                    src='/images/left3.png'
+                  <Image
+                    src='/images/TechLatt.jpg'
                     alt='img'
-                    width='75%'
-                    className='mx-auto md:ml-auto md:mr-0'
+                    width={1020}
+                    height={720}
+                    className='mx-auto md:ml-auto md:mr-0 w-[90%]'
                   />
                 </div>
               </Reveal>
             </div>
           </div>
         </Container>
-      </div>
+      </div> */}
       <div className='meetteamSection'>
         <Container>
-          <div className=' max-w-[610px] m-auto flex flex-col pt-16 md:pt-[200px] pb-[40px] items-center justify-center text-center'>
-            <h2 className=' text-4xl font-bold text-secondary'>
-              Meet the team
-            </h2>
-
-            <p className='text-gray-700 text-base text-gray mt-5 mb-[26px]'>
-              Our technical and commercial experts specialise in tech-transfer,
-              biochemistry, computational design, simulation, advanced
-              manufacturing, innovation, sales and commercialisation.
+          <div className='max-w-[610px] m-auto flex flex-col pt-[60px] pb-[40px] items-center justify-center text-center'>
+            <h2 className='text-4xl font-bold text-secondary'>Meet the team</h2>
+            <p className='text-s text-gray-700 text-base text-gray mt-5 mb-[26px]'>
+              Our awesome team of specialists is dedicated to creating
+              cutting-edge technology that generates renewable electricity from
+              wastewater. With expertise in tech-transfer, biochemistry,
+              computational design, simulation, advanced manufacturing,
+              innovation, sales, and commercialisation, we&rsquo;re on a mission
+              to revolutionize renewable energy.
             </p>
           </div>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-[26px] '>
+          <div className='grid grid-cols-1 xl:grid-cols-2 gap-[26px]'>
             {CONTENT.map((data) => (
               <Card
                 key={data.id}

@@ -1,10 +1,11 @@
-import { keyframes } from '@emotion/react';
+import { useRef } from 'react';
 import Reveal from 'react-awesome-reveal';
+import { keyframes } from '@emotion/react';
 
-import { Layout, LeftSection, RightSection } from '@/components';
+import { Container, Layout } from '@/components';
+import { LeftSection, RightSection } from '@/components';
 import { CheckIcon } from '@/components/icons';
 import { TECHSECTION_CONTENT } from '@/config/constants';
-import { EmailSection } from '@/components/Footer/EmailSection';
 
 const customAnimation = keyframes`
   from {
@@ -19,15 +20,63 @@ const customAnimation = keyframes`
   }`;
 
 export default function Tech() {
+  // const videoStyle = {
+  //   width: '100%', // Full width
+  //   height: '100%', // Full height within its container
+  //   position: 'absolute', // Position absolutely within relative parent
+  //   top: 0,
+  //   left: 0,
+  //   border: 'none', // No border for iframe
+  // };
+
+  const videoRef = useRef(null);
+
+  const handleLoadedMetadata = () => {
+    
+    const video = videoRef.current;
+    
+    if (video) {
+      video.volume = 0.1; // Set the volume to 50%
+    }
+  };
+
+  const handleTimeUpdate = () => {
+   
+    const video = videoRef.current;
+    
+    if (video && video.currentTime >= video.duration * 0.87) {
+      video.pause();
+    }
+  };
+
   return (
     <Layout>
-      <div className='mt-[86px]'>
+      <div style={{ marginTop: '86px' }}>
         <div className='relative'>
-          <div className='videoSection mb-20'>
-            <video autoPlay loop controls className='w-full'>
-              <source src='/video/tech-video.mp4' type='video/mp4' />
+          <div className='videoSection' style={{ position: 'relative', width: '100%', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
+            {/* <iframe 
+              style={videoStyle}
+              src="https://www.youtube.com/embed/XFSzF5oKMOE?rel=0&controls=0&showinfo=0&autoplay=1&mute=1"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe> */}
+            <video
+              ref={videoRef}
+              autoPlay
+              controls
+              muted
+              className='w-full'
+              onLoadedMetadata={handleLoadedMetadata}
+              onTimeUpdate={handleTimeUpdate}
+            >
+              <source src='/video/tech-video2.mp4' type='video/mp4' />
             </video>
           </div>
+          <Container>
+            <div className='sectionHeader max-w-[788px] mx-auto text-center flex flex-col justify-center items-center py-12'>
+              {/* <h2 className='font-bold text-secondary text-4xl'>Power Generation with TankArc<sup>&trade;</sup></h2> */}
+            </div>
+          </Container>
         </div>
       </div>
       <Reveal
@@ -87,7 +136,6 @@ export default function Tech() {
           </div>
         ))}
       </Reveal>
-      <EmailSection />
     </Layout>
   );
 }

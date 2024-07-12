@@ -1,4 +1,5 @@
 import classNames from 'classnames';
+import Image from 'next/image';
 
 import { CrossIcon } from './icons';
 
@@ -45,11 +46,11 @@ export const TeamDetailModal = ({
           <CrossIcon onClick={closeModal} className='cursor-pointer ml-auto' />
           <div className='flex flex-col md:flex-row gap-5'>
             <div className='image w-[500px] max-w-full md:min-w-[500px]'>
-              <img
-                src={selectedUser?.image}
+              <Image
+                src={selectedUser?.image2}
                 alt='img'
-                width='500'
-                height='500'
+                width={500}
+                height={500}
               />
             </div>
             <div className='content p-5'>
@@ -62,11 +63,11 @@ export const TeamDetailModal = ({
                 </h3>
                 <h5 className='text-gray text-base mb-8'>
                   <span className='w-[13px] h-[13px] bg-peach inline-block mr-[13px]'></span>
-                  {selectedUser?.text}
+                  {selectedUser?.educ}
                 </h5>
-                <p className='text-gray text-base'>
+                {/* <p className='text-gray text-base'>
                   {selectedUser?.description}
-                </p>
+                </p> */}
                 {selectedUser?.list?.map((items, index) => (
                   <>
                     <div key={index}>
@@ -78,7 +79,7 @@ export const TeamDetailModal = ({
                 <div className='flex items-center mt-4 gap-2 '>
                   {selectedUser?.imageList?.map((items, index) => (
                     <div key={index}>
-                      <img src={items} className='h-[120px]' />
+                      <img src={items} alt='users' className='h-[120px]' />
                     </div>
                   ))}
                 </div>

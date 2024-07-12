@@ -24,6 +24,11 @@ const NAV_LINKS = [
     text: 'Tech',
     url: '/tech',
   },
+  // {
+  //   id: 5,
+  //   text: 'dashboard',
+  //   url: '/dashboard',
+  // },
 ];
 
 export const Sidebar = ({ onClose, className, ...rest }) => (

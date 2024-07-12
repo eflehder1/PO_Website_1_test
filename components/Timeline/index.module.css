@@ -1,12 +1,54 @@
-.wrapper {
-  @apply mx-auto my-[30px] w-full md:w-[80%] relative before:absolute before:left-0 before:w-[2px] before:h-full before:bg-cover before:bg-no-repeat
+/* .wrapper {
+  @apply mx-auto my-[30px] w-full md:w-[80%] relative before:absolute before:left-[400px] before:w-[2px] before:h-full before:bg-cover before:top-[0px] before:bg-no-repeat
      before:bg-[url(/images/blueLine.svg)];
+} */
+
+/* Tailwind CSS for the wrapper */
+.wrapper {
+  @apply mx-auto my-[30px] w-full md:w-[80%] relative flex flex-col justify-center lg:items-center;
 }
 
-.headingText {
-  @apply mb-[60px] pl-[80px] before:absolute before:left-[-27px] sm:before:left-[-33px] before:w-[57px] sm:before:w-[70px] before:h-[57px] before:bg-contain sm:before:h-[70px] before:top-[-32px] before:bg-[url(/images/blueStar.svg)];
+.wrapper::before {
+  content: '';
+  @apply absolute top-0 left-1/2 transform -translate-x-1/2 w-[2px] h-full bg-cover bg-no-repeat;
+  background-image: url('/images/blueLine.svg');
+}
+
+.logoTop {
+  @apply relative mb-[0px] w-full flex justify-center;
+}
+
+.logoTop::before {
+  content: '';
+  @apply absolute top-[-30px] left-1/2 transform -translate-x-1/2 w-[57px] sm:w-[70px] h-[57px] sm:h-[70px] bg-no-repeat bg-contain;
+  background-image: url('/images/blueStar.png');
 }
 
 .list {
-  @apply relative before:absolute before:w-2 before:h-2 before:bg-[#2E4169] before:rounded-full before:left-[-3px] before:top-[7px];
+  @apply relative w-full flex flex-col items-center mt-20;
 }
+.list::before {
+  content: '';
+  @apply absolute w-2 h-2 bg-[#2E4169] rounded-full left-1/2 transform -translate-x-1/2 top-[0px];
+}
+
+.dotTop {
+  @apply relative w-full flex flex-col items-center mt-0;
+}
+.dotTop::before {
+  content: '';
+  @apply absolute w-2 h-2 bg-[#2E4169] rounded-full left-1/2 transform -translate-x-1/2 top-[0px];
+}
+
+.card {
+  @apply w-full grid grid-cols-2 items-center gap-8 mx-auto pb-[30px];
+}
+
+.card .left-section {
+  @apply flex justify-center;
+}
+
+.card .right-section {
+  @apply flex justify-center;
+}
+

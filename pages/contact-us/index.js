@@ -5,12 +5,7 @@ import { Button, Container, Layout } from '@/components';
 export default function ContactUs() {
   return (
     <Layout>
-      <div className='mt-[86px]'>
-        <div className=''>
-          <img src='/images/about.webp' alt='aboutimg' className='w-full' />
-        </div>
-      </div>
-      <div className='formSection pb-20'>
+      <div className='formSection pb-20 pt-20'>
         <Container>
           <div className='grid md:grid-cols-2 gap-10'>
             <div className='relative pt-10 md:w-[90%]'>
@@ -95,6 +90,11 @@ export default function ContactUs() {
           </div>
         </Container>
       </div>
+      {/* <div className='mt-[86px]'>
+        <div className=''>
+          <Image src='/images/Team2.jpg' width={1020} height={720} alt='aboutimg' className='w-full' />
+        </div>
+      </div> */}
     </Layout>
   );
 }

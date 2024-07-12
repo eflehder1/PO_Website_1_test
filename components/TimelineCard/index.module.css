@@ -3,5 +3,28 @@
 }
 
 .card {
-  @apply flex flex-col sm:flex-row items-start gap-8 pl-5 sm:pl-[30px] md:pl-[86px] pb-[30px];
+  @apply w-full grid grid-cols-2 items-center gap-12 mx-auto pb-[30px];
+}
+
+.card .left-section {
+  @apply flex justify-center;
+}
+
+.card .right-section {
+  @apply flex flex-col justify-center;
+}
+
+.squares {
+  @apply absolute w-4 h-4 bg-[#2E4169];
+  left: 50%;
+  /* transform: translateX(-50%); */
+}
+
+.list {
+  @apply relative w-full flex items-start mt-0;
+}
+.list::before {
+  content: '';
+  @apply absolute w-5 h-5 bg-[#2E4169] rounded-sm -left-[34px] top-[5px];
+  /* transform: translate(-130%, 20%); */
 }

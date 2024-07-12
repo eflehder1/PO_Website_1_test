@@ -1,6 +1,7 @@
 import classNames from 'classnames';
 import Reveal from 'react-awesome-reveal';
 import { keyframes } from '@emotion/react';
+import Image from 'next/image';
 
 import { Container } from './Container';
 
@@ -21,7 +22,7 @@ export const LeftSection = ({ data, list, className }) => (
   <section className={classNames('pb-12 md:pb-24', className)}>
     <Container>
       <div className='flex gap-5 items-center max-md:flex-col max-md:gap-0'>
-        <div className='flex md:w-[55%] pr-5'>
+        <div className='flex md:w-[50%] pr-5'>
           <div className='content'>
             <h3 className='text-3xl sm:text-4xl font-bold mb-5 text-secondary'>
               {data?.title}
@@ -29,12 +30,10 @@ export const LeftSection = ({ data, list, className }) => (
             <p className='text-sm leading-[24px] text-gray font-medium mb-6'>
               {data?.text}
             </p>
+            <p className='text-sm leading-[24px] text-gray font-medium mb-6'>
+              {data?.text2}
+            </p>
             {list ? <div>{list}</div> : ''}
-            {data?.conclusion && (
-              <p className='text-sm leading-[24px] text-gray font-medium mb-6 mt-6'>
-                {data?.conclusion}
-              </p>
-            )}
           </div>
         </div>
         <div className='flex md:w-[45%]'>
@@ -45,14 +44,13 @@ export const LeftSection = ({ data, list, className }) => (
             duration={1500}
           >
             <div className='image'>
-              {data?.url && (
-                <img
-                  src={data?.url}
-                  alt='img'
-                  width='85%'
-                  className='mx-auto md:ml-auto md:mr-0'
-                />
-              )}
+              <Image
+                src={data?.url}
+                alt='img'
+                width={1000}
+                height={720}
+                className='rounded-lg mx-auto md:ml-auto w-full md:mr-0'
+              />
             </div>
           </Reveal>
         </div>

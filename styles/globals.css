@@ -19,6 +19,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: white;
+  overflow-x: hidden;
 }
 
 @layer utilities {
@@ -76,4 +77,35 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #2e4169;
   border-radius: 8px;
+}
+
+/* Hide scrollbar for WebKit-based browsers */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for other browsers */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Ensure iframe content can scroll */
+.iframe-container {
+  overflow: auto;
+  height: 350px; /* Set a fixed height if necessary */
+}
+
+/* Add this to your global CSS file or a component-specific CSS file */
+.mission-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.mission-section.visible {
+  opacity: 1;
 }

@@ -30,7 +30,9 @@ const textAnimation = keyframes`
 export const SectionHeader = ({ heading, text }) => (
   <div className='sectionHeader max-w-xl mx-auto text-center'>
     <Reveal direction='bottom' duration={1000} keyframes={headingAnimation}>
-      <h3 className='text-4xl font-bold text-secondary mb-5'>{heading}</h3>
+      <h3 className='text-3xl sm:text-4xl font-bold text-secondary mb-5'>
+        {heading}
+      </h3>
     </Reveal>
     <Reveal direction='bottom' keyframes={textAnimation} delay={10}>
       <p className='text-gray text-base mb-4'>{text}</p>

@@ -1,0 +1,82 @@
+.tech4App2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.tech4SliderContainer, .tech4ChartContainer {
+  width: 70vh;
+  margin: 10% auto;
+  padding: 10%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.tech4ChartContainer {
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  background: #fff;
+  height: 40vh;
+}
+
+.tech4Input[type="password"], .tech4Button {
+  margin: 10px 0;
+  padding: 10px;
+  display: block;
+  width: 20%;
+}
+
+.tech4Button {
+  margin: 10px 0;
+  padding: 10px;
+  display: block;
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tech4Input[type="password"] {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.tech4Button {
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.tech4Button:hover {
+  background-color: #0056b3;
+}
+
+.tech4P {
+  margin: 10px 0;
+}
+
+@media (max-width: 480px) {
+  .tech4Input[type="password"], .tech4Button {
+    width: 70%;
+    height: 4vh;
+  }
+  
+  .tech4Button {
+    width: 30%;
+  }
+
+  .tech4SliderContainer, .tech4ChartContainer {
+    width: 89%;
+    height: 30vh;
+  }
+}

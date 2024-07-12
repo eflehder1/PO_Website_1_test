@@ -1,8 +1,10 @@
 import Link from 'next/link';
 
+// import Image from 'next/image';
 import { LogoIcon } from '../icons';
 import { Container } from '../Container';
-import { Button } from '../Button';
+// import { Button } from '../Button';
+import { LinkedinIcon } from '../icons';
 
 const FOOTER_LINKS = [
   {
@@ -32,7 +34,7 @@ export const Footer = () => (
     <Container>
       {/* <EmailSection /> */}
       <div className='bottomSection pt-16 md:pt-28'>
-        <div className='relative grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-2'>
+        <div className='relative grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-20'>
           <div className='image'>
             <LogoIcon />
           </div>
@@ -70,14 +72,10 @@ export const Footer = () => (
             </div>
           </div>
           <div className='socailIcons'>
-            <div className='relative flex border border-[#E7E9ED] rounded-lg overflow-hidden py-[6px] px-2'>
-              <input
-                type='email'
-                placeholder='Enter email'
-                name='email'
-                className='w-full bg-transparent border-0 focus:outline-none placeholder:text-[#161C2D]'
-              />
-              <Button>Subscribe</Button>
+            <div className='relative flex overflow-hidden py-[6px] lg:px-20'>
+              <Link href='https://www.linkedin.com/company/pipeline-organics/?viewAsMember=true'>
+                <LinkedinIcon className='text-[#0076B2] h-12 w-12' />
+              </Link>
             </div>
           </div>
         </div>
