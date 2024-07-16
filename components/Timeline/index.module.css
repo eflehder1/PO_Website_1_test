@@ -20,7 +20,7 @@
 
 .logoTop::before {
   content: '';
-  @apply absolute top-[-30px] left-1/2 transform -translate-x-1/2 w-[57px] sm:w-[70px] h-[57px] sm:h-[70px] bg-no-repeat bg-contain;
+  @apply absolute top-[-30px] left-[49.5%] transform -translate-x-1/2 w-[57px] sm:w-[70px] h-[57px] sm:h-[70px] bg-no-repeat bg-contain;
   background-image: url('/images/blueStar.png');
 }
 
@@ -51,4 +51,3 @@
 .card .right-section {
   @apply flex justify-center;
 }
-
