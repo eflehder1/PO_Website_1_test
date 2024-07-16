@@ -505,7 +505,7 @@ export const TECHSECTION_CONTENT = [
   },
   {
     id: 2,
-    url: '/images/LattTank.webp',
+    url: '/video/Anim2.gif',
     title: 'Advanced Adaptability',
     text: 'Pipeline Organics leverages cutting-edge 3D printing to maximise electrode surface area, extracting more clean energy from wastewater without disrupting flow.  Our adaptable enzymatic coatings can be customised to target the specific waste streams of each customer, ensuring optimal performance.',
     text2:

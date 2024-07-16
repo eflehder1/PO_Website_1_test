@@ -44,10 +44,10 @@ export default function ContactUs() {
                   </p>
                 </div>
                 <form
-                  className='p-7'
+                  className='p-4 xxs:p-7'
                   onSubmit={handleSubmit(handleContactUsForm)}
                 >
-                  <div className='flex gap-3'>
+                  <div className='xxs:flex gap-3'>
                     <div className='relative mb-4 w-full'>
                       <Input
                         placeholder='Full name'
@@ -95,7 +95,19 @@ export default function ContactUs() {
                   </div>
 
                   <Button type='submit' className='w-full capitalize'>
-                    Submit &nbsp;&nbsp;&nbsp;→
+                    Submit{' '}
+                    <svg
+                      stroke='currentColor'
+                      fill='currentColor'
+                      strokeWidth='0'
+                      viewBox='0 0 24 24'
+                      height='24px'
+                      width='24px'
+                      xmlns='http://www.w3.org/2000/svg'
+                    >
+                      <path fill='none' d='M0 0h24v24H0z'></path>
+                      <path d='M16.01 11H4v2h12.01v3L20 12l-3.99-4z'></path>
+                    </svg>
                   </Button>
                 </form>
               </div>

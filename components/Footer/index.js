@@ -59,7 +59,7 @@ export const Footer = () => (
             <div className='links flex flex-col gap-3 flex-wrap xs:flex-nowrap'>
               <Link
                 href='mailto:info@pipelineorganics.co.uk'
-                className='text-base whitespace-nowrap text-black font-regular'
+                className='text-base break-all text-black font-regular'
               >
                 info@pipelineorganics.co.uk
               </Link>
