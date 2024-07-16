@@ -1,8 +1,33 @@
+import { useForm } from 'react-hook-form';
+import axios from 'axios';
+
 import Accordion from './Accordion';
 
-import { Button, Container, Layout } from '@/components';
+import { Button, Container, Input, Layout } from '@/components';
 
 export default function ContactUs() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
+  const handleContactUsForm = async (values) => {
+    try {
+      const response = await axios.post(
+        'https://pipelineorganics.co.uk/api/send-email',
+        values,
+      );
+      // eslint-disable-next-line no-console
+      console.log(response);
+    } catch (error) {
+      console.error(
+        'Error:',
+        error.response ? error.response.data : error.message,
+      );
+    }
+  };
+
   return (
     <Layout>
       <div className='formSection pb-20 pt-20'>
@@ -18,70 +43,58 @@ export default function ContactUs() {
                     We look forward to hearing from you!
                   </p>
                 </div>
-                <form className='p-7'>
+                <form
+                  className='p-7'
+                  onSubmit={handleSubmit(handleContactUsForm)}
+                >
                   <div className='flex gap-3'>
                     <div className='relative mb-4 w-full'>
-                      <label
-                        for='name'
-                        className='leading-7 text-sm text-[#29292B] font-semibold mb-[10px] inline-block'
-                      >
-                        Full name
-                      </label>
-                      <input
-                        type='text'
-                        id='name'
-                        name='name'
+                      <Input
                         placeholder='Full name'
-                        className='w-full bg-white text-[#4B4B4B] placeholder:text-[#4B4B4B] text-sm border border-[#E7E9ED] h-[56px] rounded-lg py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                        label='Full name'
+                        name='name'
+                        register={register}
+                        validationRules={{ required: 'Full name is required' }}
+                        error={errors?.name && errors.name?.message}
                       />
                     </div>
 
                     <div className='relative mb-4 w-full'>
-                      <label
-                        for='name'
-                        className='leading-7 text-sm text-[#29292B] font-semibold mb-[10px] inline-block'
-                      >
-                        Email
-                      </label>
-                      <input
+                      <Input
                         type='email'
-                        id='email'
-                        name='email'
+                        label='Email'
                         placeholder='Email'
-                        className='w-full bg-white text-[#4B4B4B] placeholder:text-[#4B4B4B] text-sm border border-[#E7E9ED] h-[56px] rounded-lg py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                        name='email'
+                        register={register}
+                        validationRules={{ required: 'Email is required' }}
+                        error={errors?.email && errors.email?.message}
                       />
                     </div>
                   </div>
                   <div className='relative mb-4 w-full'>
-                    <label
-                      for='name'
-                      className='leading-7 text-sm text-[#29292B] font-semibold mb-[10px] inline-block'
-                    >
-                      Subject
-                    </label>
-                    <input
+                    <Input
                       type='text'
-                      id='subject'
-                      name='subject'
+                      label='Subject'
                       placeholder='Subject'
-                      className='w-full bg-white text-[#4B4B4B] placeholder:text-[#4B4B4B] text-sm border border-[#E7E9ED] h-[56px] rounded-lg py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                      name='subject'
+                      register={register}
+                      validationRules={{ required: 'Subject is required' }}
+                      error={errors?.subject && errors.subject?.message}
                     />
                   </div>
                   <div className='relative mb-4'>
-                    <label
-                      for='message'
-                      className='leading-7 text-sm text-[#29292B] font-semibold mb-[10px] inline-block'
-                    >
-                      Message
-                    </label>
-                    <textarea
-                      id='message'
+                    <Input
+                      type='textarea'
+                      label='Message'
+                      placeholder='Message'
                       name='message'
-                      className='w-full bg-white text-[#4B4B4B] placeholder:text-[#4B4B4B] text-sm border border-[#E7E9ED] h-32 rounded-lg py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
-                    ></textarea>
+                      register={register}
+                      validationRules={{ required: 'message is required' }}
+                      error={errors?.message && errors.message?.message}
+                    />
                   </div>
 
-                  <Button className='w-full capitalize'>
+                  <Button type='submit' className='w-full capitalize'>
                     Submit &nbsp;&nbsp;&nbsp;→
                   </Button>
                 </form>

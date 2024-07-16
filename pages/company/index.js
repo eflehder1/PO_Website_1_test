@@ -19,12 +19,12 @@ export default function Company() {
 
   return (
     <Layout>
-      <div className='mt-[86px]'>
+      <div className='mt-[82px]'>
         <div className=''>
           <Image
             width={1400}
             height={1000}
-            src='/images/Team_crop.jpg'
+            src='/images/Team_crop.webp'
             alt='aboutimg'
             className='w-full'
           />

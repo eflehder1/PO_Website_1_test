@@ -42,15 +42,16 @@ export const TeamDetailModal = ({
         })}
         onClick={(e) => e.stopPropagation()}
       >
-        <div className='bg-white md:rounded-3xl p-10'>
+        <div className='bg-white md:rounded-3xl p-5 sm:p-10'>
           <CrossIcon onClick={closeModal} className='cursor-pointer ml-auto' />
-          <div className='flex flex-col md:flex-row gap-5'>
-            <div className='image w-[500px] max-w-full md:min-w-[500px]'>
+          <div className='flex flex-col tab:flex-row gap-5'>
+            <div className='image tab:w-[500px] max-w-full tab:min-w-[500px]'>
               <Image
                 src={selectedUser?.image2}
                 alt='img'
                 width={500}
                 height={500}
+                className='w-full'
               />
             </div>
             <div className='content p-5'>
