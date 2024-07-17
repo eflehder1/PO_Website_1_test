@@ -68,7 +68,7 @@ export default function ContactUs() {
                       className='p-4 xxs:p-7'
                       onSubmit={handleSubmit(handleContactUsForm)}
                     >
-                      <div className='xxs:flex gap-3'>
+                      <div className='sm:flex gap-3'>
                         <div className='relative mb-4 w-full'>
                           <Input
                             placeholder='Full name'
