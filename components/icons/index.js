@@ -5,3 +5,4 @@ export * from './CrossIcon';
 export * from './HamburgerIcon';
 export * from './ArrowLeftIcon';
 export * from './ArrowRightIcon';
+export * from './DoneIcon';

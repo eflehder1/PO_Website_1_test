@@ -88,7 +88,7 @@ export const LinkedinSection = () => {
         }
       `}</style>
       <section className='linkedinSection bg-primary pt-56 pb-32 3xl:pt-60 overflow-hidden relative'>
-        <div className='wave absolute top-0 w-full'>
+        <div className='wave absolute top-0 w-full before:absolute before:w-full before:h-[2px] before:bg-white before:top-0 after:absolute after:right-0 after:top-0 after:w-[4px] after:h-[85%] after:bg-white'>
           <Image
             src='/images/wave2.svg'
             alt='wave'

@@ -25,6 +25,6 @@ export const Button = ({
     )}
     disabled={loading}
   >
-    {loading ? 'loading' : children}
+    {loading ? 'Loading' : children}
   </button>
 );
