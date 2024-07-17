@@ -17,7 +17,7 @@ const sendEmailHandler = async (req, res) => {
 
     try {
       await transporter.sendMail({
-        from: email,
+        from: 'info@pipelineorganics.co.uk',
         to: 'info@pipelineorganics.co.uk',
         subject: `${subject}`,
         text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
