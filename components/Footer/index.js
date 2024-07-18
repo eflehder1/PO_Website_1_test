@@ -63,12 +63,12 @@ export const Footer = () => (
               >
                 info@pipelineorganics.co.uk
               </Link>
-              <Link
+              {/* <Link
                 href='/#'
                 className='text-base whitespace-nowrap text-black font-regular'
               >
                 Dashboard
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className='socailIcons'>
