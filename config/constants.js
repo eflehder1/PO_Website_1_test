@@ -20,7 +20,7 @@ export const HOMESECTIONCONENT = [
     title: 'Impact and Value',
     text: 'Our highly adaptable technology is capable of seamlessly integrating into any existing infrastructure and tapping into the chemical potential of a range of wastes, enabling maximum impact potential worldwide. ',
     text2:
-      'We promise to deliver dramatic cost savings and carbon reductions to our customers, starting with the Food & Beverage industry. A recent case study with Coca-Cola Europacific Partners demonstrates nearly 75% of a UK-based bottling site’s total annual electricity consumption can be replaced by our cleaner, cheaper, more reliable renewable electricity.',
+      'We promise to deliver dramatic cost savings and carbon reductions to our customers, starting with the Food & Beverage industry. A recent case study with Coca-Cola Europacific Partners estimates nearly 35% of a UK-based bottling site’s total annual electricity consumption can be replaced by our cleaner, cheaper, more reliable renewable electricity.',
     list: [],
   },
   // {
