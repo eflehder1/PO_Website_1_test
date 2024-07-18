@@ -99,7 +99,7 @@ export const CONTENT = [
   {
     id: 3,
     image: '/images/EricNew.jpg',
-    image2: '/images/Padel1.png',
+    image2: '/images/EricSocial3.jpg',
     title: 'Eric Lehder',
     text: ' CTO and Co-founder',
     educ: 'PhD in Engineering enabled by Additive Manufacturing, MSc in Biomechanical Engineering, BEng in Mechanical Engineering',
@@ -120,8 +120,8 @@ export const CONTENT = [
 
   {
     id: 4,
-    image: '/images/KeyvanNew.jpg',
-    image2: '/images/KJ_social.jpg',
+    image: '/images/KeyvanNew2.jpg',
+    image2: '/images/KeyvanSocial3.jpg',
     title: 'Keyvan Jodeiri',
     text: ' CSO and Co-founder',
     educ: 'PhD in Additive Manufacturing, MSc in Chemistry',
@@ -153,7 +153,7 @@ export const CONTENT = [
     list: [
       {
         list1:
-          'Thanmaya did her Bachelor of Technology in Chemical engineering at the Manipal Academy of Higher Education, followed by an Advanced Chemical Engineering Master’s degree at the University of Birmingham. She recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells. More specifically, her initial focus is on improving the immobilisation strategy to increase the power density of TankArc as well as the stability.',
+          'Thanmaya did her Bachelor of Technology in Chemical engineering at the Manipal Academy of Higher Education, followed by an Advanced Chemical Engineering Master’s degree at the University of Birmingham. She recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells. Thanmaya joined the team in February 2024 with the intention of improving our enzyme immobilisation strategies to increase stability and maximise power output.',
         list2:
           'In her free time, Thanmaya enjoys wine tasting, painting and photography.',
       },
@@ -175,7 +175,7 @@ export const CONTENT = [
     list: [
       {
         list1:
-          'Ben completed his bachelor’s degree in food science at the University of Nottingham. After industrial roles in analytical chemistry and environmental consulting, he followed on to complete a PhD in Microbial Bioelectrochemistry at the University of Nottingham from which he recently graduated in 2024. Ben has 4-years’ experience in designing Biofuel Cell systems, and the electrochemical analytical techniques required to assess their performance. Ben started at Pipeline Organics in March 2024 to accelerate the characterisation, development, and implementation of TankArc, our Enzymatic Biofuel Cell.',
+          'Ben completed his bachelor’s degree in food science at the University of Nottingham. After industrial roles in analytical chemistry and environmental consulting, he followed on to complete a PhD in Microbial Bioelectrochemistry at the University of Nottingham from which he recently graduated in 2024. Ben has 4-years’ experience in designing Biofuel Cell systems, and the electrochemical analytical techniques required to assess their performance. Ben joined the team in March 2024, focusing on fuel cell electrochemistry and characterisation to accelerate developments toward technology implementation in industry.',
         list2:
           'Outside the lab, Ben enjoys outdoor pursuits, including hiking and mountain biking, photography, cooking and growing his own herbs and hot peppers.',
       },
@@ -382,10 +382,14 @@ export const CONTACTUS_CONTENT = [
         list: [
           {
             id: 1,
-            text: 'Customer Case Studies including desktop, experimental and in-situ pilot Enzyme Engineering & Nanomaterials.​',
+            text: 'Customer Case Studies including desktop, experimental and in-situ pilot.​',
           },
           {
             id: 2,
+            text: 'Enzyme Engineering & Nanomaterials.​',
+          },
+          {
+            id: 3,
             text: 'Electrical Systems Integration Design.​',
           },
         ],
@@ -402,83 +406,33 @@ export const CONTACTUS_CONTENT = [
       {
         contentTitle: 'Our product is a tailorable Enzymatic Biofuel Cell​',
         contentDescription:
-          'We can alter its chemistry and geometry to turn liquid organic waste into zero-carbon electricity in a variety of customer operational environments, including',
+          'The highly adaptable design of our technology enables customisation and advanced optimisation for a wide range industry sectors, particularly Food and Beverage (F&B). We are actively testing limits by working with customers early on to tailor our first product to their waste streams.',
       },
       {
-        contentTitle: 'Fields of interest for customers:',
+        contentTitle: 'Examples of industry sectors we are excited to hear from include:',
         list: [
           {
             id: 1,
-            text: 'Soft Drinks​',
+            text: 'Beverage Manufacturers e.g. Soft Drink, Beer, Fruit Juice, Milk​',
           },
           {
             id: 2,
-            text: 'Beer',
+            text: 'Food Manufacturers e.g. Fruit and Vegetable Preserves, Sugar Biorefineries, Dairy Products',
           },
           {
             id: 3,
-            text: 'Juice',
+            text: 'Water: Wastewater Treatment Plants',
           },
           {
             id: 4,
-            text: 'Dairy',
-          },
-          {
-            id: 5,
-            text: 'Fruit Salad​',
-          },
-          {
-            id: 6,
-            text: 'Sugar Biorefineries​',
-          },
-          {
-            id: 7,
-            text: 'Baked Beans​',
-          },
-          {
-            id: 8,
-            text: 'Wastewater Treatment Plants',
+            text: 'Energy: Renewable Energy Providers, Battery Storage Providers',
           },
         ],
       },
     ],
     img: '/images/TechLatt1.jpg',
-    list: [
-      {
-        id: 1,
-        text: 'Soft Drinks​',
-      },
-      {
-        id: 2,
-        text: 'Beer',
-      },
-      {
-        id: 3,
-        text: 'Juice',
-      },
-      {
-        id: 4,
-        text: 'Dairy',
-      },
-      {
-        id: 5,
-        text: 'Fruit Salad​',
-      },
-      {
-        id: 6,
-        text: 'Sugar Biorefineries​',
-      },
-      {
-        id: 7,
-        text: 'Baked Beans​',
-      },
-      {
-        id: 8,
-        text: 'Wastewater Treatment Plants',
-      },
-    ],
     conclusion:
-      'As long as you have a steady production of liquid organic waste, we can use it to provide baseload energy or power your plant and machinery.',
+      'If your sector isn\'t listed but you see a fit, please get in touch so we can explore potential opportunities together.',
   },
   {
     id: 4,
@@ -488,7 +442,7 @@ export const CONTACTUS_CONTENT = [
         contentTitle:
           'Invest in the future of intelligent renewable clean energy​',
         contentDescription:
-          'Get in touch if you are interested in investing, we would be happy to tell you more about our business plan, our brilliant team and ofcourse our technology.',
+          'Although we are not actively raising investment, we appreciate the importance of building trust and strengthening relationships early on, well before the next raise. If you are excited by what we\'re building and feel there is good alignment, we welcome an opportunity to learn more about each other.',
       },
     ],
     img: '/images/Contactus_investor.jpg',

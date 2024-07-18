@@ -43,8 +43,8 @@ export const SustainabilitySection = () => (
   <section className='py-20 sm:py-24 tab:py-40'>
     <Container>
       <SectionHeader
-        heading='Energy self-sufficiency challenge'
-        text='Rising energy costs, failing infrastructure, and unstable supply chains are straining industries, with over $145bn spent on energy bills within the F&B industry alone.'
+        heading='The Global Energy Challenge'
+        text='Inflated energy costs, crumbling infrastructure, and unreliable supply chains are crippling energy-intensive industries. The Food & Beverage sector alone spends a staggering $145 billion annually on energy bills.'
       />
       <div className='flex flex-col items-center sm:items-start sm:flex-row justify-between gap-10 pt-12 md:pt-20'>
         {CONTENT?.map((data) => (
