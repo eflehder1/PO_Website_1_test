@@ -11,7 +11,7 @@ export const HOMESECTIONCONENT = [
     // list: [
     //   'Zero-carbon energy from their own waste production',
     //   'Direct electricity with no processing of fuel such as gasification and burning;',
-    //   'Plug-and-play product with minimally disruptive retrofit, cleaning and maintenanc.',
+    //   'Plug-and-play product with minimally disruptive retrofit, cleaning and maintenanc',
     // ],
   },
   {
