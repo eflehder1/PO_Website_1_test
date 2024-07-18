@@ -24,7 +24,7 @@ export default function Company() {
           <Image
             width={1400}
             height={1000}
-            src='/images/Team_crop.webp'
+            src='/images/Team_crop.jpg'
             alt='aboutimg'
             className='w-full'
           />

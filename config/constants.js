@@ -16,7 +16,7 @@ export const HOMESECTIONCONENT = [
   },
   {
     id: 3,
-    url: '/images/company_tech.webp',
+    url: '/images/company_tech.jpg',
     title: 'Impact and Value',
     text: 'Our highly adaptable technology is capable of seamlessly integrating into any existing infrastructure and tapping into the chemical potential of a range of wastes, enabling maximum impact potential worldwide. ',
     text2:
@@ -49,8 +49,8 @@ export const HOMESECTIONCONENT = [
 export const CONTENT = [
   {
     id: 1,
-    image: '/images/AndyNew.webp',
-    image2: '/images/AR_fun.webp',
+    image: '/images/AndyNew.jpg',
+    image2: '/images/AR_fun.jpg',
     title: 'Andrew Raslan',
     text: ' COO and Co-founder',
     educ: 'MSc in Molecular Medicine, BSc in Biochemistry ',
@@ -77,8 +77,8 @@ export const CONTENT = [
 
   {
     id: 2,
-    image: '/images/ArielleNew.webp',
-    image2: '/images/AT_Fun.webp',
+    image: '/images/ArielleNew.jpg',
+    image2: '/images/AT_Fun.jpg',
     title: 'Arielle Torres',
     text: ' CEO and Co-founder',
     educ: 'PhD in Additive Manufacturing, MEng in Mechanical Engineering',
@@ -98,8 +98,8 @@ export const CONTENT = [
   },
   {
     id: 3,
-    image: '/images/EricNew.webp',
-    image2: '/images/Padel1.webp',
+    image: '/images/EricNew.jpg',
+    image2: '/images/Padel1.png',
     title: 'Eric Lehder',
     text: ' CTO and Co-founder',
     educ: 'PhD in Engineering enabled by Additive Manufacturing, MSc in Biomechanical Engineering, BEng in Mechanical Engineering',
@@ -120,8 +120,8 @@ export const CONTENT = [
 
   {
     id: 4,
-    image: '/images/KeyvanNew.webp',
-    image2: '/images/KJ_social.webp',
+    image: '/images/KeyvanNew.jpg',
+    image2: '/images/KJ_social.jpg',
     title: 'Keyvan Jodeiri',
     text: ' CSO and Co-founder',
     educ: 'PhD in Additive Manufacturing, MSc in Chemistry',
@@ -140,8 +140,8 @@ export const CONTENT = [
   },
   {
     id: 5,
-    image: '/images/ThanmayaNew.webp',
-    image2: '/images/TA_social.webp',
+    image: '/images/ThanmayaNew.jpg',
+    image2: '/images/TA_social.jpg',
     title: 'Thanmaya Arunkumar',
     text: 'Technical Lab Assistant',
     educ: 'MSc in Advanced Chemical Engineering, BSc in Chemical Engineering',
@@ -161,8 +161,8 @@ export const CONTENT = [
   },
   {
     id: 6,
-    image: '/images/BenNew.webp',
-    image2: '/images/Ben_fun.webp',
+    image: '/images/BenNew.jpg',
+    image2: '/images/Ben_fun.jpg',
     title: 'Ben Myers',
     text: 'Research Scientist',
     educ: 'PhD in Microbial Bioelectrochemistry, BSc in Food Science',
@@ -282,13 +282,13 @@ export const TIMELINE_CONTENT = [
   {
     id: 1,
     year: 'This Year',
-    timage: '/images/timage1.webp',
+    timage: '/images/timage1.jpg',
     achievements: [
       {
         id: 1,
         title: ['Coca Cola Case Study Site Viability', 'Team Grows to Six!'],
         text: 'Recently we had the pleasure of welcoming Thanmaya and Ben to our team. They are great assets to our pool of technical expertise and also a really good fit culturally, we are looking forward to achieving great things together. ',
-        icon: '/images/timage1.webp',
+        icon: '/images/timage1.jpg',
       },
       // {
       //   id: 2,
@@ -306,7 +306,7 @@ export const TIMELINE_CONTENT = [
         id: 1,
         title: ['UK Patent filed', 'Engineers in Business Winners'],
         text: 'After a great pitch by our CEO Arielle Torrres, showcasing what we have done at Pipeline Organics and the revolutionary goals we have for the future, we secured our first pot of investment.',
-        icon: '/images/timage2.webp',
+        icon: '/images/timage2.png',
       },
       {
         id: 2,
@@ -315,13 +315,13 @@ export const TIMELINE_CONTENT = [
           'Ingenuity Programme Climate Champions',
         ],
         text: 'After a great pitch by our CEO Arielle Torrres, showcasing what we have done at Pipeline Organics and the revolutionary goals we have for the future, we secured our first pot of investment.',
-        icon: '/images/timage3.webp',
+        icon: '/images/timage4.jpg',
       },
       {
         id: 3,
         title: 'Joined Conception X Accelerator',
         text: 'Having obtained full ownership of our IP earlier on, we embarked on the journey of defining where our innovation sits and together with our Lawyers filed our first patent to protect our revolutionary high surface 3D Printed Enzymatic Biofuel cell technology.',
-        icon: '/images/timage4.webp',
+        icon: '/images/timage4.png',
       },
     ],
   },
@@ -333,13 +333,13 @@ export const TIMELINE_CONTENT = [
         id: 1,
         title: 'First Customer Case Study',
         text: 'Deep dive conversations with the head of energy at Welsh Water lead to promising concepts and a letter of intent for developing a copilot to be installed at their wastewater plant.',
-        icon: '/images/timage5.webp',
+        icon: '/images/timage5.png',
       },
       {
         id: 2,
         title: 'First Prototype!',
         text: 'Aware of the importance our IP has for the success of Pipeline Organics, we made sure to prioritise this early and 100% IP ownership was confirmed by the University of Nottingham legal team.',
-        icon: '/images/timage6.webp',
+        icon: '/images/timage6.png',
       },
     ],
   },
@@ -352,7 +352,7 @@ export const TIMELINE_CONTENT = [
         id: 1,
         title: 'Company Incorporation',
         text: 'Tailoring our product to the needs of an end-user was a key stage for us in order to truly understand the potential of our technology and the challenges to focus on.',
-        icon: '/images/timage7.webp',
+        icon: '/images/timage7.jpg',
       },
     ],
   },
@@ -369,7 +369,7 @@ export const CONTACTUS_CONTENT = [
           'Building a multi-disciplinary impact-driven team with skills ranging from nanotechnology to design engineering. At Pipeline Organics we put people first and we believe that individuals perform at their best when their wellbeing is prioritized. ​Currently we don’t have vacancies, but we will be putting our job vacancies here in the future.',
       },
     ],
-    img: '/images/Frideas2.webp',
+    img: '/images/Frideas2.jpg',
   },
   {
     id: 2,
@@ -391,7 +391,7 @@ export const CONTACTUS_CONTENT = [
         ],
       },
     ],
-    img: '/images/FoundersFocus1.webp',
+    img: '/images/FoundersFocus1.jpg',
     conclusion:
       'To assess if there is a fit, please reaching out directly with a member of the team or use the contact form provided.',
   },
@@ -442,7 +442,7 @@ export const CONTACTUS_CONTENT = [
         ],
       },
     ],
-    img: '/images/TechLatt1.webp',
+    img: '/images/TechLatt1.jpg',
     list: [
       {
         id: 1,
@@ -491,7 +491,7 @@ export const CONTACTUS_CONTENT = [
           'Get in touch if you are interested in investing, we would be happy to tell you more about our business plan, our brilliant team and ofcourse our technology.',
       },
     ],
-    img: '/images/Contactus_investor.webp',
+    img: '/images/Contactus_investor.jpg',
   },
 ];
 

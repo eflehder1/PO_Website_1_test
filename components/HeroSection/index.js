@@ -104,7 +104,7 @@ export const HeroSection = () => (
               alt='Innovative material'
               className='object-cover object-center mix-blend-darken mr-0 md:mr-80 h-full w-full'
               height={800}
-              src='/images/slide1.webp'
+              src='/images/slide1.png'
               width={1400}
             />
           </Reveal>
