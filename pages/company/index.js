@@ -148,7 +148,7 @@ export default function Company() {
           <div className='max-w-[610px] m-auto flex flex-col pt-[60px] pb-[40px] items-center justify-center text-center'>
             <h2 className='text-4xl font-bold text-secondary'>Meet the team</h2>
             <p className='text-s text-gray-700 text-base text-gray mt-5 mb-[26px]'>
-            We\'re not your average cleantech team. We\'re a band of specialists united by a mission: to disrupt the energy landscape with ground-breaking fuel cells that generate renewable electricity from wastewater.
+            Were not your average cleantech team. Were a band of specialists united by a mission: to disrupt the energy landscape with ground-breaking fuel cells that generate renewable electricity from wastewater.
             Our team blends skills across various disciplines: tech-transfer wizards, biochemistry rockstars, computational design ninjas, simulation superheroes, and manufacturing and commercialisation masterminds.
             </p>
           </div>
