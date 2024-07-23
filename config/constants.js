@@ -285,17 +285,17 @@ export const TIMELINE_CONTENT = [
     timage: '/images/timage1.jpg',
     achievements: [
       {
-        id: 1,
-        title: ['Coca Cola Case Study Site Viability', 'Team Grows to Six!'],
+        id: 2,
+        title: 'Coca Cola Case Study Site Viability',
         text: 'Recently we had the pleasure of welcoming Thanmaya and Ben to our team. They are great assets to our pool of technical expertise and also a really good fit culturally, we are looking forward to achieving great things together. ',
+        icon: '/images/CocaColaCCEP.jpg',
+      },
+      {
+        id: 1,
+        title: 'Team Grows to Six!',
+        text: 'As we pivoted toward the Food and Beverages sector, we got in touch with Coca Cola Europacific Partners and we have completed an initial viability study for generating electricity at their wastewater site. It is particularly exciting because their wastewater is rich in the fuel of TankArc, our predictions are looking very promising.',
         icon: '/images/timage1.jpg',
       },
-      // {
-      //   id: 2,
-      //   title: 'Team Grows to Six!',
-      //   text: 'As we pivoted toward the Food and Beverages sector, we got in touch with Coca Cola Europacific Partners and we have completed an initial viability study for generating electricity at their wastewater site. It is particularly exciting because their wastewater is rich in the fuel of TankArc, our predictions are looking very promising.',
-      //   icon: '/images/logo/logo2.svg',
-      // },
     ],
   },
   {
