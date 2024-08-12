@@ -63,7 +63,7 @@ export const CONTENT = [
         list1:
           'Andy started his career as an infection biochemist and antimicrobial engineer before transitioning to 3D printing of advanced biomaterials. After meeting the Pipeline Organics team and co-founding the Company in 2021, he shifted from academia to merging business with STEM, nurturing his passion for business administration, governance, and fostering R&D. Using a mix of scientific knowledge and connections as well as PRINCE2™ project management training, Andy spearheaded a Knowledge Exchange hub with a University of Nottingham team. This business engagement and civic impact project united food sciences, psychology, video games and virtual reality technology on Castle Meadow Campus. Concurrently, he has planned and funded R&D programmes at Pipeline Organics, having raised £1.8m for initiatives across both organisations in just the past year.',
         list2:
-          'In his free time, Andy enjoys combat sports – particularly historical swordplay and amateur boxing. He is also fond of travel and learning new languages, cooking and game design.',
+          'In his free time, Andy enjoys combat sports – particularly Historical fencing and martial arts. He is also fond of travel and learning new languages, cooking and game design.',
       },
       // list: [
       // {
