@@ -16,7 +16,7 @@
     "axios": "^1.7.2",
     "chart.js": "^4.4.3",
     "classnames": "^2.5.1",
-    "next": "^14.2.5",
+    "next": "^14.2.8",
     "nodemailer": "^6.9.14",
     "prettier": "^3.2.5",
     "react": "^18.3.1",
