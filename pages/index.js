@@ -1,5 +1,6 @@
 import { keyframes } from '@emotion/react';
 import Reveal from 'react-awesome-reveal';
+import Link from 'next/link';
 
 import {
   HeroSection,
@@ -89,6 +90,11 @@ export default function Home() {
         ))}
       </Reveal>
       <LinkedinSection />
+      <div className='text-center my-10'>
+        <Link href="/calculator" className='text-primary hover:underline text-lg font-semibold'>
+          Go to Calculator
+        </Link>
+      </div>
     </Layout>
   );
 }
