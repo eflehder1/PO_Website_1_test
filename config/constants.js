@@ -140,27 +140,6 @@ export const CONTENT = [
   },
   {
     id: 5,
-    image: '/images/ThanmayaNew.jpg',
-    image2: '/images/TA_social.jpg',
-    title: 'Thanmaya Arunkumar',
-    text: 'Technical Lab Assistant',
-    educ: 'MSc in Advanced Chemical Engineering, BSc in Chemical Engineering',
-    logo: '/images/linkedin-logo.svg',
-    linkedinUrl: 'https://www.linkedin.com/in/thanmaya-arunkumar-92b459171/',
-    description:
-      'Chemical engineering specialist focused on advanced immobilisation techniques.',
-    imageList: [],
-    list: [
-      {
-        list1:
-          'Thanmaya did her Bachelor of Technology in Chemical engineering at the Manipal Academy of Higher Education, followed by an Advanced Chemical Engineering Master’s degree at the University of Birmingham. She recently joined Pipeline Organics to work on developing higher efficiency enzymatic biofuel cells. Thanmaya joined the team in February 2024 with the intention of improving our enzyme immobilisation strategies to increase stability and maximise power output.',
-        list2:
-          'In her free time, Thanmaya enjoys wine tasting, painting and photography.',
-      },
-    ],
-  },
-  {
-    id: 6,
     image: '/images/BenNew.jpg',
     image2: '/images/Ben_fun.jpg',
     title: 'Ben Myers',
@@ -178,6 +157,48 @@ export const CONTENT = [
           'Ben completed his bachelor’s degree in food science at the University of Nottingham. After industrial roles in analytical chemistry and environmental consulting, he followed on to complete a PhD in Microbial Bioelectrochemistry at the University of Nottingham from which he recently graduated in 2024. Ben has 4-years’ experience in designing Biofuel Cell systems, and the electrochemical analytical techniques required to assess their performance. Ben joined the team in March 2024, focusing on fuel cell electrochemistry and characterisation to accelerate developments toward technology implementation in industry.',
         list2:
           'Outside the lab, Ben enjoys outdoor pursuits, including hiking and mountain biking, photography, cooking and growing his own herbs and hot peppers.',
+      },
+    ],
+  },
+  {
+    id: 6,
+    image: '/images/MasoumehHead.jpeg',
+    image2: '/images/MasoumehHead.jpeg',
+    title: 'Masoumeh Taherimehr',
+    text: 'Research Scientist',
+    educ: 'Qualifications...',
+    logo: '/images/linkedin-logo.svg',
+    linkedinUrl: 'https://www.linkedin.com/in/masoumeh-taherimehr-a63b9936/',
+    description:
+      'Description...',
+    imageList: [],
+    list: [
+      {
+        list1:
+          'Detailed description...',
+        list2:
+          'Hobby details...',
+      },
+    ],
+  },
+  {
+    id: 7,
+    image: '/images/ApoorvaHead.jpg',
+    image2: '/images/ApoorvaHead.jpg',
+    title: 'Apoorva Parmar',
+    text: 'Electromechanical Engineer',
+    educ: 'Qualifications...',
+    logo: '/images/linkedin-logo.svg',
+    linkedinUrl: 'https://www.linkedin.com/in/apoorvakparmar/',
+    description:
+      'Description...',
+    imageList: [],
+    list: [
+      {
+        list1:
+          'Detailed description...',
+        list2:
+          'Hobby details...',
       },
     ],
   },
