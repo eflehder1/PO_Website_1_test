@@ -99,7 +99,7 @@ export const CONTENT = [
   {
     id: 3,
     image: '/images/EricNew.jpg',
-    image2: '/images/EricNew.jpg',
+    image2: '/images/EricFun.jpg',
     title: 'Eric Lehder',
     text: ' CTO and Co-founder',
     educ: 'PhD in Engineering enabled by Additive Manufacturing, MSc in Biomechanical Engineering, BEng in Mechanical Engineering',
@@ -121,7 +121,7 @@ export const CONTENT = [
   {
     id: 4,
     image: '/images/KeyvanNew2.jpg',
-    image2: '/images/KeyvanNew2.jpg',
+    image2: '/images/KeyvanSocial3.jpg',
     title: 'Keyvan Jodeiri',
     text: ' CSO and Co-founder',
     educ: 'PhD in Additive Manufacturing, MSc in Chemistry',
