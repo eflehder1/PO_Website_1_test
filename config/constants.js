@@ -162,8 +162,8 @@ export const CONTENT = [
   },
   {
     id: 6,
-    image: '/images/MasoumehHead2.jpeg',
-    image2: '/images/MasoumehHead2.jpeg',
+    image: '/images/MasoumehHead2.jpg',
+    image2: '/images/MasoumehHead2.jpg',
     title: 'Masoumeh Taherimehr',
     text: 'Research Scientist',
     educ: 'PhD in Surface Chemistry and Catalysis',
