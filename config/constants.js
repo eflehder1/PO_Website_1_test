@@ -121,7 +121,7 @@ export const CONTENT = [
   {
     id: 4,
     image: '/images/KeyvanNew2.jpg',
-    image2: '/images/KeyvanSocial3.jpg',
+    image2: '/images/KJ_fun.jpg',
     title: 'Keyvan Jodeiri',
     text: ' CSO and Co-founder',
     educ: 'PhD in Additive Manufacturing, MSc in Chemistry',
