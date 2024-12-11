@@ -166,18 +166,18 @@ export const CONTENT = [
     image2: '/images/MasoumehHead.jpeg',
     title: 'Masoumeh Taherimehr',
     text: 'Research Scientist',
-    educ: 'Qualifications...',
+    educ: 'PhD in Surface Chemistry and Catalysis',
     logo: '/images/linkedin-logo.svg',
     linkedinUrl: 'https://www.linkedin.com/in/masoumeh-taherimehr-a63b9936/',
     description:
-      'Description...',
+      'Enzyme immobilization expert specializing in enhancing stability and efficiency.',
     imageList: [],
     list: [
       {
         list1:
-          'Detailed description...',
+          'Masoumeh brings a strong academic foundation and specialised expertise to her role as a Research Chemist, where she focuses on enhancing enzyme stability and efficiency through innovative immobilisation strategies. She holds a PhD in Surface Chemistry and Catalysis from KU Leuven. Outside of her professional pursuits, Masoumeh enjoys practicing yoga, swimming, and exploring the art of calligraphy. ',
         list2:
-          'Hobby details...',
+          'Masoumeh enjoys traveling the world!',
       },
     ],
   },
@@ -187,18 +187,18 @@ export const CONTENT = [
     image2: '/images/ApoorvaHead.jpg',
     title: 'Apoorva Parmar',
     text: 'Electromechanical Engineer',
-    educ: 'Qualifications...',
+    educ: 'MSc in Renewable Energy Engineering and MEng in Electrical Engineering',
     logo: '/images/linkedin-logo.svg',
     linkedinUrl: 'https://www.linkedin.com/in/apoorvakparmar/',
     description:
-      'Description...',
+      'Sustainable energy specialist with expertise in prototyping, electrical systems, and implementation.',
     imageList: [],
     list: [
       {
         list1:
-          'Detailed description...',
+          'Apoorva holds an impressive academic and professional foundation, with an MSc in Renewable Energy Engineering from Kingston University London and an MEng in Electrical Engineering from Gujarat Technological University. With valuable experience in the UK sustainable energy and storage industry, he has developed expertise across product prototyping, engineering design, and sustainability-driven solutions and implementation. Outside of work, Apoorva is a passionate sky gazer, a talented photographer, and enjoys playing the guitar.  ',
         list2:
-          'Hobby details...',
+          'Apoorva is passionate about astronomy!',
       },
     ],
   },
