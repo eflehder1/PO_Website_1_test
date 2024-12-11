@@ -162,8 +162,8 @@ export const CONTENT = [
   },
   {
     id: 6,
-    image: '/images/MasoumehHead.jpeg',
-    image2: '/images/MasoumehHead.jpeg',
+    image: '/images/MasoumehHead2.jpeg',
+    image2: '/images/MasoumehHead2.jpeg',
     title: 'Masoumeh Taherimehr',
     text: 'Research Scientist',
     educ: 'PhD in Surface Chemistry and Catalysis',
@@ -183,8 +183,8 @@ export const CONTENT = [
   },
   {
     id: 7,
-    image: '/images/ApoorvaHead.jpg',
-    image2: '/images/ApoorvaHead.jpg',
+    image: '/images/ApoorvaHead2.jpg',
+    image2: '/images/ApoorvaHead2.jpg',
     title: 'Apoorva Parmar',
     text: 'Electromechanical Engineer',
     educ: 'MSc in Renewable Energy Engineering and MEng in Electrical Engineering',
